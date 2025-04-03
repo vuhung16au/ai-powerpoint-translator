@@ -8,6 +8,9 @@ import time
 from datetime import datetime
 import httpx
 import sys
+import re
+from pptx.enum.text import PP_ALIGN
+from pptx.util import Pt
 
 # Set up logging first, before any other imports
 def setup_logging():
@@ -160,10 +163,51 @@ def extract_table_texts(shape):
     for row_idx, row in enumerate(shape.table.rows):
         for cell_idx, cell in enumerate(row.cells):
             if cell.text.strip():
-                texts.append(cell.text.strip())
-                locations.append((row_idx, cell_idx))
+                # Process each paragraph in the cell separately
+                para_texts = split_text_by_paragraphs(cell.text)
+                for i, para_text in enumerate(para_texts):
+                    texts.append(para_text)
+                    locations.append((row_idx, cell_idx, i))  # Include paragraph index
     
     return texts, locations
+
+def split_text_by_paragraphs(text):
+    """Split text into paragraphs, handling bullet points and line breaks."""
+    # First, split by line breaks
+    lines = text.split('\n')
+    result = []
+    current_text = ""
+    
+    for line in lines:
+        line = line.strip()
+        if not line:
+            if current_text:
+                result.append(current_text)
+                current_text = ""
+            continue
+            
+        # Check if line starts with bullet or numbering
+        if re.match(r'^[•\-\*]|\d+[.)]', line):
+            # This is likely a new bullet or numbered item
+            if current_text:
+                result.append(current_text)
+            current_text = line
+        elif current_text:
+            # Check if previous line had a bullet and this is continuation
+            if re.match(r'^[•\-\*]|\d+[.)]', current_text.split('\n')[0]):
+                current_text += '\n' + line
+            else:
+                # Likely a separate paragraph
+                result.append(current_text)
+                current_text = line
+        else:
+            current_text = line
+    
+    # Add the last paragraph if any
+    if current_text:
+        result.append(current_text)
+        
+    return result
 
 def process_presentation(input_file):
     """Process a PowerPoint presentation, translating text from Vietnamese to Japanese."""
@@ -179,15 +223,33 @@ def process_presentation(input_file):
             for shape_idx, shape in enumerate(slide.shapes):
                 # Handle regular text shapes
                 if hasattr(shape, "text") and shape.text.strip():
-                    all_texts.append(shape.text.strip())
-                    text_locations.append(("shape", slide_idx, shape_idx))
+                    # Split text by paragraphs or bullet points
+                    paragraphs = []
+                    
+                    # Extract actual paragraphs from the text frame
+                    if hasattr(shape, "text_frame"):
+                        for para_idx, para in enumerate(shape.text_frame.paragraphs):
+                            if para.text.strip():
+                                paragraphs.append(para.text.strip())
+                                text_locations.append(("paragraph", slide_idx, shape_idx, para_idx))
+                    else:
+                        # Fallback: split by line breaks and potential bullets
+                        split_texts = split_text_by_paragraphs(shape.text)
+                        for para_text in split_texts:
+                            paragraphs.append(para_text)
+                            # Use a special index since we don't have actual paragraph objects
+                            text_locations.append(("text", slide_idx, shape_idx, len(all_texts)))
+                    
+                    all_texts.extend(paragraphs)
                 
                 # Handle tables
                 if hasattr(shape, "table"):
                     table_texts, table_locations = extract_table_texts(shape)
-                    for text, (row_idx, cell_idx) in zip(table_texts, table_locations):
-                        all_texts.append(text)
-                        text_locations.append(("table", slide_idx, shape_idx, row_idx, cell_idx))
+                    all_texts.extend(table_texts)
+                    
+                    # Convert table locations to our standard format
+                    for (row_idx, cell_idx, para_idx) in table_locations:
+                        text_locations.append(("table", slide_idx, shape_idx, row_idx, cell_idx, para_idx))
         
         if not all_texts:
             logging.info(f"No text found in {input_file}")
@@ -213,27 +275,93 @@ def process_presentation(input_file):
         
         # Update presentation with translations
         for location, translated_text in zip(text_locations, translated_texts):
-            if location[0] == "shape":
-                _, slide_idx, shape_idx = location
+            if location[0] == "paragraph":
+                _, slide_idx, shape_idx, para_idx = location
                 shape = prs.slides[slide_idx].shapes[shape_idx]
-                if hasattr(shape, "text_frame"):
-                    # Replace text while preserving formatting
-                    for i, paragraph in enumerate(shape.text_frame.paragraphs):
-                        if i == 0:
-                            paragraph.text = translated_text
+                if hasattr(shape, "text_frame") and para_idx < len(shape.text_frame.paragraphs):
+                    paragraph = shape.text_frame.paragraphs[para_idx]
+                    
+                    # Store original formatting
+                    original_alignment = paragraph.alignment
+                    original_level = paragraph.level
+                    has_bullet = False
+                    if hasattr(paragraph, "format") and hasattr(paragraph.format, "bullet"):
+                        has_bullet = True
+
+                    # Store original font sizes before updating text
+                    original_font_sizes = []
+                    for run in paragraph.runs:
+                        if hasattr(run, "font") and hasattr(run.font, "size"):
+                            original_font_sizes.append(run.font.size)
                         else:
-                            paragraph.text = ""
-            else:  # table
-                _, slide_idx, shape_idx, row_idx, cell_idx = location
+                            original_font_sizes.append(None)  # None means use default
+                    
+                    paragraph.text = translated_text
+                    
+                    # Set font to Meiryo UI for all runs in the paragraph while keeping original size
+                    for idx, run in enumerate(paragraph.runs):
+                        run.font.name = "Meiryo UI"
+                        # If we have stored a font size and have enough runs, use the original
+                        if idx < len(original_font_sizes) and original_font_sizes[idx] is not None:
+                            run.font.size = original_font_sizes[idx]
+                    
+                    # Restore original formatting
+                    paragraph.alignment = original_alignment
+                    paragraph.level = original_level
+                    if has_bullet and hasattr(paragraph, "format"):
+                        try:
+                            paragraph.format.bullet.enable = True
+                        except:
+                            # If bullet restoration fails, log but continue
+                            logging.warning("Failed to restore bullet formatting")
+            
+            elif location[0] == "text":
+                # This is a fallback for text without proper paragraph objects
+                _, slide_idx, shape_idx, _ = location
+                # Implementation would depend on how to handle this edge case
+                pass
+                
+            elif location[0] == "table":
+                _, slide_idx, shape_idx, row_idx, cell_idx, para_idx = location
                 shape = prs.slides[slide_idx].shapes[shape_idx]
                 if hasattr(shape, "table"):
                     cell = shape.table.rows[row_idx].cells[cell_idx]
-                    if hasattr(cell, "text_frame"):
-                        for i, paragraph in enumerate(cell.text_frame.paragraphs):
-                            if i == 0:
-                                paragraph.text = translated_text
+                    if hasattr(cell, "text_frame") and para_idx < len(cell.text_frame.paragraphs):
+                        paragraph = cell.text_frame.paragraphs[para_idx]
+                        
+                        # Store original formatting
+                        original_alignment = paragraph.alignment
+                        original_level = paragraph.level
+                        has_bullet = False
+                        if hasattr(paragraph, "format") and hasattr(paragraph.format, "bullet"):
+                            has_bullet = True
+                        
+                        # Store original font sizes before updating text
+                        original_font_sizes = []
+                        for run in paragraph.runs:
+                            if hasattr(run, "font") and hasattr(run.font, "size"):
+                                original_font_sizes.append(run.font.size)
                             else:
-                                paragraph.text = ""
+                                original_font_sizes.append(None)  # None means use default
+                        
+                        paragraph.text = translated_text
+                        
+                        # Set font to Meiryo UI for all runs in the paragraph while keeping original size
+                        for idx, run in enumerate(paragraph.runs):
+                            run.font.name = "Meiryo UI"
+                            # If we have stored a font size and have enough runs, use the original
+                            if idx < len(original_font_sizes) and original_font_sizes[idx] is not None:
+                                run.font.size = original_font_sizes[idx]
+                        
+                        # Restore original formatting
+                        paragraph.alignment = original_alignment
+                        paragraph.level = original_level
+                        if has_bullet and hasattr(paragraph, "format"):
+                            try:
+                                paragraph.format.bullet.enable = True
+                            except:
+                                # If bullet restoration fails, log but continue
+                                logging.warning("Failed to restore bullet formatting")
         
         # Save translated presentation with error handling
         save_presentation(prs, input_file)
