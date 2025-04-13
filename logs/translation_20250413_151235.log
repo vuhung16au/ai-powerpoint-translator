@@ -1,0 +1,3144 @@
+2025-04-13 15:12:35,297 - INFO - Logging system initialized
+2025-04-13 15:12:35,307 - INFO - Translation log file: logs/translation_20250413_151235.log
+2025-04-13 15:12:35,307 - INFO - 
+=== Processing file: input/test.pptx ===
+2025-04-13 15:12:35,307 - INFO - Processing input/test.pptx
+2025-04-13 15:12:35,326 - WARNING - Skipping shape at slide 4, shape 5: shape does not contain a table
+2025-04-13 15:12:35,326 - WARNING - Skipping shape at slide 5, shape 3: shape does not contain a table
+2025-04-13 15:12:35,329 - WARNING - Skipping shape at slide 9, shape 3: shape does not contain a table
+2025-04-13 15:12:35,360 - INFO - Translating batch 1/15 (size: 30 texts)
+2025-04-13 15:12:35,360 - INFO - === Translation Request ===
+2025-04-13 15:12:35,360 - INFO - Text 1: CHỨNG QUYỀN CÓ BẢO ĐẢM(Covered Warrant)
+2025-04-13 15:12:35,360 - INFO - Text 2: Cấu trúc bài trình bày
+2025-04-13 15:12:35,360 - INFO - Text 3: A.  Tổng quan thị trường CW trên thế giới
+2025-04-13 15:12:35,360 - INFO - Text 4: B.  Giới thiệu về CW
+2025-04-13 15:12:35,360 - INFO - Text 5: C.  Một số quy định về CW tại Việt Nam
+2025-04-13 15:12:35,360 - INFO - Text 6: 2
+2025-04-13 15:12:35,360 - INFO - Text 7: www.hsx.vn
+2025-04-13 15:12:35,360 - INFO - Text 8: 3
+2025-04-13 15:12:35,360 - INFO - Text 9: www.hsx.vn
+2025-04-13 15:12:35,360 - INFO - Text 10: A. TỔNG QUAN THỊ TRƯỜNG CW THẾ GiỚI
+2025-04-13 15:12:35,360 - INFO - Text 11: Một số tên gọi của Chứng quyền có bảo đảm
+2025-04-13 15:12:35,360 - INFO - Text 12: 4
+2025-04-13 15:12:35,360 - INFO - Text 13: www.hsx.vn
+2025-04-13 15:12:35,360 - INFO - Text 14: Covered Warrant
+2025-04-13 15:12:35,360 - INFO - Text 15: Đức, Anh
+2025-04-13 15:12:35,360 - INFO - Text 16: Derivative Warrant
+2025-04-13 15:12:35,360 - INFO - Text 17: Thái Lan, Hong Kong
+2025-04-13 15:12:35,360 - INFO - Text 18: Structured Warrant
+2025-04-13 15:12:35,360 - INFO - Text 19: Singapore, Malaysia
+2025-04-13 15:12:35,360 - INFO - Text 20: Call (Put) Warrant
+2025-04-13 15:12:35,361 - INFO - Text 21: Đài Loan
+2025-04-13 15:12:35,361 - INFO - Text 22: Equity-Linked Warrant
+2025-04-13 15:12:35,361 - INFO - Text 23: Hàn Quốc
+2025-04-13 15:12:35,361 - INFO - Text 24: Sự phát triển của thị trường CW trên thế giới
+2025-04-13 15:12:35,361 - INFO - Text 25: 5
+2025-04-13 15:12:35,361 - INFO - Text 26: www.hsx.vn
+2025-04-13 15:12:35,361 - INFO - Text 27: Năm
+2025-04-13 15:12:35,361 - INFO - Text 28: Số lượng
+2025-04-13 15:12:35,361 - INFO - Text 29: Giá trị GD (triệu USD)
+2025-04-13 15:12:35,361 - INFO - Text 30: 2003
+2025-04-13 15:12:35,361 - INFO - === End Request ===
+
+2025-04-13 15:12:37,973 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:12:37,977 - INFO - === Translation Response ===
+2025-04-13 15:12:37,977 - INFO - Raw response: カバードワラント（Covered Warrant）
+---
+プレゼンテーションの構成
+---
+A. 世界のCW市場の概要
+---
+B. CWの紹介
+---
+C. ベトナムにおけるCWに関するいくつかの規定
+---
+2
+---
+www.hsx.vn
+---
+3
+---
+www.hsx.vn
+---
+A. 世界のCW市場の概要
+---
+カバードワラントのいくつかの名称
+---
+4
+---
+www.hsx.vn
+---
+Covered Warrant
+---
+ドイツ、イギリス
+---
+Derivative Warrant
+---
+タイ、香港
+---
+Structured Warrant
+---
+シンガポール、マレーシア
+---
+Call (Put) Warrant
+---
+台湾
+---
+Equity-Linked Warrant
+---
+韓国
+---
+世界のCW市場の発展
+---
+5
+---
+www.hsx.vn
+---
+年
+---
+数量
+---
+取引額（百万米ドル）
+---
+2003
+
+2025-04-13 15:12:37,977 - INFO - === End Response ===
+
+2025-04-13 15:12:37,977 - INFO - === Parsed Translations ===
+2025-04-13 15:12:37,977 - INFO - Text 1:
+2025-04-13 15:12:37,977 - INFO - Original: CHỨNG QUYỀN CÓ BẢO ĐẢM(Covered Warrant)
+2025-04-13 15:12:37,977 - INFO - Translated: カバードワラント（Covered Warrant）
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 2:
+2025-04-13 15:12:37,977 - INFO - Original: Cấu trúc bài trình bày
+2025-04-13 15:12:37,977 - INFO - Translated: プレゼンテーションの構成
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 3:
+2025-04-13 15:12:37,977 - INFO - Original: A.  Tổng quan thị trường CW trên thế giới
+2025-04-13 15:12:37,977 - INFO - Translated: A. 世界のCW市場の概要
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 4:
+2025-04-13 15:12:37,977 - INFO - Original: B.  Giới thiệu về CW
+2025-04-13 15:12:37,977 - INFO - Translated: B. CWの紹介
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 5:
+2025-04-13 15:12:37,977 - INFO - Original: C.  Một số quy định về CW tại Việt Nam
+2025-04-13 15:12:37,977 - INFO - Translated: C. ベトナムにおけるCWに関するいくつかの規定
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 6:
+2025-04-13 15:12:37,977 - INFO - Original: 2
+2025-04-13 15:12:37,977 - INFO - Translated: 2
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 7:
+2025-04-13 15:12:37,977 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:37,977 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 8:
+2025-04-13 15:12:37,977 - INFO - Original: 3
+2025-04-13 15:12:37,977 - INFO - Translated: 3
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 9:
+2025-04-13 15:12:37,977 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:37,977 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 10:
+2025-04-13 15:12:37,977 - INFO - Original: A. TỔNG QUAN THỊ TRƯỜNG CW THẾ GiỚI
+2025-04-13 15:12:37,977 - INFO - Translated: A. 世界のCW市場の概要
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 11:
+2025-04-13 15:12:37,977 - INFO - Original: Một số tên gọi của Chứng quyền có bảo đảm
+2025-04-13 15:12:37,977 - INFO - Translated: カバードワラントのいくつかの名称
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 12:
+2025-04-13 15:12:37,977 - INFO - Original: 4
+2025-04-13 15:12:37,977 - INFO - Translated: 4
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 13:
+2025-04-13 15:12:37,977 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:37,977 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 14:
+2025-04-13 15:12:37,977 - INFO - Original: Covered Warrant
+2025-04-13 15:12:37,977 - INFO - Translated: Covered Warrant
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 15:
+2025-04-13 15:12:37,977 - INFO - Original: Đức, Anh
+2025-04-13 15:12:37,977 - INFO - Translated: ドイツ、イギリス
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 16:
+2025-04-13 15:12:37,977 - INFO - Original: Derivative Warrant
+2025-04-13 15:12:37,977 - INFO - Translated: Derivative Warrant
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 17:
+2025-04-13 15:12:37,977 - INFO - Original: Thái Lan, Hong Kong
+2025-04-13 15:12:37,977 - INFO - Translated: タイ、香港
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 18:
+2025-04-13 15:12:37,977 - INFO - Original: Structured Warrant
+2025-04-13 15:12:37,977 - INFO - Translated: Structured Warrant
+2025-04-13 15:12:37,977 - INFO - ---
+2025-04-13 15:12:37,977 - INFO - Text 19:
+2025-04-13 15:12:37,977 - INFO - Original: Singapore, Malaysia
+2025-04-13 15:12:37,977 - INFO - Translated: シンガポール、マレーシア
+2025-04-13 15:12:37,978 - INFO - ---
+2025-04-13 15:12:37,978 - INFO - Text 20:
+2025-04-13 15:12:37,978 - INFO - Original: Call (Put) Warrant
+2025-04-13 15:12:37,978 - INFO - Translated: Call (Put) Warrant
+2025-04-13 15:12:37,978 - INFO - ---
+2025-04-13 15:12:37,978 - INFO - Text 21:
+2025-04-13 15:12:37,978 - INFO - Original: Đài Loan
+2025-04-13 15:12:37,978 - INFO - Translated: 台湾
+2025-04-13 15:12:37,978 - INFO - ---
+2025-04-13 15:12:37,978 - INFO - Text 22:
+2025-04-13 15:12:37,978 - INFO - Original: Equity-Linked Warrant
+2025-04-13 15:12:37,978 - INFO - Translated: Equity-Linked Warrant
+2025-04-13 15:12:37,978 - INFO - ---
+2025-04-13 15:12:37,978 - INFO - Text 23:
+2025-04-13 15:12:37,978 - INFO - Original: Hàn Quốc
+2025-04-13 15:12:37,978 - INFO - Translated: 韓国
+2025-04-13 15:12:37,978 - INFO - ---
+2025-04-13 15:12:37,978 - INFO - Text 24:
+2025-04-13 15:12:37,978 - INFO - Original: Sự phát triển của thị trường CW trên thế giới
+2025-04-13 15:12:37,978 - INFO - Translated: 世界のCW市場の発展
+2025-04-13 15:12:37,978 - INFO - ---
+2025-04-13 15:12:37,978 - INFO - Text 25:
+2025-04-13 15:12:37,978 - INFO - Original: 5
+2025-04-13 15:12:37,978 - INFO - Translated: 5
+2025-04-13 15:12:37,978 - INFO - ---
+2025-04-13 15:12:37,978 - INFO - Text 26:
+2025-04-13 15:12:37,978 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:37,978 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:37,978 - INFO - ---
+2025-04-13 15:12:37,978 - INFO - Text 27:
+2025-04-13 15:12:37,978 - INFO - Original: Năm
+2025-04-13 15:12:37,978 - INFO - Translated: 年
+2025-04-13 15:12:37,978 - INFO - ---
+2025-04-13 15:12:37,978 - INFO - Text 28:
+2025-04-13 15:12:37,978 - INFO - Original: Số lượng
+2025-04-13 15:12:37,978 - INFO - Translated: 数量
+2025-04-13 15:12:37,978 - INFO - ---
+2025-04-13 15:12:37,978 - INFO - Text 29:
+2025-04-13 15:12:37,978 - INFO - Original: Giá trị GD (triệu USD)
+2025-04-13 15:12:37,978 - INFO - Translated: 取引額（百万米ドル）
+2025-04-13 15:12:37,978 - INFO - ---
+2025-04-13 15:12:37,978 - INFO - Text 30:
+2025-04-13 15:12:37,978 - INFO - Original: 2003
+2025-04-13 15:12:37,978 - INFO - Translated: 2003
+2025-04-13 15:12:37,978 - INFO - ---
+2025-04-13 15:12:37,978 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:12:39,983 - INFO - Translating batch 2/15 (size: 30 texts)
+2025-04-13 15:12:39,983 - INFO - === Translation Request ===
+2025-04-13 15:12:39,983 - INFO - Text 1: 35.982
+2025-04-13 15:12:39,983 - INFO - Text 2: 123.830
+2025-04-13 15:12:39,983 - INFO - Text 3: 2004
+2025-04-13 15:12:39,983 - INFO - Text 4: 47.253
+2025-04-13 15:12:39,983 - INFO - Text 5: 187.449
+2025-04-13 15:12:39,983 - INFO - Text 6: 2005
+2025-04-13 15:12:39,983 - INFO - Text 7: 92.531
+2025-04-13 15:12:39,983 - INFO - Text 8: 410.063
+2025-04-13 15:12:39,983 - INFO - Text 9: 2006
+2025-04-13 15:12:39,983 - INFO - Text 10: 165.133
+2025-04-13 15:12:39,983 - INFO - Text 11: 766.153
+2025-04-13 15:12:39,983 - INFO - Text 12: 2007
+2025-04-13 15:12:39,983 - INFO - Text 13: 317.035
+2025-04-13 15:12:39,983 - INFO - Text 14: 1.786.226
+2025-04-13 15:12:39,983 - INFO - Text 15: 2008
+2025-04-13 15:12:39,983 - INFO - Text 16: 489.344
+2025-04-13 15:12:39,983 - INFO - Text 17: 1.044.966
+2025-04-13 15:12:39,983 - INFO - Text 18: 2009
+2025-04-13 15:12:39,983 - INFO - Text 19: 503.211
+2025-04-13 15:12:39,983 - INFO - Text 20: 858.394
+2025-04-13 15:12:39,983 - INFO - Text 21: 2010
+2025-04-13 15:12:39,983 - INFO - Text 22: 717.175
+2025-04-13 15:12:39,983 - INFO - Text 23: 1.142.244
+2025-04-13 15:12:39,983 - INFO - Text 24: 2011
+2025-04-13 15:12:39,983 - INFO - Text 25: 1.086.694
+2025-04-13 15:12:39,983 - INFO - Text 26: 1.152.564
+2025-04-13 15:12:39,983 - INFO - Text 27: 2012
+2025-04-13 15:12:39,983 - INFO - Text 28: 1.261.365
+2025-04-13 15:12:39,983 - INFO - Text 29: 650.440
+2025-04-13 15:12:39,983 - INFO - Text 30: 2013
+2025-04-13 15:12:39,983 - INFO - === End Request ===
+
+2025-04-13 15:12:41,737 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:12:41,740 - INFO - === Translation Response ===
+2025-04-13 15:12:41,740 - INFO - Raw response: 35.982
+---
+123.830
+---
+2004
+---
+47.253
+---
+187.449
+---
+2005
+---
+92.531
+---
+410.063
+---
+2006
+---
+165.133
+---
+766.153
+---
+2007
+---
+317.035
+---
+1.786.226
+---
+2008
+---
+489.344
+---
+1.044.966
+---
+2009
+---
+503.211
+---
+858.394
+---
+2010
+---
+717.175
+---
+1.142.244
+---
+2011
+---
+1.086.694
+---
+1.152.564
+---
+2012
+---
+1.261.365
+---
+650.440
+---
+2013
+
+2025-04-13 15:12:41,740 - INFO - === End Response ===
+
+2025-04-13 15:12:41,740 - INFO - === Parsed Translations ===
+2025-04-13 15:12:41,740 - INFO - Text 1:
+2025-04-13 15:12:41,740 - INFO - Original: 35.982
+2025-04-13 15:12:41,740 - INFO - Translated: 35.982
+2025-04-13 15:12:41,740 - INFO - ---
+2025-04-13 15:12:41,740 - INFO - Text 2:
+2025-04-13 15:12:41,740 - INFO - Original: 123.830
+2025-04-13 15:12:41,740 - INFO - Translated: 123.830
+2025-04-13 15:12:41,740 - INFO - ---
+2025-04-13 15:12:41,740 - INFO - Text 3:
+2025-04-13 15:12:41,741 - INFO - Original: 2004
+2025-04-13 15:12:41,741 - INFO - Translated: 2004
+2025-04-13 15:12:41,741 - INFO - ---
+2025-04-13 15:12:41,741 - INFO - Text 4:
+2025-04-13 15:12:41,741 - INFO - Original: 47.253
+2025-04-13 15:12:41,741 - INFO - Translated: 47.253
+2025-04-13 15:12:41,741 - INFO - ---
+2025-04-13 15:12:41,741 - INFO - Text 5:
+2025-04-13 15:12:41,741 - INFO - Original: 187.449
+2025-04-13 15:12:41,741 - INFO - Translated: 187.449
+2025-04-13 15:12:41,741 - INFO - ---
+2025-04-13 15:12:41,741 - INFO - Text 6:
+2025-04-13 15:12:41,741 - INFO - Original: 2005
+2025-04-13 15:12:41,741 - INFO - Translated: 2005
+2025-04-13 15:12:41,741 - INFO - ---
+2025-04-13 15:12:41,741 - INFO - Text 7:
+2025-04-13 15:12:41,741 - INFO - Original: 92.531
+2025-04-13 15:12:41,741 - INFO - Translated: 92.531
+2025-04-13 15:12:41,741 - INFO - ---
+2025-04-13 15:12:41,741 - INFO - Text 8:
+2025-04-13 15:12:41,741 - INFO - Original: 410.063
+2025-04-13 15:12:41,741 - INFO - Translated: 410.063
+2025-04-13 15:12:41,741 - INFO - ---
+2025-04-13 15:12:41,741 - INFO - Text 9:
+2025-04-13 15:12:41,741 - INFO - Original: 2006
+2025-04-13 15:12:41,741 - INFO - Translated: 2006
+2025-04-13 15:12:41,741 - INFO - ---
+2025-04-13 15:12:41,741 - INFO - Text 10:
+2025-04-13 15:12:41,741 - INFO - Original: 165.133
+2025-04-13 15:12:41,741 - INFO - Translated: 165.133
+2025-04-13 15:12:41,741 - INFO - ---
+2025-04-13 15:12:41,741 - INFO - Text 11:
+2025-04-13 15:12:41,741 - INFO - Original: 766.153
+2025-04-13 15:12:41,741 - INFO - Translated: 766.153
+2025-04-13 15:12:41,741 - INFO - ---
+2025-04-13 15:12:41,741 - INFO - Text 12:
+2025-04-13 15:12:41,741 - INFO - Original: 2007
+2025-04-13 15:12:41,741 - INFO - Translated: 2007
+2025-04-13 15:12:41,742 - INFO - ---
+2025-04-13 15:12:41,742 - INFO - Text 13:
+2025-04-13 15:12:41,742 - INFO - Original: 317.035
+2025-04-13 15:12:41,742 - INFO - Translated: 317.035
+2025-04-13 15:12:41,742 - INFO - ---
+2025-04-13 15:12:41,742 - INFO - Text 14:
+2025-04-13 15:12:41,742 - INFO - Original: 1.786.226
+2025-04-13 15:12:41,742 - INFO - Translated: 1.786.226
+2025-04-13 15:12:41,742 - INFO - ---
+2025-04-13 15:12:41,742 - INFO - Text 15:
+2025-04-13 15:12:41,742 - INFO - Original: 2008
+2025-04-13 15:12:41,742 - INFO - Translated: 2008
+2025-04-13 15:12:41,742 - INFO - ---
+2025-04-13 15:12:41,742 - INFO - Text 16:
+2025-04-13 15:12:41,742 - INFO - Original: 489.344
+2025-04-13 15:12:41,742 - INFO - Translated: 489.344
+2025-04-13 15:12:41,742 - INFO - ---
+2025-04-13 15:12:41,742 - INFO - Text 17:
+2025-04-13 15:12:41,742 - INFO - Original: 1.044.966
+2025-04-13 15:12:41,742 - INFO - Translated: 1.044.966
+2025-04-13 15:12:41,742 - INFO - ---
+2025-04-13 15:12:41,742 - INFO - Text 18:
+2025-04-13 15:12:41,742 - INFO - Original: 2009
+2025-04-13 15:12:41,742 - INFO - Translated: 2009
+2025-04-13 15:12:41,742 - INFO - ---
+2025-04-13 15:12:41,742 - INFO - Text 19:
+2025-04-13 15:12:41,742 - INFO - Original: 503.211
+2025-04-13 15:12:41,742 - INFO - Translated: 503.211
+2025-04-13 15:12:41,742 - INFO - ---
+2025-04-13 15:12:41,742 - INFO - Text 20:
+2025-04-13 15:12:41,742 - INFO - Original: 858.394
+2025-04-13 15:12:41,742 - INFO - Translated: 858.394
+2025-04-13 15:12:41,742 - INFO - ---
+2025-04-13 15:12:41,742 - INFO - Text 21:
+2025-04-13 15:12:41,742 - INFO - Original: 2010
+2025-04-13 15:12:41,742 - INFO - Translated: 2010
+2025-04-13 15:12:41,742 - INFO - ---
+2025-04-13 15:12:41,742 - INFO - Text 22:
+2025-04-13 15:12:41,742 - INFO - Original: 717.175
+2025-04-13 15:12:41,742 - INFO - Translated: 717.175
+2025-04-13 15:12:41,742 - INFO - ---
+2025-04-13 15:12:41,742 - INFO - Text 23:
+2025-04-13 15:12:41,742 - INFO - Original: 1.142.244
+2025-04-13 15:12:41,742 - INFO - Translated: 1.142.244
+2025-04-13 15:12:41,742 - INFO - ---
+2025-04-13 15:12:41,742 - INFO - Text 24:
+2025-04-13 15:12:41,743 - INFO - Original: 2011
+2025-04-13 15:12:41,743 - INFO - Translated: 2011
+2025-04-13 15:12:41,743 - INFO - ---
+2025-04-13 15:12:41,743 - INFO - Text 25:
+2025-04-13 15:12:41,743 - INFO - Original: 1.086.694
+2025-04-13 15:12:41,743 - INFO - Translated: 1.086.694
+2025-04-13 15:12:41,743 - INFO - ---
+2025-04-13 15:12:41,743 - INFO - Text 26:
+2025-04-13 15:12:41,743 - INFO - Original: 1.152.564
+2025-04-13 15:12:41,743 - INFO - Translated: 1.152.564
+2025-04-13 15:12:41,743 - INFO - ---
+2025-04-13 15:12:41,743 - INFO - Text 27:
+2025-04-13 15:12:41,743 - INFO - Original: 2012
+2025-04-13 15:12:41,743 - INFO - Translated: 2012
+2025-04-13 15:12:41,743 - INFO - ---
+2025-04-13 15:12:41,743 - INFO - Text 28:
+2025-04-13 15:12:41,743 - INFO - Original: 1.261.365
+2025-04-13 15:12:41,743 - INFO - Translated: 1.261.365
+2025-04-13 15:12:41,743 - INFO - ---
+2025-04-13 15:12:41,743 - INFO - Text 29:
+2025-04-13 15:12:41,743 - INFO - Original: 650.440
+2025-04-13 15:12:41,743 - INFO - Translated: 650.440
+2025-04-13 15:12:41,743 - INFO - ---
+2025-04-13 15:12:41,743 - INFO - Text 30:
+2025-04-13 15:12:41,743 - INFO - Original: 2013
+2025-04-13 15:12:41,743 - INFO - Translated: 2013
+2025-04-13 15:12:41,743 - INFO - ---
+2025-04-13 15:12:41,743 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:12:43,748 - INFO - Translating batch 3/15 (size: 30 texts)
+2025-04-13 15:12:43,749 - INFO - === Translation Request ===
+2025-04-13 15:12:43,749 - INFO - Text 1: 1.426.413
+2025-04-13 15:12:43,749 - INFO - Text 2: 633.592
+2025-04-13 15:12:43,749 - INFO - Text 3: 2014
+2025-04-13 15:12:43,749 - INFO - Text 4: 1.540.008
+2025-04-13 15:12:43,749 - INFO - Text 5: 664.075
+2025-04-13 15:12:43,749 - INFO - Text 6: 2015
+2025-04-13 15:12:43,750 - INFO - Text 7: 1.753.188
+2025-04-13 15:12:43,750 - INFO - Text 8: 1.064.240
+2025-04-13 15:12:43,750 - INFO - Text 9: Nguồn: WFE
+2025-04-13 15:12:43,750 - INFO - Text 10: Top 10 thị trường CW theo giao dịch
+2025-04-13 15:12:43,750 - INFO - Text 11: 6
+2025-04-13 15:12:43,750 - INFO - Text 12: www.hsx.vn
+2025-04-13 15:12:43,750 - INFO - Text 13: Nguồn: WFE
+2025-04-13 15:12:43,750 - INFO - Text 14: B. GIỚI THIỆU VỀ CHỨNG QUYỀN CÓ BẢO ĐẢM
+2025-04-13 15:12:43,751 - INFO - Text 15: 7
+2025-04-13 15:12:43,751 - INFO - Text 16: www.hsx.vn
+2025-04-13 15:12:43,751 - INFO - Text 17: 8
+2025-04-13 15:12:43,751 - INFO - Text 18: www.hsx.vn
+2025-04-13 15:12:43,751 - INFO - Text 19: CW: Rủi ro cao, Lợi nhuận cao giống như quyền chọn
+2025-04-13 15:12:43,751 - INFO - Text 20: Phái sinh
+2025-04-13 15:12:43,751 - INFO - Text 21: (O)
+2025-04-13 15:12:43,751 - INFO - Text 22: (X)
+2025-04-13 15:12:43,751 - INFO - Text 23: Chứngkhoán
+2025-04-13 15:12:43,751 - INFO - Text 24: Đòn bẩy
+2025-04-13 15:12:43,751 - INFO - Text 25: <X1>
+2025-04-13 15:12:43,751 - INFO - Text 26: <X6~7>
+2025-04-13 15:12:43,751 - INFO - Text 27: ETF
+2025-04-13 15:12:43,751 - INFO - Text 28: Giao dịchký quỹ
+2025-04-13 15:12:43,751 - INFO - Text 29: Bond
+2025-04-13 15:12:43,751 - INFO - Text 30: Chứng quyền có bảo đảm
+2025-04-13 15:12:43,751 - INFO - === End Request ===
+
+2025-04-13 15:12:45,730 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:12:45,733 - INFO - === Translation Response ===
+2025-04-13 15:12:45,733 - INFO - Raw response: 1,426,413
+---
+633,592
+---
+2014
+---
+1,540,008
+---
+664,075
+---
+2015
+---
+1,753,188
+---
+1,064,240
+---
+出典: WFE
+---
+取引高別CWトップ10市場
+---
+6
+---
+www.hsx.vn
+---
+出典: WFE
+---
+B. 担保付権利証について
+---
+7
+---
+www.hsx.vn
+---
+8
+---
+www.hsx.vn
+---
+CW：ハイリスク・ハイリターン、オプションと同様
+---
+デリバティブ
+---
+(O)
+---
+(X)
+---
+証券
+---
+レバレッジ
+---
+<X1>
+---
+<X6~7>
+---
+ETF
+---
+信用取引
+---
+債券
+---
+担保付権利証
+
+2025-04-13 15:12:45,734 - INFO - === End Response ===
+
+2025-04-13 15:12:45,734 - INFO - === Parsed Translations ===
+2025-04-13 15:12:45,734 - INFO - Text 1:
+2025-04-13 15:12:45,734 - INFO - Original: 1.426.413
+2025-04-13 15:12:45,734 - INFO - Translated: 1,426,413
+2025-04-13 15:12:45,734 - INFO - ---
+2025-04-13 15:12:45,734 - INFO - Text 2:
+2025-04-13 15:12:45,734 - INFO - Original: 633.592
+2025-04-13 15:12:45,734 - INFO - Translated: 633,592
+2025-04-13 15:12:45,734 - INFO - ---
+2025-04-13 15:12:45,734 - INFO - Text 3:
+2025-04-13 15:12:45,734 - INFO - Original: 2014
+2025-04-13 15:12:45,734 - INFO - Translated: 2014
+2025-04-13 15:12:45,734 - INFO - ---
+2025-04-13 15:12:45,734 - INFO - Text 4:
+2025-04-13 15:12:45,734 - INFO - Original: 1.540.008
+2025-04-13 15:12:45,734 - INFO - Translated: 1,540,008
+2025-04-13 15:12:45,734 - INFO - ---
+2025-04-13 15:12:45,734 - INFO - Text 5:
+2025-04-13 15:12:45,734 - INFO - Original: 664.075
+2025-04-13 15:12:45,734 - INFO - Translated: 664,075
+2025-04-13 15:12:45,734 - INFO - ---
+2025-04-13 15:12:45,734 - INFO - Text 6:
+2025-04-13 15:12:45,734 - INFO - Original: 2015
+2025-04-13 15:12:45,734 - INFO - Translated: 2015
+2025-04-13 15:12:45,734 - INFO - ---
+2025-04-13 15:12:45,734 - INFO - Text 7:
+2025-04-13 15:12:45,734 - INFO - Original: 1.753.188
+2025-04-13 15:12:45,734 - INFO - Translated: 1,753,188
+2025-04-13 15:12:45,734 - INFO - ---
+2025-04-13 15:12:45,734 - INFO - Text 8:
+2025-04-13 15:12:45,734 - INFO - Original: 1.064.240
+2025-04-13 15:12:45,734 - INFO - Translated: 1,064,240
+2025-04-13 15:12:45,734 - INFO - ---
+2025-04-13 15:12:45,734 - INFO - Text 9:
+2025-04-13 15:12:45,734 - INFO - Original: Nguồn: WFE
+2025-04-13 15:12:45,735 - INFO - Translated: 出典: WFE
+2025-04-13 15:12:45,735 - INFO - ---
+2025-04-13 15:12:45,735 - INFO - Text 10:
+2025-04-13 15:12:45,735 - INFO - Original: Top 10 thị trường CW theo giao dịch
+2025-04-13 15:12:45,735 - INFO - Translated: 取引高別CWトップ10市場
+2025-04-13 15:12:45,735 - INFO - ---
+2025-04-13 15:12:45,735 - INFO - Text 11:
+2025-04-13 15:12:45,735 - INFO - Original: 6
+2025-04-13 15:12:45,735 - INFO - Translated: 6
+2025-04-13 15:12:45,735 - INFO - ---
+2025-04-13 15:12:45,735 - INFO - Text 12:
+2025-04-13 15:12:45,735 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:45,735 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:45,735 - INFO - ---
+2025-04-13 15:12:45,735 - INFO - Text 13:
+2025-04-13 15:12:45,735 - INFO - Original: Nguồn: WFE
+2025-04-13 15:12:45,735 - INFO - Translated: 出典: WFE
+2025-04-13 15:12:45,735 - INFO - ---
+2025-04-13 15:12:45,735 - INFO - Text 14:
+2025-04-13 15:12:45,735 - INFO - Original: B. GIỚI THIỆU VỀ CHỨNG QUYỀN CÓ BẢO ĐẢM
+2025-04-13 15:12:45,735 - INFO - Translated: B. 担保付権利証について
+2025-04-13 15:12:45,735 - INFO - ---
+2025-04-13 15:12:45,735 - INFO - Text 15:
+2025-04-13 15:12:45,735 - INFO - Original: 7
+2025-04-13 15:12:45,735 - INFO - Translated: 7
+2025-04-13 15:12:45,735 - INFO - ---
+2025-04-13 15:12:45,735 - INFO - Text 16:
+2025-04-13 15:12:45,735 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:45,735 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:45,735 - INFO - ---
+2025-04-13 15:12:45,735 - INFO - Text 17:
+2025-04-13 15:12:45,735 - INFO - Original: 8
+2025-04-13 15:12:45,735 - INFO - Translated: 8
+2025-04-13 15:12:45,735 - INFO - ---
+2025-04-13 15:12:45,735 - INFO - Text 18:
+2025-04-13 15:12:45,735 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:45,735 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:45,735 - INFO - ---
+2025-04-13 15:12:45,735 - INFO - Text 19:
+2025-04-13 15:12:45,736 - INFO - Original: CW: Rủi ro cao, Lợi nhuận cao giống như quyền chọn
+2025-04-13 15:12:45,736 - INFO - Translated: CW：ハイリスク・ハイリターン、オプションと同様
+2025-04-13 15:12:45,736 - INFO - ---
+2025-04-13 15:12:45,736 - INFO - Text 20:
+2025-04-13 15:12:45,736 - INFO - Original: Phái sinh
+2025-04-13 15:12:45,736 - INFO - Translated: デリバティブ
+2025-04-13 15:12:45,736 - INFO - ---
+2025-04-13 15:12:45,736 - INFO - Text 21:
+2025-04-13 15:12:45,736 - INFO - Original: (O)
+2025-04-13 15:12:45,736 - INFO - Translated: (O)
+2025-04-13 15:12:45,736 - INFO - ---
+2025-04-13 15:12:45,736 - INFO - Text 22:
+2025-04-13 15:12:45,736 - INFO - Original: (X)
+2025-04-13 15:12:45,736 - INFO - Translated: (X)
+2025-04-13 15:12:45,736 - INFO - ---
+2025-04-13 15:12:45,736 - INFO - Text 23:
+2025-04-13 15:12:45,736 - INFO - Original: Chứngkhoán
+2025-04-13 15:12:45,736 - INFO - Translated: 証券
+2025-04-13 15:12:45,736 - INFO - ---
+2025-04-13 15:12:45,736 - INFO - Text 24:
+2025-04-13 15:12:45,736 - INFO - Original: Đòn bẩy
+2025-04-13 15:12:45,736 - INFO - Translated: レバレッジ
+2025-04-13 15:12:45,736 - INFO - ---
+2025-04-13 15:12:45,736 - INFO - Text 25:
+2025-04-13 15:12:45,736 - INFO - Original: <X1>
+2025-04-13 15:12:45,736 - INFO - Translated: <X1>
+2025-04-13 15:12:45,736 - INFO - ---
+2025-04-13 15:12:45,736 - INFO - Text 26:
+2025-04-13 15:12:45,736 - INFO - Original: <X6~7>
+2025-04-13 15:12:45,736 - INFO - Translated: <X6~7>
+2025-04-13 15:12:45,736 - INFO - ---
+2025-04-13 15:12:45,736 - INFO - Text 27:
+2025-04-13 15:12:45,736 - INFO - Original: ETF
+2025-04-13 15:12:45,736 - INFO - Translated: ETF
+2025-04-13 15:12:45,736 - INFO - ---
+2025-04-13 15:12:45,736 - INFO - Text 28:
+2025-04-13 15:12:45,736 - INFO - Original: Giao dịchký quỹ
+2025-04-13 15:12:45,736 - INFO - Translated: 信用取引
+2025-04-13 15:12:45,736 - INFO - ---
+2025-04-13 15:12:45,736 - INFO - Text 29:
+2025-04-13 15:12:45,736 - INFO - Original: Bond
+2025-04-13 15:12:45,736 - INFO - Translated: 債券
+2025-04-13 15:12:45,736 - INFO - ---
+2025-04-13 15:12:45,736 - INFO - Text 30:
+2025-04-13 15:12:45,736 - INFO - Original: Chứng quyền có bảo đảm
+2025-04-13 15:12:45,736 - INFO - Translated: 担保付権利証
+2025-04-13 15:12:45,737 - INFO - ---
+2025-04-13 15:12:45,737 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:12:47,741 - INFO - Translating batch 4/15 (size: 30 texts)
+2025-04-13 15:12:47,741 - INFO - === Translation Request ===
+2025-04-13 15:12:47,741 - INFO - Text 1: Stock
+2025-04-13 15:12:47,741 - INFO - Text 2: <X2>
+2025-04-13 15:12:47,741 - INFO - Text 3: Hợp đồng tương lai
+2025-04-13 15:12:47,741 - INFO - Text 4: Quyền chọn
+2025-04-13 15:12:47,742 - INFO - Text 5: <X10~>
+2025-04-13 15:12:47,742 - INFO - Text 6: Bản đồ sản phẩm tài chính niêm yết
+2025-04-13 15:12:47,742 - INFO - Text 7: Nguồn: KRX
+2025-04-13 15:12:47,742 - INFO - Text 8: Chứng quyền có bảo đảm là gì?
+2025-04-13 15:12:47,742 - INFO - Text 9: 9
+2025-04-13 15:12:47,742 - INFO - Text 10: www.hsx.vn
+2025-04-13 15:12:47,742 - INFO - Text 11: Quyền mua hoặc bán chứng khoán cơ sở
+2025-04-13 15:12:47,742 - INFO - Text 12: Tại một mức giá xác định trước.
+2025-04-13 15:12:47,742 - INFO - Text 13: Trước hoặc tại một thời điểm xác định trước.
+2025-04-13 15:12:47,742 - INFO - Text 14: Thực hiện nghĩa vụ khi nhà đầu tư yêu cầu.
+2025-04-13 15:12:47,742 - INFO - Text 15: Các thông tin cơ bản của một CW
+2025-04-13 15:12:47,742 - INFO - Text 16: 10
+2025-04-13 15:12:47,742 - INFO - Text 17: www.hsx.vn
+2025-04-13 15:12:47,743 - INFO - Text 18: 1. Chứng khoán cơ sở
+2025-04-13 15:12:47,743 - INFO - Text 19: 11
+2025-04-13 15:12:47,743 - INFO - Text 20: www.hsx.vn
+2025-04-13 15:12:47,743 - INFO - Text 21: CW
+2025-04-13 15:12:47,743 - INFO - Text 22: 2. Loại chứng quyền
+2025-04-13 15:12:47,743 - INFO - Text 23: 12
+2025-04-13 15:12:47,743 - INFO - Text 24: www.hsx.vn
+2025-04-13 15:12:47,743 - INFO - Text 25: “Quyền mua chứng khoán cơ sở trong tương lai”
+2025-04-13 15:12:47,743 - INFO - Text 26: “Quyền bán chứng khoán cơ sở trong tương lai
+2025-04-13 15:12:47,743 - INFO - Text 27: Chứng quyền mua
+2025-04-13 15:12:47,743 - INFO - Text 28: Chứng quyền bán
+2025-04-13 15:12:47,743 - INFO - Text 29: Lỗ
+2025-04-13 15:12:47,743 - INFO - Text 30: Lãi
+2025-04-13 15:12:47,744 - INFO - === End Request ===
+
+2025-04-13 15:12:49,595 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:12:49,599 - INFO - === Translation Response ===
+2025-04-13 15:12:49,599 - INFO - Raw response: 在庫
+---
+<X2>
+---
+先物
+---
+オプション
+---
+<X10~>
+---
+上場金融商品マップ
+---
+出典: KRX
+---
+ワラントとは？
+---
+9
+---
+www.hsx.vn
+---
+原資産を売買する権利
+---
+事前に決定された価格で。
+---
+事前に決定された時点またはその時点で。
+---
+投資家の要求に応じて義務を履行する。
+---
+CWの基本情報
+---
+10
+---
+www.hsx.vn
+---
+1. 原資産
+---
+11
+---
+www.hsx.vn
+---
+CW
+---
+2. 種類
+---
+12
+---
+www.hsx.vn
+---
+「将来の原資産を購入する権利」
+---
+「将来の原資産を売却する権利」
+---
+コールワラント
+---
+プットワラント
+---
+損失
+---
+利益
+
+2025-04-13 15:12:49,599 - INFO - === End Response ===
+
+2025-04-13 15:12:49,599 - INFO - === Parsed Translations ===
+2025-04-13 15:12:49,600 - INFO - Text 1:
+2025-04-13 15:12:49,600 - INFO - Original: Stock
+2025-04-13 15:12:49,600 - INFO - Translated: 在庫
+2025-04-13 15:12:49,600 - INFO - ---
+2025-04-13 15:12:49,600 - INFO - Text 2:
+2025-04-13 15:12:49,600 - INFO - Original: <X2>
+2025-04-13 15:12:49,600 - INFO - Translated: <X2>
+2025-04-13 15:12:49,600 - INFO - ---
+2025-04-13 15:12:49,600 - INFO - Text 3:
+2025-04-13 15:12:49,600 - INFO - Original: Hợp đồng tương lai
+2025-04-13 15:12:49,600 - INFO - Translated: 先物
+2025-04-13 15:12:49,600 - INFO - ---
+2025-04-13 15:12:49,600 - INFO - Text 4:
+2025-04-13 15:12:49,600 - INFO - Original: Quyền chọn
+2025-04-13 15:12:49,600 - INFO - Translated: オプション
+2025-04-13 15:12:49,600 - INFO - ---
+2025-04-13 15:12:49,600 - INFO - Text 5:
+2025-04-13 15:12:49,600 - INFO - Original: <X10~>
+2025-04-13 15:12:49,600 - INFO - Translated: <X10~>
+2025-04-13 15:12:49,600 - INFO - ---
+2025-04-13 15:12:49,600 - INFO - Text 6:
+2025-04-13 15:12:49,600 - INFO - Original: Bản đồ sản phẩm tài chính niêm yết
+2025-04-13 15:12:49,600 - INFO - Translated: 上場金融商品マップ
+2025-04-13 15:12:49,600 - INFO - ---
+2025-04-13 15:12:49,600 - INFO - Text 7:
+2025-04-13 15:12:49,600 - INFO - Original: Nguồn: KRX
+2025-04-13 15:12:49,600 - INFO - Translated: 出典: KRX
+2025-04-13 15:12:49,600 - INFO - ---
+2025-04-13 15:12:49,600 - INFO - Text 8:
+2025-04-13 15:12:49,600 - INFO - Original: Chứng quyền có bảo đảm là gì?
+2025-04-13 15:12:49,600 - INFO - Translated: ワラントとは？
+2025-04-13 15:12:49,600 - INFO - ---
+2025-04-13 15:12:49,600 - INFO - Text 9:
+2025-04-13 15:12:49,600 - INFO - Original: 9
+2025-04-13 15:12:49,600 - INFO - Translated: 9
+2025-04-13 15:12:49,600 - INFO - ---
+2025-04-13 15:12:49,600 - INFO - Text 10:
+2025-04-13 15:12:49,600 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:49,600 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:49,600 - INFO - ---
+2025-04-13 15:12:49,600 - INFO - Text 11:
+2025-04-13 15:12:49,600 - INFO - Original: Quyền mua hoặc bán chứng khoán cơ sở
+2025-04-13 15:12:49,600 - INFO - Translated: 原資産を売買する権利
+2025-04-13 15:12:49,600 - INFO - ---
+2025-04-13 15:12:49,600 - INFO - Text 12:
+2025-04-13 15:12:49,600 - INFO - Original: Tại một mức giá xác định trước.
+2025-04-13 15:12:49,601 - INFO - Translated: 事前に決定された価格で。
+2025-04-13 15:12:49,601 - INFO - ---
+2025-04-13 15:12:49,601 - INFO - Text 13:
+2025-04-13 15:12:49,601 - INFO - Original: Trước hoặc tại một thời điểm xác định trước.
+2025-04-13 15:12:49,601 - INFO - Translated: 事前に決定された時点またはその時点で。
+2025-04-13 15:12:49,601 - INFO - ---
+2025-04-13 15:12:49,601 - INFO - Text 14:
+2025-04-13 15:12:49,601 - INFO - Original: Thực hiện nghĩa vụ khi nhà đầu tư yêu cầu.
+2025-04-13 15:12:49,601 - INFO - Translated: 投資家の要求に応じて義務を履行する。
+2025-04-13 15:12:49,601 - INFO - ---
+2025-04-13 15:12:49,601 - INFO - Text 15:
+2025-04-13 15:12:49,601 - INFO - Original: Các thông tin cơ bản của một CW
+2025-04-13 15:12:49,601 - INFO - Translated: CWの基本情報
+2025-04-13 15:12:49,601 - INFO - ---
+2025-04-13 15:12:49,601 - INFO - Text 16:
+2025-04-13 15:12:49,601 - INFO - Original: 10
+2025-04-13 15:12:49,601 - INFO - Translated: 10
+2025-04-13 15:12:49,601 - INFO - ---
+2025-04-13 15:12:49,601 - INFO - Text 17:
+2025-04-13 15:12:49,601 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:49,601 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:49,601 - INFO - ---
+2025-04-13 15:12:49,601 - INFO - Text 18:
+2025-04-13 15:12:49,601 - INFO - Original: 1. Chứng khoán cơ sở
+2025-04-13 15:12:49,601 - INFO - Translated: 1. 原資産
+2025-04-13 15:12:49,601 - INFO - ---
+2025-04-13 15:12:49,601 - INFO - Text 19:
+2025-04-13 15:12:49,601 - INFO - Original: 11
+2025-04-13 15:12:49,601 - INFO - Translated: 11
+2025-04-13 15:12:49,601 - INFO - ---
+2025-04-13 15:12:49,601 - INFO - Text 20:
+2025-04-13 15:12:49,601 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:49,601 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:49,601 - INFO - ---
+2025-04-13 15:12:49,601 - INFO - Text 21:
+2025-04-13 15:12:49,601 - INFO - Original: CW
+2025-04-13 15:12:49,601 - INFO - Translated: CW
+2025-04-13 15:12:49,601 - INFO - ---
+2025-04-13 15:12:49,601 - INFO - Text 22:
+2025-04-13 15:12:49,601 - INFO - Original: 2. Loại chứng quyền
+2025-04-13 15:12:49,601 - INFO - Translated: 2. 種類
+2025-04-13 15:12:49,601 - INFO - ---
+2025-04-13 15:12:49,601 - INFO - Text 23:
+2025-04-13 15:12:49,601 - INFO - Original: 12
+2025-04-13 15:12:49,601 - INFO - Translated: 12
+2025-04-13 15:12:49,602 - INFO - ---
+2025-04-13 15:12:49,602 - INFO - Text 24:
+2025-04-13 15:12:49,602 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:49,602 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:49,602 - INFO - ---
+2025-04-13 15:12:49,602 - INFO - Text 25:
+2025-04-13 15:12:49,602 - INFO - Original: “Quyền mua chứng khoán cơ sở trong tương lai”
+2025-04-13 15:12:49,602 - INFO - Translated: 「将来の原資産を購入する権利」
+2025-04-13 15:12:49,602 - INFO - ---
+2025-04-13 15:12:49,602 - INFO - Text 26:
+2025-04-13 15:12:49,602 - INFO - Original: “Quyền bán chứng khoán cơ sở trong tương lai
+2025-04-13 15:12:49,602 - INFO - Translated: 「将来の原資産を売却する権利」
+2025-04-13 15:12:49,602 - INFO - ---
+2025-04-13 15:12:49,602 - INFO - Text 27:
+2025-04-13 15:12:49,602 - INFO - Original: Chứng quyền mua
+2025-04-13 15:12:49,602 - INFO - Translated: コールワラント
+2025-04-13 15:12:49,602 - INFO - ---
+2025-04-13 15:12:49,602 - INFO - Text 28:
+2025-04-13 15:12:49,602 - INFO - Original: Chứng quyền bán
+2025-04-13 15:12:49,602 - INFO - Translated: プットワラント
+2025-04-13 15:12:49,602 - INFO - ---
+2025-04-13 15:12:49,602 - INFO - Text 29:
+2025-04-13 15:12:49,602 - INFO - Original: Lỗ
+2025-04-13 15:12:49,602 - INFO - Translated: 損失
+2025-04-13 15:12:49,602 - INFO - ---
+2025-04-13 15:12:49,602 - INFO - Text 30:
+2025-04-13 15:12:49,602 - INFO - Original: Lãi
+2025-04-13 15:12:49,602 - INFO - Translated: 利益
+2025-04-13 15:12:49,602 - INFO - ---
+2025-04-13 15:12:49,602 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:12:51,608 - INFO - Translating batch 5/15 (size: 30 texts)
+2025-04-13 15:12:51,608 - INFO - === Translation Request ===
+2025-04-13 15:12:51,608 - INFO - Text 1: P/L
+2025-04-13 15:12:51,608 - INFO - Text 2: Giá thực hiện
+2025-04-13 15:12:51,608 - INFO - Text 3: Lỗ tối đa = Phí mua quyền
+2025-04-13 15:12:51,608 - INFO - Text 4: Điểm hòa vốn
+2025-04-13 15:12:51,608 - INFO - Text 5: Giá chứng khoán cơ sở
+2025-04-13 15:12:51,608 - INFO - Text 6: Lỗ
+2025-04-13 15:12:51,608 - INFO - Text 7: Lãi
+2025-04-13 15:12:51,608 - INFO - Text 8: P/L
+2025-04-13 15:12:51,608 - INFO - Text 9: Lỗ tối đa = phí mua quyền
+2025-04-13 15:12:51,609 - INFO - Text 10: Điểm hòa vốn
+2025-04-13 15:12:51,609 - INFO - Text 11: Giá thực hiện
+2025-04-13 15:12:51,609 - INFO - Text 12: Giá CKCS
+2025-04-13 15:12:51,609 - INFO - Text 13: Nguồn: KRX
+2025-04-13 15:12:51,609 - INFO - Text 14: 3. Kiểu thực hiện quyền
+2025-04-13 15:12:51,609 - INFO - Text 15: 13
+2025-04-13 15:12:51,609 - INFO - Text 16: www.hsx.vn
+2025-04-13 15:12:51,609 - INFO - Text 17: Kiểu Châu Âu: Chỉ được thực hiện quyền vào ngày đáo hạn
+2025-04-13 15:12:51,609 - INFO - Text 18: Kiểu Mỹ: Được thực hiện quyền trước hoặc vào ngày đáo hạn
+2025-04-13 15:12:51,609 - INFO - Text 19: Ví dụ: Đối với CW có ngày đáo hạn 31/12/2016
+2025-04-13 15:12:51,609 - INFO - Text 20: Kiểu Châu Âu : Chỉ được thực hiện quyền vào 31/12/2016
+2025-04-13 15:12:51,609 - INFO - Text 21: Kiểu Mỹ: Được thực hiện quyền vào bất cứ ngày nào, trước hoặc vào ngày đáo hạn 31/12/2016
+2025-04-13 15:12:51,609 - INFO - Text 22: 4. Thanh toán thực hiện quyền
+2025-04-13 15:12:51,609 - INFO - Text 23: 14
+2025-04-13 15:12:51,609 - INFO - Text 24: www.hsx.vn
+2025-04-13 15:12:51,609 - INFO - Text 25: Gồm hai phương thức:
+2025-04-13 15:12:51,609 - INFO - Text 26: Chuyển giao chứng khoán cơ sở: Mua hoặc bán chứng khoán cơ sở cho tổ chức phát hành
+2025-04-13 15:12:51,609 - INFO - Text 27: Thanh toán tiền: Nhận khoản tiền lời chênh lệch giữa giá thực hiện quyền và giá thị trường của chứng khoán cơ sở tại thời điểm thực hiện
+2025-04-13 15:12:51,609 - INFO - Text 28: Phân biệt với chứng quyền công ty
+2025-04-13 15:12:51,609 - INFO - Text 29: 15
+2025-04-13 15:12:51,609 - INFO - Text 30: www.hsx.vn
+2025-04-13 15:12:51,609 - INFO - === End Request ===
+
+2025-04-13 15:12:53,891 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:12:53,894 - INFO - === Translation Response ===
+2025-04-13 15:12:53,894 - INFO - Raw response: P/L
+---
+行使価格
+---
+最大損失 = 権利購入料
+---
+損益分岐点
+---
+原資産価格
+---
+損失
+---
+利益
+---
+P/L
+---
+最大損失 = 権利購入料
+---
+損益分岐点
+---
+行使価格
+---
+原資産価格
+---
+出典: KRX
+---
+3. 権利行使タイプ
+---
+13
+---
+www.hsx.vn
+---
+ヨーロピアンタイプ：満期日にのみ権利行使可能
+---
+アメリカンタイプ：満期日またはそれ以前に権利行使可能
+---
+例：2016年12月31日が満期日のCWの場合
+---
+ヨーロピアンタイプ：2016年12月31日にのみ権利行使可能
+---
+アメリカンタイプ：満期日2016年12月31日以前のいつでも権利行使可能
+---
+4. 権利行使の決済
+---
+14
+---
+www.hsx.vn
+---
+2つの方法があります。
+---
+原資産の受け渡し：発行体に原資産を売買する
+---
+現金決済：権利行使価格と権利行使時の原資産の市場価格との差額を受け取る
+---
+企業型ワラントとの違い
+---
+15
+---
+www.hsx.vn
+
+2025-04-13 15:12:53,894 - INFO - === End Response ===
+
+2025-04-13 15:12:53,894 - INFO - === Parsed Translations ===
+2025-04-13 15:12:53,894 - INFO - Text 1:
+2025-04-13 15:12:53,894 - INFO - Original: P/L
+2025-04-13 15:12:53,894 - INFO - Translated: P/L
+2025-04-13 15:12:53,895 - INFO - ---
+2025-04-13 15:12:53,895 - INFO - Text 2:
+2025-04-13 15:12:53,895 - INFO - Original: Giá thực hiện
+2025-04-13 15:12:53,895 - INFO - Translated: 行使価格
+2025-04-13 15:12:53,895 - INFO - ---
+2025-04-13 15:12:53,895 - INFO - Text 3:
+2025-04-13 15:12:53,895 - INFO - Original: Lỗ tối đa = Phí mua quyền
+2025-04-13 15:12:53,895 - INFO - Translated: 最大損失 = 権利購入料
+2025-04-13 15:12:53,895 - INFO - ---
+2025-04-13 15:12:53,895 - INFO - Text 4:
+2025-04-13 15:12:53,895 - INFO - Original: Điểm hòa vốn
+2025-04-13 15:12:53,895 - INFO - Translated: 損益分岐点
+2025-04-13 15:12:53,895 - INFO - ---
+2025-04-13 15:12:53,895 - INFO - Text 5:
+2025-04-13 15:12:53,895 - INFO - Original: Giá chứng khoán cơ sở
+2025-04-13 15:12:53,895 - INFO - Translated: 原資産価格
+2025-04-13 15:12:53,895 - INFO - ---
+2025-04-13 15:12:53,895 - INFO - Text 6:
+2025-04-13 15:12:53,895 - INFO - Original: Lỗ
+2025-04-13 15:12:53,895 - INFO - Translated: 損失
+2025-04-13 15:12:53,895 - INFO - ---
+2025-04-13 15:12:53,895 - INFO - Text 7:
+2025-04-13 15:12:53,895 - INFO - Original: Lãi
+2025-04-13 15:12:53,895 - INFO - Translated: 利益
+2025-04-13 15:12:53,895 - INFO - ---
+2025-04-13 15:12:53,895 - INFO - Text 8:
+2025-04-13 15:12:53,895 - INFO - Original: P/L
+2025-04-13 15:12:53,895 - INFO - Translated: P/L
+2025-04-13 15:12:53,895 - INFO - ---
+2025-04-13 15:12:53,895 - INFO - Text 9:
+2025-04-13 15:12:53,895 - INFO - Original: Lỗ tối đa = phí mua quyền
+2025-04-13 15:12:53,895 - INFO - Translated: 最大損失 = 権利購入料
+2025-04-13 15:12:53,895 - INFO - ---
+2025-04-13 15:12:53,895 - INFO - Text 10:
+2025-04-13 15:12:53,895 - INFO - Original: Điểm hòa vốn
+2025-04-13 15:12:53,895 - INFO - Translated: 損益分岐点
+2025-04-13 15:12:53,895 - INFO - ---
+2025-04-13 15:12:53,895 - INFO - Text 11:
+2025-04-13 15:12:53,895 - INFO - Original: Giá thực hiện
+2025-04-13 15:12:53,895 - INFO - Translated: 行使価格
+2025-04-13 15:12:53,895 - INFO - ---
+2025-04-13 15:12:53,895 - INFO - Text 12:
+2025-04-13 15:12:53,895 - INFO - Original: Giá CKCS
+2025-04-13 15:12:53,895 - INFO - Translated: 原資産価格
+2025-04-13 15:12:53,895 - INFO - ---
+2025-04-13 15:12:53,896 - INFO - Text 13:
+2025-04-13 15:12:53,896 - INFO - Original: Nguồn: KRX
+2025-04-13 15:12:53,896 - INFO - Translated: 出典: KRX
+2025-04-13 15:12:53,896 - INFO - ---
+2025-04-13 15:12:53,896 - INFO - Text 14:
+2025-04-13 15:12:53,896 - INFO - Original: 3. Kiểu thực hiện quyền
+2025-04-13 15:12:53,896 - INFO - Translated: 3. 権利行使タイプ
+2025-04-13 15:12:53,896 - INFO - ---
+2025-04-13 15:12:53,896 - INFO - Text 15:
+2025-04-13 15:12:53,896 - INFO - Original: 13
+2025-04-13 15:12:53,896 - INFO - Translated: 13
+2025-04-13 15:12:53,896 - INFO - ---
+2025-04-13 15:12:53,896 - INFO - Text 16:
+2025-04-13 15:12:53,896 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:53,896 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:53,896 - INFO - ---
+2025-04-13 15:12:53,896 - INFO - Text 17:
+2025-04-13 15:12:53,896 - INFO - Original: Kiểu Châu Âu: Chỉ được thực hiện quyền vào ngày đáo hạn
+2025-04-13 15:12:53,896 - INFO - Translated: ヨーロピアンタイプ：満期日にのみ権利行使可能
+2025-04-13 15:12:53,896 - INFO - ---
+2025-04-13 15:12:53,896 - INFO - Text 18:
+2025-04-13 15:12:53,896 - INFO - Original: Kiểu Mỹ: Được thực hiện quyền trước hoặc vào ngày đáo hạn
+2025-04-13 15:12:53,896 - INFO - Translated: アメリカンタイプ：満期日またはそれ以前に権利行使可能
+2025-04-13 15:12:53,896 - INFO - ---
+2025-04-13 15:12:53,896 - INFO - Text 19:
+2025-04-13 15:12:53,896 - INFO - Original: Ví dụ: Đối với CW có ngày đáo hạn 31/12/2016
+2025-04-13 15:12:53,896 - INFO - Translated: 例：2016年12月31日が満期日のCWの場合
+2025-04-13 15:12:53,896 - INFO - ---
+2025-04-13 15:12:53,896 - INFO - Text 20:
+2025-04-13 15:12:53,896 - INFO - Original: Kiểu Châu Âu : Chỉ được thực hiện quyền vào 31/12/2016
+2025-04-13 15:12:53,896 - INFO - Translated: ヨーロピアンタイプ：2016年12月31日にのみ権利行使可能
+2025-04-13 15:12:53,896 - INFO - ---
+2025-04-13 15:12:53,896 - INFO - Text 21:
+2025-04-13 15:12:53,896 - INFO - Original: Kiểu Mỹ: Được thực hiện quyền vào bất cứ ngày nào, trước hoặc vào ngày đáo hạn 31/12/2016
+2025-04-13 15:12:53,896 - INFO - Translated: アメリカンタイプ：満期日2016年12月31日以前のいつでも権利行使可能
+2025-04-13 15:12:53,896 - INFO - ---
+2025-04-13 15:12:53,896 - INFO - Text 22:
+2025-04-13 15:12:53,896 - INFO - Original: 4. Thanh toán thực hiện quyền
+2025-04-13 15:12:53,896 - INFO - Translated: 4. 権利行使の決済
+2025-04-13 15:12:53,896 - INFO - ---
+2025-04-13 15:12:53,896 - INFO - Text 23:
+2025-04-13 15:12:53,896 - INFO - Original: 14
+2025-04-13 15:12:53,896 - INFO - Translated: 14
+2025-04-13 15:12:53,896 - INFO - ---
+2025-04-13 15:12:53,896 - INFO - Text 24:
+2025-04-13 15:12:53,896 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:53,897 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:53,897 - INFO - ---
+2025-04-13 15:12:53,897 - INFO - Text 25:
+2025-04-13 15:12:53,897 - INFO - Original: Gồm hai phương thức:
+2025-04-13 15:12:53,897 - INFO - Translated: 2つの方法があります。
+2025-04-13 15:12:53,897 - INFO - ---
+2025-04-13 15:12:53,897 - INFO - Text 26:
+2025-04-13 15:12:53,897 - INFO - Original: Chuyển giao chứng khoán cơ sở: Mua hoặc bán chứng khoán cơ sở cho tổ chức phát hành
+2025-04-13 15:12:53,897 - INFO - Translated: 原資産の受け渡し：発行体に原資産を売買する
+2025-04-13 15:12:53,897 - INFO - ---
+2025-04-13 15:12:53,897 - INFO - Text 27:
+2025-04-13 15:12:53,897 - INFO - Original: Thanh toán tiền: Nhận khoản tiền lời chênh lệch giữa giá thực hiện quyền và giá thị trường của chứng khoán cơ sở tại thời điểm thực hiện
+2025-04-13 15:12:53,897 - INFO - Translated: 現金決済：権利行使価格と権利行使時の原資産の市場価格との差額を受け取る
+2025-04-13 15:12:53,897 - INFO - ---
+2025-04-13 15:12:53,897 - INFO - Text 28:
+2025-04-13 15:12:53,897 - INFO - Original: Phân biệt với chứng quyền công ty
+2025-04-13 15:12:53,897 - INFO - Translated: 企業型ワラントとの違い
+2025-04-13 15:12:53,897 - INFO - ---
+2025-04-13 15:12:53,897 - INFO - Text 29:
+2025-04-13 15:12:53,897 - INFO - Original: 15
+2025-04-13 15:12:53,897 - INFO - Translated: 15
+2025-04-13 15:12:53,897 - INFO - ---
+2025-04-13 15:12:53,897 - INFO - Text 30:
+2025-04-13 15:12:53,897 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:53,897 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:53,897 - INFO - ---
+2025-04-13 15:12:53,897 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:12:55,900 - INFO - Translating batch 6/15 (size: 30 texts)
+2025-04-13 15:12:55,900 - INFO - === Translation Request ===
+2025-04-13 15:12:55,900 - INFO - Text 1: Chứng quyền có bảo đảm
+2025-04-13 15:12:55,901 - INFO - Text 2: Chứng quyền công ty
+2025-04-13 15:12:55,901 - INFO - Text 3: Tổ chức phát hành
+2025-04-13 15:12:55,901 - INFO - Text 4: Công ty chứng khoán
+2025-04-13 15:12:55,901 - INFO - Text 5: Công ty cổ phần
+2025-04-13 15:12:55,901 - INFO - Text 6: Mục đích phát hành
+2025-04-13 15:12:55,901 - INFO - Text 7: - Cung cấp công cụ đầu tư và quản trị rủi ro
+2025-04-13 15:12:55,901 - INFO - Text 8: - Thu nhập từ phí CW
+2025-04-13 15:12:55,901 - INFO - Text 9: Huy động vốn
+2025-04-13 15:12:55,901 - INFO - Text 10: Tài sản cơ sở
+2025-04-13 15:12:55,901 - INFO - Text 11: Đa dạng (cổ phiếu, chỉ số, ETF…)
+2025-04-13 15:12:55,901 - INFO - Text 12: Cổ phiếu
+2025-04-13 15:12:55,901 - INFO - Text 13: Phạm vi quyền
+2025-04-13 15:12:55,902 - INFO - Text 14: Quyền mua hoặc bán CKCS
+2025-04-13 15:12:55,902 - INFO - Text 15: Quyền mua cổ phiếu mới phát hành
+2025-04-13 15:12:55,902 - INFO - Text 16: Kết quả sau khi thực hiện quyền
+2025-04-13 15:12:55,902 - INFO - Text 17: Tổng số cổ phiếu đang lưu hành không đổi
+2025-04-13 15:12:55,902 - INFO - Text 18: Tổng số cổ phiếu đang lưu hành tăng
+2025-04-13 15:12:55,902 - INFO - Text 19: Phân biệt với quyền chọn (Option)
+2025-04-13 15:12:55,902 - INFO - Text 20: 16
+2025-04-13 15:12:55,902 - INFO - Text 21: www.hsx.vn
+2025-04-13 15:12:55,902 - INFO - Text 22: CW
+2025-04-13 15:12:55,902 - INFO - Text 23: Quyền chọn
+2025-04-13 15:12:55,902 - INFO - Text 24: (Option)
+2025-04-13 15:12:55,902 - INFO - Text 25: Thị trường giao dịch
+2025-04-13 15:12:55,902 - INFO - Text 26: Cash market
+2025-04-13 15:12:55,902 - INFO - Text 27: (giống cổ phiếu)
+2025-04-13 15:12:55,902 - INFO - Text 28: Phái sinh
+2025-04-13 15:12:55,902 - INFO - Text 29: Thiết kế sản phẩm, điều khoản
+2025-04-13 15:12:55,902 - INFO - Text 30: Công ty chứng khoán
+2025-04-13 15:12:55,902 - INFO - === End Request ===
+
+2025-04-13 15:12:57,652 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:12:57,656 - INFO - === Translation Response ===
+2025-04-13 15:12:57,657 - INFO - Raw response: 保証付き権利
+---
+企業ワラント
+---
+発行体
+---
+証券会社
+---
+株式会社
+---
+発行目的
+---
+- 投資とリスク管理ツールを提供する
+---
+- CW手数料収入
+---
+資金調達
+---
+原資産
+---
+多様化（株式、指数、ETFなど）
+---
+株式
+---
+権利範囲
+---
+原資産の売買権
+---
+新規発行株式の購入権
+---
+権利行使後の結果
+---
+発行済株式総数は変わらない
+---
+発行済株式総数が増加する
+---
+オプションとの区別
+---
+16
+---
+www.hsx.vn
+---
+CW
+---
+オプション
+---
+（Option）
+---
+取引市場
+---
+キャッシュマーケット
+---
+（株式と同様）
+---
+デリバティブ
+---
+商品設計、条項
+---
+証券会社
+
+2025-04-13 15:12:57,657 - INFO - === End Response ===
+
+2025-04-13 15:12:57,657 - INFO - === Parsed Translations ===
+2025-04-13 15:12:57,657 - INFO - Text 1:
+2025-04-13 15:12:57,657 - INFO - Original: Chứng quyền có bảo đảm
+2025-04-13 15:12:57,657 - INFO - Translated: 保証付き権利
+2025-04-13 15:12:57,657 - INFO - ---
+2025-04-13 15:12:57,657 - INFO - Text 2:
+2025-04-13 15:12:57,657 - INFO - Original: Chứng quyền công ty
+2025-04-13 15:12:57,657 - INFO - Translated: 企業ワラント
+2025-04-13 15:12:57,657 - INFO - ---
+2025-04-13 15:12:57,657 - INFO - Text 3:
+2025-04-13 15:12:57,657 - INFO - Original: Tổ chức phát hành
+2025-04-13 15:12:57,657 - INFO - Translated: 発行体
+2025-04-13 15:12:57,657 - INFO - ---
+2025-04-13 15:12:57,657 - INFO - Text 4:
+2025-04-13 15:12:57,657 - INFO - Original: Công ty chứng khoán
+2025-04-13 15:12:57,657 - INFO - Translated: 証券会社
+2025-04-13 15:12:57,657 - INFO - ---
+2025-04-13 15:12:57,657 - INFO - Text 5:
+2025-04-13 15:12:57,657 - INFO - Original: Công ty cổ phần
+2025-04-13 15:12:57,657 - INFO - Translated: 株式会社
+2025-04-13 15:12:57,657 - INFO - ---
+2025-04-13 15:12:57,657 - INFO - Text 6:
+2025-04-13 15:12:57,657 - INFO - Original: Mục đích phát hành
+2025-04-13 15:12:57,657 - INFO - Translated: 発行目的
+2025-04-13 15:12:57,657 - INFO - ---
+2025-04-13 15:12:57,657 - INFO - Text 7:
+2025-04-13 15:12:57,658 - INFO - Original: - Cung cấp công cụ đầu tư và quản trị rủi ro
+2025-04-13 15:12:57,658 - INFO - Translated: - 投資とリスク管理ツールを提供する
+2025-04-13 15:12:57,658 - INFO - ---
+2025-04-13 15:12:57,658 - INFO - Text 8:
+2025-04-13 15:12:57,658 - INFO - Original: - Thu nhập từ phí CW
+2025-04-13 15:12:57,658 - INFO - Translated: - CW手数料収入
+2025-04-13 15:12:57,658 - INFO - ---
+2025-04-13 15:12:57,658 - INFO - Text 9:
+2025-04-13 15:12:57,658 - INFO - Original: Huy động vốn
+2025-04-13 15:12:57,658 - INFO - Translated: 資金調達
+2025-04-13 15:12:57,658 - INFO - ---
+2025-04-13 15:12:57,658 - INFO - Text 10:
+2025-04-13 15:12:57,658 - INFO - Original: Tài sản cơ sở
+2025-04-13 15:12:57,658 - INFO - Translated: 原資産
+2025-04-13 15:12:57,658 - INFO - ---
+2025-04-13 15:12:57,658 - INFO - Text 11:
+2025-04-13 15:12:57,658 - INFO - Original: Đa dạng (cổ phiếu, chỉ số, ETF…)
+2025-04-13 15:12:57,658 - INFO - Translated: 多様化（株式、指数、ETFなど）
+2025-04-13 15:12:57,658 - INFO - ---
+2025-04-13 15:12:57,658 - INFO - Text 12:
+2025-04-13 15:12:57,658 - INFO - Original: Cổ phiếu
+2025-04-13 15:12:57,658 - INFO - Translated: 株式
+2025-04-13 15:12:57,658 - INFO - ---
+2025-04-13 15:12:57,658 - INFO - Text 13:
+2025-04-13 15:12:57,658 - INFO - Original: Phạm vi quyền
+2025-04-13 15:12:57,658 - INFO - Translated: 権利範囲
+2025-04-13 15:12:57,658 - INFO - ---
+2025-04-13 15:12:57,658 - INFO - Text 14:
+2025-04-13 15:12:57,658 - INFO - Original: Quyền mua hoặc bán CKCS
+2025-04-13 15:12:57,658 - INFO - Translated: 原資産の売買権
+2025-04-13 15:12:57,658 - INFO - ---
+2025-04-13 15:12:57,658 - INFO - Text 15:
+2025-04-13 15:12:57,658 - INFO - Original: Quyền mua cổ phiếu mới phát hành
+2025-04-13 15:12:57,658 - INFO - Translated: 新規発行株式の購入権
+2025-04-13 15:12:57,658 - INFO - ---
+2025-04-13 15:12:57,658 - INFO - Text 16:
+2025-04-13 15:12:57,658 - INFO - Original: Kết quả sau khi thực hiện quyền
+2025-04-13 15:12:57,658 - INFO - Translated: 権利行使後の結果
+2025-04-13 15:12:57,658 - INFO - ---
+2025-04-13 15:12:57,658 - INFO - Text 17:
+2025-04-13 15:12:57,658 - INFO - Original: Tổng số cổ phiếu đang lưu hành không đổi
+2025-04-13 15:12:57,658 - INFO - Translated: 発行済株式総数は変わらない
+2025-04-13 15:12:57,659 - INFO - ---
+2025-04-13 15:12:57,659 - INFO - Text 18:
+2025-04-13 15:12:57,659 - INFO - Original: Tổng số cổ phiếu đang lưu hành tăng
+2025-04-13 15:12:57,659 - INFO - Translated: 発行済株式総数が増加する
+2025-04-13 15:12:57,659 - INFO - ---
+2025-04-13 15:12:57,659 - INFO - Text 19:
+2025-04-13 15:12:57,659 - INFO - Original: Phân biệt với quyền chọn (Option)
+2025-04-13 15:12:57,659 - INFO - Translated: オプションとの区別
+2025-04-13 15:12:57,659 - INFO - ---
+2025-04-13 15:12:57,659 - INFO - Text 20:
+2025-04-13 15:12:57,659 - INFO - Original: 16
+2025-04-13 15:12:57,659 - INFO - Translated: 16
+2025-04-13 15:12:57,659 - INFO - ---
+2025-04-13 15:12:57,659 - INFO - Text 21:
+2025-04-13 15:12:57,659 - INFO - Original: www.hsx.vn
+2025-04-13 15:12:57,659 - INFO - Translated: www.hsx.vn
+2025-04-13 15:12:57,659 - INFO - ---
+2025-04-13 15:12:57,659 - INFO - Text 22:
+2025-04-13 15:12:57,659 - INFO - Original: CW
+2025-04-13 15:12:57,659 - INFO - Translated: CW
+2025-04-13 15:12:57,659 - INFO - ---
+2025-04-13 15:12:57,659 - INFO - Text 23:
+2025-04-13 15:12:57,659 - INFO - Original: Quyền chọn
+2025-04-13 15:12:57,659 - INFO - Translated: オプション
+2025-04-13 15:12:57,659 - INFO - ---
+2025-04-13 15:12:57,659 - INFO - Text 24:
+2025-04-13 15:12:57,659 - INFO - Original: (Option)
+2025-04-13 15:12:57,659 - INFO - Translated: （Option）
+2025-04-13 15:12:57,659 - INFO - ---
+2025-04-13 15:12:57,659 - INFO - Text 25:
+2025-04-13 15:12:57,659 - INFO - Original: Thị trường giao dịch
+2025-04-13 15:12:57,659 - INFO - Translated: 取引市場
+2025-04-13 15:12:57,659 - INFO - ---
+2025-04-13 15:12:57,659 - INFO - Text 26:
+2025-04-13 15:12:57,659 - INFO - Original: Cash market
+2025-04-13 15:12:57,659 - INFO - Translated: キャッシュマーケット
+2025-04-13 15:12:57,659 - INFO - ---
+2025-04-13 15:12:57,659 - INFO - Text 27:
+2025-04-13 15:12:57,659 - INFO - Original: (giống cổ phiếu)
+2025-04-13 15:12:57,659 - INFO - Translated: （株式と同様）
+2025-04-13 15:12:57,659 - INFO - ---
+2025-04-13 15:12:57,659 - INFO - Text 28:
+2025-04-13 15:12:57,659 - INFO - Original: Phái sinh
+2025-04-13 15:12:57,659 - INFO - Translated: デリバティブ
+2025-04-13 15:12:57,659 - INFO - ---
+2025-04-13 15:12:57,659 - INFO - Text 29:
+2025-04-13 15:12:57,659 - INFO - Original: Thiết kế sản phẩm, điều khoản
+2025-04-13 15:12:57,660 - INFO - Translated: 商品設計、条項
+2025-04-13 15:12:57,660 - INFO - ---
+2025-04-13 15:12:57,660 - INFO - Text 30:
+2025-04-13 15:12:57,660 - INFO - Original: Công ty chứng khoán
+2025-04-13 15:12:57,660 - INFO - Translated: 証券会社
+2025-04-13 15:12:57,660 - INFO - ---
+2025-04-13 15:12:57,660 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:12:59,665 - INFO - Translating batch 7/15 (size: 30 texts)
+2025-04-13 15:12:59,665 - INFO - === Translation Request ===
+2025-04-13 15:12:59,666 - INFO - Text 1: Sở Giao dịch Chứng khoán
+2025-04-13 15:12:59,666 - INFO - Text 2: Yêu cầu nhà đầu tư ký quỹ *
+2025-04-13 15:12:59,666 - INFO - Text 3: Không
+2025-04-13 15:12:59,666 - INFO - Text 4: Có (Người giữ vị thế bán)
+2025-04-13 15:12:59,666 - INFO - Text 5: Chuyển giao tài sản
+2025-04-13 15:12:59,666 - INFO - Text 6: Giữa CTCK và nhà đầu tư
+2025-04-13 15:12:59,666 - INFO - Text 7: Nhà đầu tư
+2025-04-13 15:12:59,666 - INFO - Text 8: (*) Ký quỹ nhằm đảm bảo khả năng thanh toán khi thực hiện quyền
+2025-04-13 15:12:59,666 - INFO - Text 9: 17
+2025-04-13 15:12:59,667 - INFO - Text 10: Đòn bẩy
+2025-04-13 15:12:59,667 - INFO - Text 11: Phòng ngừa rủi ro
+2025-04-13 15:12:59,667 - INFO - Text 12: Cố định khoản lỗ tối đa
+2025-04-13 15:12:59,667 - INFO - Text 13: Giao dịch và thanh toán dễ dàng
+2025-04-13 15:12:59,667 - INFO - Text 14: Vốn đầu tư thấp
+2025-04-13 15:12:59,667 - INFO - Text 15: Không cần ký quỹ
+2025-04-13 15:12:59,667 - INFO - Text 16: CW
+2025-04-13 15:12:59,667 - INFO - Text 17: : Riêng cho CW
+2025-04-13 15:12:59,667 - INFO - Text 18: : Giống option
+2025-04-13 15:12:59,667 - INFO - Text 19: Lợi ích khi đầu tư CW
+2025-04-13 15:12:59,667 - INFO - Text 20: Nguồn: KRX
+2025-04-13 15:12:59,667 - INFO - Text 21: 18
+2025-04-13 15:12:59,667 - INFO - Text 22: Tổ chức phát hành
+2025-04-13 15:12:59,668 - INFO - Text 23: Đòn bẩy
+2025-04-13 15:12:59,668 - INFO - Text 24: Vòng đời giới hạn
+2025-04-13 15:12:59,668 - INFO - Text 25: Biến động giá
+2025-04-13 15:12:59,668 - INFO - Text 26: CW
+2025-04-13 15:12:59,668 - INFO - Text 27: : Riêng cho CW
+2025-04-13 15:12:59,668 - INFO - Text 28: : Giống option
+2025-04-13 15:12:59,668 - INFO - Text 29: Rủi ro khi đầu tư CW
+2025-04-13 15:12:59,668 - INFO - Text 30: Nguồn: KRX
+2025-04-13 15:12:59,668 - INFO - === End Request ===
+
+2025-04-13 15:13:01,392 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:13:01,395 - INFO - === Translation Response ===
+2025-04-13 15:13:01,396 - INFO - Raw response: 証券取引所
+---
+投資家による証拠金*の要求
+---
+いいえ
+---
+はい（売りポジション保有者）
+---
+資産の譲渡
+---
+証券会社と投資家の間
+---
+投資家
+---
+(*) 証拠金は権利行使時の支払能力を確保するために行われます
+---
+17
+---
+レバレッジ
+---
+リスクヘッジ
+---
+最大損失額の固定
+---
+取引と決済が容易
+---
+低い投資資本
+---
+証拠金は不要
+---
+CW
+---
+：CW専用
+---
+：オプションと同様
+---
+CW投資のメリット
+---
+出典：KRX
+---
+18
+---
+発行体
+---
+レバレッジ
+---
+限定的なライフサイクル
+---
+価格変動
+---
+CW
+---
+：CW専用
+---
+：オプションと同様
+---
+CW投資のリスク
+---
+出典：KRX
+
+2025-04-13 15:13:01,396 - INFO - === End Response ===
+
+2025-04-13 15:13:01,396 - INFO - === Parsed Translations ===
+2025-04-13 15:13:01,396 - INFO - Text 1:
+2025-04-13 15:13:01,396 - INFO - Original: Sở Giao dịch Chứng khoán
+2025-04-13 15:13:01,396 - INFO - Translated: 証券取引所
+2025-04-13 15:13:01,396 - INFO - ---
+2025-04-13 15:13:01,396 - INFO - Text 2:
+2025-04-13 15:13:01,396 - INFO - Original: Yêu cầu nhà đầu tư ký quỹ *
+2025-04-13 15:13:01,396 - INFO - Translated: 投資家による証拠金*の要求
+2025-04-13 15:13:01,396 - INFO - ---
+2025-04-13 15:13:01,396 - INFO - Text 3:
+2025-04-13 15:13:01,396 - INFO - Original: Không
+2025-04-13 15:13:01,396 - INFO - Translated: いいえ
+2025-04-13 15:13:01,396 - INFO - ---
+2025-04-13 15:13:01,396 - INFO - Text 4:
+2025-04-13 15:13:01,396 - INFO - Original: Có (Người giữ vị thế bán)
+2025-04-13 15:13:01,396 - INFO - Translated: はい（売りポジション保有者）
+2025-04-13 15:13:01,396 - INFO - ---
+2025-04-13 15:13:01,396 - INFO - Text 5:
+2025-04-13 15:13:01,396 - INFO - Original: Chuyển giao tài sản
+2025-04-13 15:13:01,396 - INFO - Translated: 資産の譲渡
+2025-04-13 15:13:01,396 - INFO - ---
+2025-04-13 15:13:01,396 - INFO - Text 6:
+2025-04-13 15:13:01,396 - INFO - Original: Giữa CTCK và nhà đầu tư
+2025-04-13 15:13:01,396 - INFO - Translated: 証券会社と投資家の間
+2025-04-13 15:13:01,396 - INFO - ---
+2025-04-13 15:13:01,396 - INFO - Text 7:
+2025-04-13 15:13:01,396 - INFO - Original: Nhà đầu tư
+2025-04-13 15:13:01,396 - INFO - Translated: 投資家
+2025-04-13 15:13:01,396 - INFO - ---
+2025-04-13 15:13:01,397 - INFO - Text 8:
+2025-04-13 15:13:01,397 - INFO - Original: (*) Ký quỹ nhằm đảm bảo khả năng thanh toán khi thực hiện quyền
+2025-04-13 15:13:01,397 - INFO - Translated: (*) 証拠金は権利行使時の支払能力を確保するために行われます
+2025-04-13 15:13:01,397 - INFO - ---
+2025-04-13 15:13:01,397 - INFO - Text 9:
+2025-04-13 15:13:01,397 - INFO - Original: 17
+2025-04-13 15:13:01,397 - INFO - Translated: 17
+2025-04-13 15:13:01,397 - INFO - ---
+2025-04-13 15:13:01,397 - INFO - Text 10:
+2025-04-13 15:13:01,397 - INFO - Original: Đòn bẩy
+2025-04-13 15:13:01,397 - INFO - Translated: レバレッジ
+2025-04-13 15:13:01,397 - INFO - ---
+2025-04-13 15:13:01,397 - INFO - Text 11:
+2025-04-13 15:13:01,397 - INFO - Original: Phòng ngừa rủi ro
+2025-04-13 15:13:01,397 - INFO - Translated: リスクヘッジ
+2025-04-13 15:13:01,397 - INFO - ---
+2025-04-13 15:13:01,397 - INFO - Text 12:
+2025-04-13 15:13:01,397 - INFO - Original: Cố định khoản lỗ tối đa
+2025-04-13 15:13:01,397 - INFO - Translated: 最大損失額の固定
+2025-04-13 15:13:01,397 - INFO - ---
+2025-04-13 15:13:01,397 - INFO - Text 13:
+2025-04-13 15:13:01,397 - INFO - Original: Giao dịch và thanh toán dễ dàng
+2025-04-13 15:13:01,397 - INFO - Translated: 取引と決済が容易
+2025-04-13 15:13:01,397 - INFO - ---
+2025-04-13 15:13:01,397 - INFO - Text 14:
+2025-04-13 15:13:01,397 - INFO - Original: Vốn đầu tư thấp
+2025-04-13 15:13:01,397 - INFO - Translated: 低い投資資本
+2025-04-13 15:13:01,397 - INFO - ---
+2025-04-13 15:13:01,397 - INFO - Text 15:
+2025-04-13 15:13:01,397 - INFO - Original: Không cần ký quỹ
+2025-04-13 15:13:01,397 - INFO - Translated: 証拠金は不要
+2025-04-13 15:13:01,397 - INFO - ---
+2025-04-13 15:13:01,397 - INFO - Text 16:
+2025-04-13 15:13:01,397 - INFO - Original: CW
+2025-04-13 15:13:01,397 - INFO - Translated: CW
+2025-04-13 15:13:01,397 - INFO - ---
+2025-04-13 15:13:01,397 - INFO - Text 17:
+2025-04-13 15:13:01,398 - INFO - Original: : Riêng cho CW
+2025-04-13 15:13:01,398 - INFO - Translated: ：CW専用
+2025-04-13 15:13:01,398 - INFO - ---
+2025-04-13 15:13:01,398 - INFO - Text 18:
+2025-04-13 15:13:01,398 - INFO - Original: : Giống option
+2025-04-13 15:13:01,398 - INFO - Translated: ：オプションと同様
+2025-04-13 15:13:01,398 - INFO - ---
+2025-04-13 15:13:01,398 - INFO - Text 19:
+2025-04-13 15:13:01,398 - INFO - Original: Lợi ích khi đầu tư CW
+2025-04-13 15:13:01,398 - INFO - Translated: CW投資のメリット
+2025-04-13 15:13:01,398 - INFO - ---
+2025-04-13 15:13:01,398 - INFO - Text 20:
+2025-04-13 15:13:01,398 - INFO - Original: Nguồn: KRX
+2025-04-13 15:13:01,398 - INFO - Translated: 出典：KRX
+2025-04-13 15:13:01,398 - INFO - ---
+2025-04-13 15:13:01,398 - INFO - Text 21:
+2025-04-13 15:13:01,398 - INFO - Original: 18
+2025-04-13 15:13:01,398 - INFO - Translated: 18
+2025-04-13 15:13:01,398 - INFO - ---
+2025-04-13 15:13:01,398 - INFO - Text 22:
+2025-04-13 15:13:01,398 - INFO - Original: Tổ chức phát hành
+2025-04-13 15:13:01,398 - INFO - Translated: 発行体
+2025-04-13 15:13:01,398 - INFO - ---
+2025-04-13 15:13:01,398 - INFO - Text 23:
+2025-04-13 15:13:01,398 - INFO - Original: Đòn bẩy
+2025-04-13 15:13:01,398 - INFO - Translated: レバレッジ
+2025-04-13 15:13:01,398 - INFO - ---
+2025-04-13 15:13:01,398 - INFO - Text 24:
+2025-04-13 15:13:01,398 - INFO - Original: Vòng đời giới hạn
+2025-04-13 15:13:01,398 - INFO - Translated: 限定的なライフサイクル
+2025-04-13 15:13:01,398 - INFO - ---
+2025-04-13 15:13:01,398 - INFO - Text 25:
+2025-04-13 15:13:01,398 - INFO - Original: Biến động giá
+2025-04-13 15:13:01,398 - INFO - Translated: 価格変動
+2025-04-13 15:13:01,398 - INFO - ---
+2025-04-13 15:13:01,398 - INFO - Text 26:
+2025-04-13 15:13:01,398 - INFO - Original: CW
+2025-04-13 15:13:01,398 - INFO - Translated: CW
+2025-04-13 15:13:01,398 - INFO - ---
+2025-04-13 15:13:01,399 - INFO - Text 27:
+2025-04-13 15:13:01,399 - INFO - Original: : Riêng cho CW
+2025-04-13 15:13:01,399 - INFO - Translated: ：CW専用
+2025-04-13 15:13:01,399 - INFO - ---
+2025-04-13 15:13:01,399 - INFO - Text 28:
+2025-04-13 15:13:01,399 - INFO - Original: : Giống option
+2025-04-13 15:13:01,399 - INFO - Translated: ：オプションと同様
+2025-04-13 15:13:01,399 - INFO - ---
+2025-04-13 15:13:01,399 - INFO - Text 29:
+2025-04-13 15:13:01,399 - INFO - Original: Rủi ro khi đầu tư CW
+2025-04-13 15:13:01,399 - INFO - Translated: CW投資のリスク
+2025-04-13 15:13:01,399 - INFO - ---
+2025-04-13 15:13:01,399 - INFO - Text 30:
+2025-04-13 15:13:01,399 - INFO - Original: Nguồn: KRX
+2025-04-13 15:13:01,399 - INFO - Translated: 出典：KRX
+2025-04-13 15:13:01,399 - INFO - ---
+2025-04-13 15:13:01,399 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:13:03,404 - INFO - Translating batch 8/15 (size: 30 texts)
+2025-04-13 15:13:03,404 - INFO - === Translation Request ===
+2025-04-13 15:13:03,404 - INFO - Text 1: 19
+2025-04-13 15:13:03,404 - INFO - Text 2: www.hsx.vn
+2025-04-13 15:13:03,404 - INFO - Text 3: Tính đòn bẩy của CW
+2025-04-13 15:13:03,404 - INFO - Text 4: Cổ phiếu A: 40% (lãi 14.000 -10.000= 4.000 / cổ phiếu x 1000 CP)
+2025-04-13 15:13:03,404 - INFO - Text 5: CW : 100% (lãi 14.000 – 10.000 – 2.000 = 2.000 đồng/CW x 5.000 CW)
+2025-04-13 15:13:03,404 - INFO - Text 6: Vốn = 10 triệu đồng:
+2025-04-13 15:13:03,404 - INFO - Text 7: 1.000 cổ phiếu A (giá 10.000 /CP)
+2025-04-13 15:13:03,404 - INFO - Text 8: 5.000 CW mua (CKCS: A, giá 2.000/CW, tỷ lệ thực hiện 1:1,  giá thực hiện 10.000 đồng)
+2025-04-13 15:13:03,404 - INFO - Text 9: Cổ phiếu A: - 40 % (Lỗ 10.000 – 6.000 = 4.000/ cổ phiếu x 1000 CP)
+2025-04-13 15:13:03,404 - INFO - Text 10: CW: - 100% (Lỗ phí  mua quyền 10 triệu)
+2025-04-13 15:13:03,404 - INFO - Text 11: CP A  giảm giá xuống 6000
+2025-04-13 15:13:03,404 - INFO - Text 12: CP A  tăng giá lên 14000
+2025-04-13 15:13:03,404 - INFO - Text 13: Lợi ích đòn bẩy
+2025-04-13 15:13:03,404 - INFO - Text 14: Rủi ro đòn bẩy
+2025-04-13 15:13:03,404 - INFO - Text 15: Với cùng mức biến động CKCS , CW tạo hiệu ứng lãi (lỗ) trên khoản đầu tư lớn hơn so với đầu tư CKCS trực tiếp
+2025-04-13 15:13:03,404 - INFO - Text 16: Các trạng thái moneyness của CW
+2025-04-13 15:13:03,404 - INFO - Text 17: 20
+2025-04-13 15:13:03,405 - INFO - Text 18: www.hsx.vn
+2025-04-13 15:13:03,405 - INFO - Text 19: S: Giá CKCS trên thị trường giao ngay
+2025-04-13 15:13:03,405 - INFO - Text 20: X: Giá CKCS khi thực hiện quyền
+2025-04-13 15:13:03,405 - INFO - Text 21: www.hsx.vn
+2025-04-13 15:13:03,405 - INFO - Text 22: 21
+2025-04-13 15:13:03,405 - INFO - Text 23: Cấu trúc giá CW mua
+2025-04-13 15:13:03,405 - INFO - Text 24: Giá CKCS
+2025-04-13 15:13:03,405 - INFO - Text 25: Giá CW
+2025-04-13 15:13:03,405 - INFO - Text 26: Chênh lệch giữa giá hiện hành và giá thực hiện
+2025-04-13 15:13:03,405 - INFO - Text 27: <Giá trị thực>
+2025-04-13 15:13:03,405 - INFO - Text 28: Dễ định giá và có thể thấy bằng trực giác
+2025-04-13 15:13:03,405 - INFO - Text 29: Giá trị có thể mà CW sẽ thực hiện trong tương lai
+2025-04-13 15:13:03,405 - INFO - Text 30: Giá trị này mất đi khi CW đáo hạn
+2025-04-13 15:13:03,405 - INFO - === End Request ===
+
+2025-04-13 15:13:06,672 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:13:06,675 - INFO - === Translation Response ===
+2025-04-13 15:13:06,675 - INFO - Raw response: 19
+---
+www.hsx.vn
+---
+CWのレバレッジ効果の計算
+---
+株式A：40%（利益14,000 - 10,000 = 4,000 / 株 x 1000 株）
+---
+CW：100%（利益14,000 – 10,000 – 2,000 = 2,000 VND/CW x 5,000 CW）
+---
+資本 = 1000万VND：
+---
+株式A 1,000株（価格10,000 VND/株）
+---
+CW 5,000株購入（原資産：A、価格2,000 VND/CW、行使比率1：1、行使価格10,000 VND）
+---
+株式A：- 40%（損失10,000 – 6,000 = 4,000/ 株 x 1000 株）
+---
+CW：- 100%（権利購入費用1000万VNDの損失）
+---
+株式Aが6000に下落
+---
+株式Aが14000に上昇
+---
+レバレッジのメリット
+---
+レバレッジのリスク
+---
+同じ原資産の変動幅で、CWは原資産への直接投資よりも大きな利益（損失）効果を生み出す
+---
+CWのマネーネスの状態
+---
+20
+---
+www.hsx.vn
+---
+S：現物市場における原資産価格
+---
+X：権利行使時の原資産価格
+---
+www.hsx.vn
+---
+21
+---
+コールワラントの価格構造
+---
+原資産価格
+---
+CW価格
+---
+現在価格と行使価格の差
+---
+＜本質的価値＞
+---
+評価しやすく、直感的に理解できる
+---
+CWが将来行使する可能性のある価値
+---
+この価値はCWの満期時に失われる
+
+2025-04-13 15:13:06,675 - INFO - === End Response ===
+
+2025-04-13 15:13:06,675 - INFO - === Parsed Translations ===
+2025-04-13 15:13:06,675 - INFO - Text 1:
+2025-04-13 15:13:06,675 - INFO - Original: 19
+2025-04-13 15:13:06,675 - INFO - Translated: 19
+2025-04-13 15:13:06,675 - INFO - ---
+2025-04-13 15:13:06,675 - INFO - Text 2:
+2025-04-13 15:13:06,675 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:06,675 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:06,675 - INFO - ---
+2025-04-13 15:13:06,675 - INFO - Text 3:
+2025-04-13 15:13:06,675 - INFO - Original: Tính đòn bẩy của CW
+2025-04-13 15:13:06,675 - INFO - Translated: CWのレバレッジ効果の計算
+2025-04-13 15:13:06,675 - INFO - ---
+2025-04-13 15:13:06,675 - INFO - Text 4:
+2025-04-13 15:13:06,675 - INFO - Original: Cổ phiếu A: 40% (lãi 14.000 -10.000= 4.000 / cổ phiếu x 1000 CP)
+2025-04-13 15:13:06,675 - INFO - Translated: 株式A：40%（利益14,000 - 10,000 = 4,000 / 株 x 1000 株）
+2025-04-13 15:13:06,676 - INFO - ---
+2025-04-13 15:13:06,676 - INFO - Text 5:
+2025-04-13 15:13:06,676 - INFO - Original: CW : 100% (lãi 14.000 – 10.000 – 2.000 = 2.000 đồng/CW x 5.000 CW)
+2025-04-13 15:13:06,676 - INFO - Translated: CW：100%（利益14,000 – 10,000 – 2,000 = 2,000 VND/CW x 5,000 CW）
+2025-04-13 15:13:06,676 - INFO - ---
+2025-04-13 15:13:06,676 - INFO - Text 6:
+2025-04-13 15:13:06,676 - INFO - Original: Vốn = 10 triệu đồng:
+2025-04-13 15:13:06,676 - INFO - Translated: 資本 = 1000万VND：
+2025-04-13 15:13:06,676 - INFO - ---
+2025-04-13 15:13:06,676 - INFO - Text 7:
+2025-04-13 15:13:06,676 - INFO - Original: 1.000 cổ phiếu A (giá 10.000 /CP)
+2025-04-13 15:13:06,676 - INFO - Translated: 株式A 1,000株（価格10,000 VND/株）
+2025-04-13 15:13:06,676 - INFO - ---
+2025-04-13 15:13:06,676 - INFO - Text 8:
+2025-04-13 15:13:06,676 - INFO - Original: 5.000 CW mua (CKCS: A, giá 2.000/CW, tỷ lệ thực hiện 1:1,  giá thực hiện 10.000 đồng)
+2025-04-13 15:13:06,676 - INFO - Translated: CW 5,000株購入（原資産：A、価格2,000 VND/CW、行使比率1：1、行使価格10,000 VND）
+2025-04-13 15:13:06,676 - INFO - ---
+2025-04-13 15:13:06,676 - INFO - Text 9:
+2025-04-13 15:13:06,676 - INFO - Original: Cổ phiếu A: - 40 % (Lỗ 10.000 – 6.000 = 4.000/ cổ phiếu x 1000 CP)
+2025-04-13 15:13:06,676 - INFO - Translated: 株式A：- 40%（損失10,000 – 6,000 = 4,000/ 株 x 1000 株）
+2025-04-13 15:13:06,676 - INFO - ---
+2025-04-13 15:13:06,676 - INFO - Text 10:
+2025-04-13 15:13:06,676 - INFO - Original: CW: - 100% (Lỗ phí  mua quyền 10 triệu)
+2025-04-13 15:13:06,676 - INFO - Translated: CW：- 100%（権利購入費用1000万VNDの損失）
+2025-04-13 15:13:06,676 - INFO - ---
+2025-04-13 15:13:06,676 - INFO - Text 11:
+2025-04-13 15:13:06,676 - INFO - Original: CP A  giảm giá xuống 6000
+2025-04-13 15:13:06,676 - INFO - Translated: 株式Aが6000に下落
+2025-04-13 15:13:06,676 - INFO - ---
+2025-04-13 15:13:06,676 - INFO - Text 12:
+2025-04-13 15:13:06,676 - INFO - Original: CP A  tăng giá lên 14000
+2025-04-13 15:13:06,676 - INFO - Translated: 株式Aが14000に上昇
+2025-04-13 15:13:06,676 - INFO - ---
+2025-04-13 15:13:06,676 - INFO - Text 13:
+2025-04-13 15:13:06,676 - INFO - Original: Lợi ích đòn bẩy
+2025-04-13 15:13:06,676 - INFO - Translated: レバレッジのメリット
+2025-04-13 15:13:06,676 - INFO - ---
+2025-04-13 15:13:06,676 - INFO - Text 14:
+2025-04-13 15:13:06,676 - INFO - Original: Rủi ro đòn bẩy
+2025-04-13 15:13:06,676 - INFO - Translated: レバレッジのリスク
+2025-04-13 15:13:06,676 - INFO - ---
+2025-04-13 15:13:06,676 - INFO - Text 15:
+2025-04-13 15:13:06,676 - INFO - Original: Với cùng mức biến động CKCS , CW tạo hiệu ứng lãi (lỗ) trên khoản đầu tư lớn hơn so với đầu tư CKCS trực tiếp
+2025-04-13 15:13:06,676 - INFO - Translated: 同じ原資産の変動幅で、CWは原資産への直接投資よりも大きな利益（損失）効果を生み出す
+2025-04-13 15:13:06,676 - INFO - ---
+2025-04-13 15:13:06,676 - INFO - Text 16:
+2025-04-13 15:13:06,677 - INFO - Original: Các trạng thái moneyness của CW
+2025-04-13 15:13:06,677 - INFO - Translated: CWのマネーネスの状態
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,677 - INFO - Text 17:
+2025-04-13 15:13:06,677 - INFO - Original: 20
+2025-04-13 15:13:06,677 - INFO - Translated: 20
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,677 - INFO - Text 18:
+2025-04-13 15:13:06,677 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:06,677 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,677 - INFO - Text 19:
+2025-04-13 15:13:06,677 - INFO - Original: S: Giá CKCS trên thị trường giao ngay
+2025-04-13 15:13:06,677 - INFO - Translated: S：現物市場における原資産価格
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,677 - INFO - Text 20:
+2025-04-13 15:13:06,677 - INFO - Original: X: Giá CKCS khi thực hiện quyền
+2025-04-13 15:13:06,677 - INFO - Translated: X：権利行使時の原資産価格
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,677 - INFO - Text 21:
+2025-04-13 15:13:06,677 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:06,677 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,677 - INFO - Text 22:
+2025-04-13 15:13:06,677 - INFO - Original: 21
+2025-04-13 15:13:06,677 - INFO - Translated: 21
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,677 - INFO - Text 23:
+2025-04-13 15:13:06,677 - INFO - Original: Cấu trúc giá CW mua
+2025-04-13 15:13:06,677 - INFO - Translated: コールワラントの価格構造
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,677 - INFO - Text 24:
+2025-04-13 15:13:06,677 - INFO - Original: Giá CKCS
+2025-04-13 15:13:06,677 - INFO - Translated: 原資産価格
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,677 - INFO - Text 25:
+2025-04-13 15:13:06,677 - INFO - Original: Giá CW
+2025-04-13 15:13:06,677 - INFO - Translated: CW価格
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,677 - INFO - Text 26:
+2025-04-13 15:13:06,677 - INFO - Original: Chênh lệch giữa giá hiện hành và giá thực hiện
+2025-04-13 15:13:06,677 - INFO - Translated: 現在価格と行使価格の差
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,677 - INFO - Text 27:
+2025-04-13 15:13:06,677 - INFO - Original: <Giá trị thực>
+2025-04-13 15:13:06,677 - INFO - Translated: ＜本質的価値＞
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,677 - INFO - Text 28:
+2025-04-13 15:13:06,677 - INFO - Original: Dễ định giá và có thể thấy bằng trực giác
+2025-04-13 15:13:06,677 - INFO - Translated: 評価しやすく、直感的に理解できる
+2025-04-13 15:13:06,677 - INFO - ---
+2025-04-13 15:13:06,678 - INFO - Text 29:
+2025-04-13 15:13:06,678 - INFO - Original: Giá trị có thể mà CW sẽ thực hiện trong tương lai
+2025-04-13 15:13:06,678 - INFO - Translated: CWが将来行使する可能性のある価値
+2025-04-13 15:13:06,678 - INFO - ---
+2025-04-13 15:13:06,678 - INFO - Text 30:
+2025-04-13 15:13:06,678 - INFO - Original: Giá trị này mất đi khi CW đáo hạn
+2025-04-13 15:13:06,678 - INFO - Translated: この価値はCWの満期時に失われる
+2025-04-13 15:13:06,678 - INFO - ---
+2025-04-13 15:13:06,678 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:13:08,684 - INFO - Translating batch 9/15 (size: 30 texts)
+2025-04-13 15:13:08,685 - INFO - === Translation Request ===
+2025-04-13 15:13:08,685 - INFO - Text 1: <Giá trị thời gian>
+2025-04-13 15:13:08,685 - INFO - Text 2: Khó để định giá
+2025-04-13 15:13:08,685 - INFO - Text 3: //
+2025-04-13 15:13:08,685 - INFO - Text 4: //
+2025-04-13 15:13:08,685 - INFO - Text 5: Giá thựchiện
+2025-04-13 15:13:08,685 - INFO - Text 6: Giá hiệnhành
+2025-04-13 15:13:08,685 - INFO - Text 7: Cấu trúc giá của CW
+2025-04-13 15:13:08,685 - INFO - Text 8: Nguồn: KRX
+2025-04-13 15:13:08,685 - INFO - Text 9: Các yếu tố ảnh hưởng đến giá CW
+2025-04-13 15:13:08,685 - INFO - Text 10: 22
+2025-04-13 15:13:08,685 - INFO - Text 11: Hệ thống định giá CW
+2025-04-13 15:13:08,685 - INFO - Text 12: Giá chứng khoán cơ sở
+2025-04-13 15:13:08,685 - INFO - Text 13: Giá thực hiện quyền
+2025-04-13 15:13:08,685 - INFO - Text 14: Thời gian đến khi đáo hạn
+2025-04-13 15:13:08,685 - INFO - Text 15: Lãi suất phi rủi ro
+2025-04-13 15:13:08,685 - INFO - Text 16: Độ biến động
+2025-04-13 15:13:08,685 - INFO - Text 17: Cổ tức
+2025-04-13 15:13:08,685 - INFO - Text 18: Phí CW(Giá trị thời gian vàgiá trị thực)
+2025-04-13 15:13:08,685 - INFO - Text 19: Hệ thống định giá
+2025-04-13 15:13:08,685 - INFO - Text 20: (Mô hình định giá ;
+2025-04-13 15:13:08,685 - INFO - Text 21: Black Scholes)
+2025-04-13 15:13:08,686 - INFO - Text 22: LP
+2025-04-13 15:13:08,686 - INFO - Text 23: Quotes
+2025-04-13 15:13:08,686 - INFO - Text 24: Nguồn: KRX
+2025-04-13 15:13:08,686 - INFO - Text 25: Các yếu tố ảnh hướng đến giá CW (tt)
+2025-04-13 15:13:08,686 - INFO - Text 26: 23
+2025-04-13 15:13:08,686 - INFO - Text 27: www.hsx.vn
+2025-04-13 15:13:08,686 - INFO - Text 28: Yếu tố ảnh hưởng
+2025-04-13 15:13:08,686 - INFO - Text 29: Giá CW mua
+2025-04-13 15:13:08,686 - INFO - Text 30: Giá CW bán
+2025-04-13 15:13:08,686 - INFO - === End Request ===
+
+2025-04-13 15:13:10,508 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:13:10,509 - INFO - === Translation Response ===
+2025-04-13 15:13:10,509 - INFO - Raw response: <時間価値>
+---
+評価は難しい
+---
+//
+---
+//
+---
+行使価格
+---
+現在価格
+---
+CWの価格構造
+---
+出典: KRX
+---
+CW価格に影響を与える要因
+---
+22
+---
+CW価格決定システム
+---
+原資産価格
+---
+行使価格
+---
+満期までの期間
+---
+無リスク金利
+---
+ボラティリティ
+---
+配当
+---
+CW手数料(時間価値と本質的価値)
+---
+価格決定システム
+---
+(価格決定モデル;
+---
+ブラックショールズ)
+---
+LP
+---
+Quotes
+---
+出典: KRX
+---
+CW価格に影響を与える要因（続き）
+---
+23
+---
+www.hsx.vn
+---
+影響要因
+---
+CW買値
+---
+CW売値
+
+2025-04-13 15:13:10,509 - INFO - === End Response ===
+
+2025-04-13 15:13:10,509 - INFO - === Parsed Translations ===
+2025-04-13 15:13:10,509 - INFO - Text 1:
+2025-04-13 15:13:10,509 - INFO - Original: <Giá trị thời gian>
+2025-04-13 15:13:10,509 - INFO - Translated: <時間価値>
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 2:
+2025-04-13 15:13:10,509 - INFO - Original: Khó để định giá
+2025-04-13 15:13:10,509 - INFO - Translated: 評価は難しい
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 3:
+2025-04-13 15:13:10,509 - INFO - Original: //
+2025-04-13 15:13:10,509 - INFO - Translated: //
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 4:
+2025-04-13 15:13:10,509 - INFO - Original: //
+2025-04-13 15:13:10,509 - INFO - Translated: //
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 5:
+2025-04-13 15:13:10,509 - INFO - Original: Giá thựchiện
+2025-04-13 15:13:10,509 - INFO - Translated: 行使価格
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 6:
+2025-04-13 15:13:10,509 - INFO - Original: Giá hiệnhành
+2025-04-13 15:13:10,509 - INFO - Translated: 現在価格
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 7:
+2025-04-13 15:13:10,509 - INFO - Original: Cấu trúc giá của CW
+2025-04-13 15:13:10,509 - INFO - Translated: CWの価格構造
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 8:
+2025-04-13 15:13:10,509 - INFO - Original: Nguồn: KRX
+2025-04-13 15:13:10,509 - INFO - Translated: 出典: KRX
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 9:
+2025-04-13 15:13:10,509 - INFO - Original: Các yếu tố ảnh hưởng đến giá CW
+2025-04-13 15:13:10,509 - INFO - Translated: CW価格に影響を与える要因
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 10:
+2025-04-13 15:13:10,509 - INFO - Original: 22
+2025-04-13 15:13:10,509 - INFO - Translated: 22
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 11:
+2025-04-13 15:13:10,509 - INFO - Original: Hệ thống định giá CW
+2025-04-13 15:13:10,509 - INFO - Translated: CW価格決定システム
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 12:
+2025-04-13 15:13:10,509 - INFO - Original: Giá chứng khoán cơ sở
+2025-04-13 15:13:10,509 - INFO - Translated: 原資産価格
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 13:
+2025-04-13 15:13:10,509 - INFO - Original: Giá thực hiện quyền
+2025-04-13 15:13:10,509 - INFO - Translated: 行使価格
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 14:
+2025-04-13 15:13:10,509 - INFO - Original: Thời gian đến khi đáo hạn
+2025-04-13 15:13:10,509 - INFO - Translated: 満期までの期間
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 15:
+2025-04-13 15:13:10,509 - INFO - Original: Lãi suất phi rủi ro
+2025-04-13 15:13:10,509 - INFO - Translated: 無リスク金利
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 16:
+2025-04-13 15:13:10,509 - INFO - Original: Độ biến động
+2025-04-13 15:13:10,509 - INFO - Translated: ボラティリティ
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,509 - INFO - Text 17:
+2025-04-13 15:13:10,509 - INFO - Original: Cổ tức
+2025-04-13 15:13:10,509 - INFO - Translated: 配当
+2025-04-13 15:13:10,509 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 18:
+2025-04-13 15:13:10,510 - INFO - Original: Phí CW(Giá trị thời gian vàgiá trị thực)
+2025-04-13 15:13:10,510 - INFO - Translated: CW手数料(時間価値と本質的価値)
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 19:
+2025-04-13 15:13:10,510 - INFO - Original: Hệ thống định giá
+2025-04-13 15:13:10,510 - INFO - Translated: 価格決定システム
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 20:
+2025-04-13 15:13:10,510 - INFO - Original: (Mô hình định giá ;
+2025-04-13 15:13:10,510 - INFO - Translated: (価格決定モデル;
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 21:
+2025-04-13 15:13:10,510 - INFO - Original: Black Scholes)
+2025-04-13 15:13:10,510 - INFO - Translated: ブラックショールズ)
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 22:
+2025-04-13 15:13:10,510 - INFO - Original: LP
+2025-04-13 15:13:10,510 - INFO - Translated: LP
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 23:
+2025-04-13 15:13:10,510 - INFO - Original: Quotes
+2025-04-13 15:13:10,510 - INFO - Translated: Quotes
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 24:
+2025-04-13 15:13:10,510 - INFO - Original: Nguồn: KRX
+2025-04-13 15:13:10,510 - INFO - Translated: 出典: KRX
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 25:
+2025-04-13 15:13:10,510 - INFO - Original: Các yếu tố ảnh hướng đến giá CW (tt)
+2025-04-13 15:13:10,510 - INFO - Translated: CW価格に影響を与える要因（続き）
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 26:
+2025-04-13 15:13:10,510 - INFO - Original: 23
+2025-04-13 15:13:10,510 - INFO - Translated: 23
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 27:
+2025-04-13 15:13:10,510 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:10,510 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 28:
+2025-04-13 15:13:10,510 - INFO - Original: Yếu tố ảnh hưởng
+2025-04-13 15:13:10,510 - INFO - Translated: 影響要因
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 29:
+2025-04-13 15:13:10,510 - INFO - Original: Giá CW mua
+2025-04-13 15:13:10,510 - INFO - Translated: CW買値
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - Text 30:
+2025-04-13 15:13:10,510 - INFO - Original: Giá CW bán
+2025-04-13 15:13:10,510 - INFO - Translated: CW売値
+2025-04-13 15:13:10,510 - INFO - ---
+2025-04-13 15:13:10,510 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:13:12,516 - INFO - Translating batch 10/15 (size: 30 texts)
+2025-04-13 15:13:12,516 - INFO - === Translation Request ===
+2025-04-13 15:13:12,516 - INFO - Text 1: Giá của CKCS
+2025-04-13 15:13:12,516 - INFO - Text 2: Giá thực hiện quyền
+2025-04-13 15:13:12,516 - INFO - Text 3: Thời gian đến khi đáo hạn
+2025-04-13 15:13:12,517 - INFO - Text 4: Độ biến động giá CKCS
+2025-04-13 15:13:12,517 - INFO - Text 5: Lãi suất
+2025-04-13 15:13:12,517 - INFO - Text 6: Biến động cùng chiều
+2025-04-13 15:13:12,517 - INFO - Text 7: Biến động ngược chiều
+2025-04-13 15:13:12,517 - INFO - Text 8: C. MỘT SỐ QUY ĐỊNH  VỀ CW
+2025-04-13 15:13:12,517 - INFO - Text 9: 24
+2025-04-13 15:13:12,517 - INFO - Text 10: www.hsx.vn
+2025-04-13 15:13:12,517 - INFO - Text 11: Các khâu nghiệp vụ của CW
+2025-04-13 15:13:12,517 - INFO - Text 12: 25
+2025-04-13 15:13:12,517 - INFO - Text 13: www.hsx.vn
+2025-04-13 15:13:12,517 - INFO - Text 14: Chào bán
+2025-04-13 15:13:12,517 - INFO - Text 15: Niêm yết
+2025-04-13 15:13:12,517 - INFO - Text 16: Giao dịch trên sàn
+2025-04-13 15:13:12,517 - INFO - Text 17: Thanh toán giao dịch
+2025-04-13 15:13:12,517 - INFO - Text 18: Thực hiện quyền và thanh toán thực hiện quyền
+2025-04-13 15:13:12,517 - INFO - Text 19: Điều kiện trở thành tổ chức phát hành CW
+2025-04-13 15:13:12,518 - INFO - Text 20: 26
+2025-04-13 15:13:12,518 - INFO - Text 21: www.hsx.vn
+2025-04-13 15:13:12,518 - INFO - Text 22: Vốn điều lệ và CSH tối thiểu 1.000 tỷ đồng;
+2025-04-13 15:13:12,518 - INFO - Text 23: Không có lỗ lũy kế;
+2025-04-13 15:13:12,518 - INFO - Text 24: Được cấp phép đầy đủ các nghiệp vụ KDCK;
+2025-04-13 15:13:12,518 - INFO - Text 25: Không bị cảnh báo, tạm ngừng, đình chỉ hoạt động hoặc trong quá trình hợp nhất, sáp nhập, giải thể, phá sản;
+2025-04-13 15:13:12,518 - INFO - Text 26: BCTC kiểm toán không có ý kiến ngoại trừ;
+2025-04-13 15:13:12,518 - INFO - Text 27: Chào bán và phân phối CW
+2025-04-13 15:13:12,518 - INFO - Text 28: 27
+2025-04-13 15:13:12,518 - INFO - Text 29: ① Chào bán và niêm yết CW
+2025-04-13 15:13:12,518 - INFO - Text 30: Nhà đầu tư
+2025-04-13 15:13:12,518 - INFO - === End Request ===
+
+2025-04-13 15:13:14,636 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:13:14,637 - INFO - === Translation Response ===
+2025-04-13 15:13:14,638 - INFO - Raw response: CKCSの価格
+---
+権利行使価格
+---
+満期までの期間
+---
+CKCSの価格変動性
+---
+金利
+---
+連動性
+---
+逆連動性
+---
+C. CWに関するいくつかの規定
+---
+24
+---
+www.hsx.vn
+---
+CWの業務フロー
+---
+25
+---
+www.hsx.vn
+---
+公募
+---
+上場
+---
+市場での取引
+---
+取引決済
+---
+権利行使と権利行使決済
+---
+CW発行体になるための条件
+---
+26
+---
+www.hsx.vn
+---
+資本金と株主資本が最低1兆ドンであること。
+---
+累積損失がないこと。
+---
+証券業務のすべての業務許可を得ていること。
+---
+警告、活動の一時停止、停止を受けていないこと、または合併、統合、解散、破産の過程にないこと。
+---
+監査済み財務諸表に限定意見がないこと。
+---
+CWの公募と販売
+---
+27
+---
+① CWの公募と上場
+---
+投資家
+
+2025-04-13 15:13:14,638 - INFO - === End Response ===
+
+2025-04-13 15:13:14,638 - INFO - === Parsed Translations ===
+2025-04-13 15:13:14,638 - INFO - Text 1:
+2025-04-13 15:13:14,638 - INFO - Original: Giá của CKCS
+2025-04-13 15:13:14,638 - INFO - Translated: CKCSの価格
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 2:
+2025-04-13 15:13:14,638 - INFO - Original: Giá thực hiện quyền
+2025-04-13 15:13:14,638 - INFO - Translated: 権利行使価格
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 3:
+2025-04-13 15:13:14,638 - INFO - Original: Thời gian đến khi đáo hạn
+2025-04-13 15:13:14,638 - INFO - Translated: 満期までの期間
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 4:
+2025-04-13 15:13:14,638 - INFO - Original: Độ biến động giá CKCS
+2025-04-13 15:13:14,638 - INFO - Translated: CKCSの価格変動性
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 5:
+2025-04-13 15:13:14,638 - INFO - Original: Lãi suất
+2025-04-13 15:13:14,638 - INFO - Translated: 金利
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 6:
+2025-04-13 15:13:14,638 - INFO - Original: Biến động cùng chiều
+2025-04-13 15:13:14,638 - INFO - Translated: 連動性
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 7:
+2025-04-13 15:13:14,638 - INFO - Original: Biến động ngược chiều
+2025-04-13 15:13:14,638 - INFO - Translated: 逆連動性
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 8:
+2025-04-13 15:13:14,638 - INFO - Original: C. MỘT SỐ QUY ĐỊNH  VỀ CW
+2025-04-13 15:13:14,638 - INFO - Translated: C. CWに関するいくつかの規定
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 9:
+2025-04-13 15:13:14,638 - INFO - Original: 24
+2025-04-13 15:13:14,638 - INFO - Translated: 24
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 10:
+2025-04-13 15:13:14,638 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:14,638 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 11:
+2025-04-13 15:13:14,638 - INFO - Original: Các khâu nghiệp vụ của CW
+2025-04-13 15:13:14,638 - INFO - Translated: CWの業務フロー
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 12:
+2025-04-13 15:13:14,638 - INFO - Original: 25
+2025-04-13 15:13:14,638 - INFO - Translated: 25
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 13:
+2025-04-13 15:13:14,638 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:14,638 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,638 - INFO - Text 14:
+2025-04-13 15:13:14,638 - INFO - Original: Chào bán
+2025-04-13 15:13:14,638 - INFO - Translated: 公募
+2025-04-13 15:13:14,638 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 15:
+2025-04-13 15:13:14,639 - INFO - Original: Niêm yết
+2025-04-13 15:13:14,639 - INFO - Translated: 上場
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 16:
+2025-04-13 15:13:14,639 - INFO - Original: Giao dịch trên sàn
+2025-04-13 15:13:14,639 - INFO - Translated: 市場での取引
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 17:
+2025-04-13 15:13:14,639 - INFO - Original: Thanh toán giao dịch
+2025-04-13 15:13:14,639 - INFO - Translated: 取引決済
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 18:
+2025-04-13 15:13:14,639 - INFO - Original: Thực hiện quyền và thanh toán thực hiện quyền
+2025-04-13 15:13:14,639 - INFO - Translated: 権利行使と権利行使決済
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 19:
+2025-04-13 15:13:14,639 - INFO - Original: Điều kiện trở thành tổ chức phát hành CW
+2025-04-13 15:13:14,639 - INFO - Translated: CW発行体になるための条件
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 20:
+2025-04-13 15:13:14,639 - INFO - Original: 26
+2025-04-13 15:13:14,639 - INFO - Translated: 26
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 21:
+2025-04-13 15:13:14,639 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:14,639 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 22:
+2025-04-13 15:13:14,639 - INFO - Original: Vốn điều lệ và CSH tối thiểu 1.000 tỷ đồng;
+2025-04-13 15:13:14,639 - INFO - Translated: 資本金と株主資本が最低1兆ドンであること。
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 23:
+2025-04-13 15:13:14,639 - INFO - Original: Không có lỗ lũy kế;
+2025-04-13 15:13:14,639 - INFO - Translated: 累積損失がないこと。
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 24:
+2025-04-13 15:13:14,639 - INFO - Original: Được cấp phép đầy đủ các nghiệp vụ KDCK;
+2025-04-13 15:13:14,639 - INFO - Translated: 証券業務のすべての業務許可を得ていること。
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 25:
+2025-04-13 15:13:14,639 - INFO - Original: Không bị cảnh báo, tạm ngừng, đình chỉ hoạt động hoặc trong quá trình hợp nhất, sáp nhập, giải thể, phá sản;
+2025-04-13 15:13:14,639 - INFO - Translated: 警告、活動の一時停止、停止を受けていないこと、または合併、統合、解散、破産の過程にないこと。
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 26:
+2025-04-13 15:13:14,639 - INFO - Original: BCTC kiểm toán không có ý kiến ngoại trừ;
+2025-04-13 15:13:14,639 - INFO - Translated: 監査済み財務諸表に限定意見がないこと。
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 27:
+2025-04-13 15:13:14,639 - INFO - Original: Chào bán và phân phối CW
+2025-04-13 15:13:14,639 - INFO - Translated: CWの公募と販売
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 28:
+2025-04-13 15:13:14,639 - INFO - Original: 27
+2025-04-13 15:13:14,639 - INFO - Translated: 27
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 29:
+2025-04-13 15:13:14,639 - INFO - Original: ① Chào bán và niêm yết CW
+2025-04-13 15:13:14,639 - INFO - Translated: ① CWの公募と上場
+2025-04-13 15:13:14,639 - INFO - ---
+2025-04-13 15:13:14,639 - INFO - Text 30:
+2025-04-13 15:13:14,640 - INFO - Original: Nhà đầu tư
+2025-04-13 15:13:14,640 - INFO - Translated: 投資家
+2025-04-13 15:13:14,640 - INFO - ---
+2025-04-13 15:13:14,640 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:13:16,643 - INFO - Translating batch 11/15 (size: 30 texts)
+2025-04-13 15:13:16,643 - INFO - === Translation Request ===
+2025-04-13 15:13:16,643 - INFO - Text 1: Tổ chức phát hành ( kiêm LP)
+2025-04-13 15:13:16,643 - INFO - Text 2: ② Phân phối
+2025-04-13 15:13:16,643 - INFO - Text 3: ③ Giao dịch
+2025-04-13 15:13:16,643 - INFO - Text 4: Nhà đầu tư
+2025-04-13 15:13:16,643 - INFO - Text 5: ⑤ Giao dịch
+2025-04-13 15:13:16,643 - INFO - Text 6: Thị trường cổ phiếu và Thị trường phái sinh
+2025-04-13 15:13:16,643 - INFO - Text 7: ④ Phòng ngừa rủi ro (Hedging)
+2025-04-13 15:13:16,643 - INFO - Text 8: Ví dụ:  Tổng SL đăng ký phát hành của đợt: 5 triệu CW
+2025-04-13 15:13:16,643 - INFO - Text 9: SL chào bán được cho NĐT trước khi NY: 1 triệu CW
+2025-04-13 15:13:16,643 - INFO - Text 10: SL chào bán thông qua direct listing: 4 triệu CW
+2025-04-13 15:13:16,643 - INFO - Text 11: 28
+2025-04-13 15:13:16,643 - INFO - Text 12: www.hsx.vn
+2025-04-13 15:13:16,643 - INFO - Text 13: Chào bán 5 triệu
+2025-04-13 15:13:16,643 - INFO - Text 14: Phát hành
+2025-04-13 15:13:16,643 - INFO - Text 15: 5 triệu
+2025-04-13 15:13:16,643 - INFO - Text 16: Niêm yết 5 triệu
+2025-04-13 15:13:16,643 - INFO - Text 17: Giao dịch trên Sở
+2025-04-13 15:13:16,643 - INFO - Text 18: Nhà đầu tư
+2025-04-13 15:13:16,643 - INFO - Text 19: Tài khoản tự doanh của CTCK
+2025-04-13 15:13:16,643 - INFO - Text 20: 4 triệu
+2025-04-13 15:13:16,643 - INFO - Text 21: Đăng ký/
+2025-04-13 15:13:16,643 - INFO - Text 22: Lưu ký
+2025-04-13 15:13:16,643 - INFO - Text 23: 5 triệu
+2025-04-13 15:13:16,643 - INFO - Text 24: 1 triệu
+2025-04-13 15:13:16,643 - INFO - Text 25: Quote chào bán theo nghĩa vụ LP
+2025-04-13 15:13:16,643 - INFO - Text 26: Đặt lệnh bán
+2025-04-13 15:13:16,643 - INFO - Text 27: Direct listing
+2025-04-13 15:13:16,644 - INFO - Text 28: Niêm yết trực tiếp (Direct listing)
+2025-04-13 15:13:16,644 - INFO - Text 29: Giao dịch CW trên thị trường thứ cấp
+2025-04-13 15:13:16,644 - INFO - Text 30: 29
+2025-04-13 15:13:16,644 - INFO - === End Request ===
+
+2025-04-13 15:13:18,776 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:13:18,777 - INFO - === Translation Response ===
+2025-04-13 15:13:18,777 - INFO - Raw response: 発行体（兼LP）
+---
+② 分配
+---
+③ 取引
+---
+投資家
+---
+⑤ 取引
+---
+株式市場とデリバティブ市場
+---
+④ リスクヘッジ（ヘッジ）
+---
+例：今回の発行登録総数：500万CW
+---
+NY前に投資家に販売されるSL：100万CW
+---
+直接上場を通じて販売されるSL：400万CW
+---
+28
+---
+www.hsx.vn
+---
+500万の販売
+---
+発行
+---
+500万
+---
+500万上場
+---
+取引所での取引
+---
+投資家
+---
+証券会社の自己勘定口座
+---
+400万
+---
+登録/
+---
+保管
+---
+500万
+---
+100万
+---
+LP義務に従った販売クォート
+---
+売り注文を出す
+---
+直接上場
+---
+直接上場（Direct listing）
+---
+セカンダリーマーケットでのCW取引
+---
+29
+
+2025-04-13 15:13:18,777 - INFO - === End Response ===
+
+2025-04-13 15:13:18,777 - INFO - === Parsed Translations ===
+2025-04-13 15:13:18,777 - INFO - Text 1:
+2025-04-13 15:13:18,777 - INFO - Original: Tổ chức phát hành ( kiêm LP)
+2025-04-13 15:13:18,777 - INFO - Translated: 発行体（兼LP）
+2025-04-13 15:13:18,777 - INFO - ---
+2025-04-13 15:13:18,777 - INFO - Text 2:
+2025-04-13 15:13:18,777 - INFO - Original: ② Phân phối
+2025-04-13 15:13:18,777 - INFO - Translated: ② 分配
+2025-04-13 15:13:18,777 - INFO - ---
+2025-04-13 15:13:18,777 - INFO - Text 3:
+2025-04-13 15:13:18,777 - INFO - Original: ③ Giao dịch
+2025-04-13 15:13:18,777 - INFO - Translated: ③ 取引
+2025-04-13 15:13:18,777 - INFO - ---
+2025-04-13 15:13:18,777 - INFO - Text 4:
+2025-04-13 15:13:18,777 - INFO - Original: Nhà đầu tư
+2025-04-13 15:13:18,777 - INFO - Translated: 投資家
+2025-04-13 15:13:18,777 - INFO - ---
+2025-04-13 15:13:18,777 - INFO - Text 5:
+2025-04-13 15:13:18,777 - INFO - Original: ⑤ Giao dịch
+2025-04-13 15:13:18,777 - INFO - Translated: ⑤ 取引
+2025-04-13 15:13:18,777 - INFO - ---
+2025-04-13 15:13:18,777 - INFO - Text 6:
+2025-04-13 15:13:18,777 - INFO - Original: Thị trường cổ phiếu và Thị trường phái sinh
+2025-04-13 15:13:18,777 - INFO - Translated: 株式市場とデリバティブ市場
+2025-04-13 15:13:18,777 - INFO - ---
+2025-04-13 15:13:18,777 - INFO - Text 7:
+2025-04-13 15:13:18,777 - INFO - Original: ④ Phòng ngừa rủi ro (Hedging)
+2025-04-13 15:13:18,777 - INFO - Translated: ④ リスクヘッジ（ヘッジ）
+2025-04-13 15:13:18,777 - INFO - ---
+2025-04-13 15:13:18,777 - INFO - Text 8:
+2025-04-13 15:13:18,777 - INFO - Original: Ví dụ:  Tổng SL đăng ký phát hành của đợt: 5 triệu CW
+2025-04-13 15:13:18,777 - INFO - Translated: 例：今回の発行登録総数：500万CW
+2025-04-13 15:13:18,777 - INFO - ---
+2025-04-13 15:13:18,777 - INFO - Text 9:
+2025-04-13 15:13:18,777 - INFO - Original: SL chào bán được cho NĐT trước khi NY: 1 triệu CW
+2025-04-13 15:13:18,777 - INFO - Translated: NY前に投資家に販売されるSL：100万CW
+2025-04-13 15:13:18,777 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 10:
+2025-04-13 15:13:18,778 - INFO - Original: SL chào bán thông qua direct listing: 4 triệu CW
+2025-04-13 15:13:18,778 - INFO - Translated: 直接上場を通じて販売されるSL：400万CW
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 11:
+2025-04-13 15:13:18,778 - INFO - Original: 28
+2025-04-13 15:13:18,778 - INFO - Translated: 28
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 12:
+2025-04-13 15:13:18,778 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:18,778 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 13:
+2025-04-13 15:13:18,778 - INFO - Original: Chào bán 5 triệu
+2025-04-13 15:13:18,778 - INFO - Translated: 500万の販売
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 14:
+2025-04-13 15:13:18,778 - INFO - Original: Phát hành
+2025-04-13 15:13:18,778 - INFO - Translated: 発行
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 15:
+2025-04-13 15:13:18,778 - INFO - Original: 5 triệu
+2025-04-13 15:13:18,778 - INFO - Translated: 500万
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 16:
+2025-04-13 15:13:18,778 - INFO - Original: Niêm yết 5 triệu
+2025-04-13 15:13:18,778 - INFO - Translated: 500万上場
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 17:
+2025-04-13 15:13:18,778 - INFO - Original: Giao dịch trên Sở
+2025-04-13 15:13:18,778 - INFO - Translated: 取引所での取引
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 18:
+2025-04-13 15:13:18,778 - INFO - Original: Nhà đầu tư
+2025-04-13 15:13:18,778 - INFO - Translated: 投資家
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 19:
+2025-04-13 15:13:18,778 - INFO - Original: Tài khoản tự doanh của CTCK
+2025-04-13 15:13:18,778 - INFO - Translated: 証券会社の自己勘定口座
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 20:
+2025-04-13 15:13:18,778 - INFO - Original: 4 triệu
+2025-04-13 15:13:18,778 - INFO - Translated: 400万
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 21:
+2025-04-13 15:13:18,778 - INFO - Original: Đăng ký/
+2025-04-13 15:13:18,778 - INFO - Translated: 登録/
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 22:
+2025-04-13 15:13:18,778 - INFO - Original: Lưu ký
+2025-04-13 15:13:18,778 - INFO - Translated: 保管
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 23:
+2025-04-13 15:13:18,778 - INFO - Original: 5 triệu
+2025-04-13 15:13:18,778 - INFO - Translated: 500万
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 24:
+2025-04-13 15:13:18,778 - INFO - Original: 1 triệu
+2025-04-13 15:13:18,778 - INFO - Translated: 100万
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 25:
+2025-04-13 15:13:18,778 - INFO - Original: Quote chào bán theo nghĩa vụ LP
+2025-04-13 15:13:18,778 - INFO - Translated: LP義務に従った販売クォート
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 26:
+2025-04-13 15:13:18,778 - INFO - Original: Đặt lệnh bán
+2025-04-13 15:13:18,778 - INFO - Translated: 売り注文を出す
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 27:
+2025-04-13 15:13:18,778 - INFO - Original: Direct listing
+2025-04-13 15:13:18,778 - INFO - Translated: 直接上場
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 28:
+2025-04-13 15:13:18,778 - INFO - Original: Niêm yết trực tiếp (Direct listing)
+2025-04-13 15:13:18,778 - INFO - Translated: 直接上場（Direct listing）
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 29:
+2025-04-13 15:13:18,778 - INFO - Original: Giao dịch CW trên thị trường thứ cấp
+2025-04-13 15:13:18,778 - INFO - Translated: セカンダリーマーケットでのCW取引
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - Text 30:
+2025-04-13 15:13:18,778 - INFO - Original: 29
+2025-04-13 15:13:18,778 - INFO - Translated: 29
+2025-04-13 15:13:18,778 - INFO - ---
+2025-04-13 15:13:18,778 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:13:20,784 - INFO - Translating batch 12/15 (size: 30 texts)
+2025-04-13 15:13:20,784 - INFO - === Translation Request ===
+2025-04-13 15:13:20,784 - INFO - Text 1: www.hsx.vn
+2025-04-13 15:13:20,784 - INFO - Text 2: Thời gian
+2025-04-13 15:13:20,784 - INFO - Text 3: Phương thức giao dịch
+2025-04-13 15:13:20,784 - INFO - Text 4: Đơn vị giao dịch, yết giá
+2025-04-13 15:13:20,784 - INFO - Text 5: Chu kỳ thanh toán
+2025-04-13 15:13:20,784 - INFO - Text 6: Tương tự như cổ phiếu
+2025-04-13 15:13:20,784 - INFO - Text 7: Ngày giao dịch cuối cùng
+2025-04-13 15:13:20,785 - INFO - Text 8: Trước ngày đáo hạn của CW
+2025-04-13 15:13:20,785 - INFO - Text 9: Giá tham chiếu CW mua ngày giao dịch đầu tiên
+2025-04-13 15:13:20,785 - INFO - Text 10: Giá phát hành x (giá tham chiếu TSCS ngày giao dịch đầu tiên của CW / Giá tham chiếu TSCS ngày phát hành CW) x Tỷ lệ chuyển đổi ngày phát hành / tỷ lệ chuyển đổi ngày giao dịch đầu tiên
+2025-04-13 15:13:20,785 - INFO - Text 11: Giá phát hành x (giá đóng cửa chỉ số liền trước ngày giao dịch đầu tiên của CW / Giá đóng cửa chỉ số liền trước ngày phát hành CW) x Hệ số nhân ngày giao dịch đầu tiên / Hệ số nhân ngày phát hành
+2025-04-13 15:13:20,785 - INFO - Text 12: Giá tham chiếu CW bán ngày giao dịch đầu tiên
+2025-04-13 15:13:20,785 - INFO - Text 13: Giá phát hành x (giá tham chiếu TSCS ngày phát hành CW / Giá tham chiếu TSCS ngày giao dịch đầu tiên của CW) x Tỷ lệ chuyển đổi ngày giao dịch đầu tiên / tỷ lệ chuyển đổi ngày giao phát hành
+2025-04-13 15:13:20,785 - INFO - Text 14: Giá phát hành x (giá đóng cửa chỉ số liền trước ngày phát hành CW / Giá đóng cửa chỉ số liền trước ngày ngày giao dịch đầu tiên) x Hệ số nhân ngày phát hành / Hệ số nhân ngày giao dịch đầu tiên
+2025-04-13 15:13:20,785 - INFO - Text 15: Giao dịch CW trên thị trường thứ cấp (tt)
+2025-04-13 15:13:20,785 - INFO - Text 16: 30
+2025-04-13 15:13:20,785 - INFO - Text 17: www.hsx.vn
+2025-04-13 15:13:20,785 - INFO - Text 18: Giá trần = Giá tham chiếu CW + (giá trần TSCS – Giá tham chiếu của TSCS) x 1/Tỷ lệ chuyển đổi
+2025-04-13 15:13:20,785 - INFO - Text 19: Giá trần/sàn CW mua
+2025-04-13 15:13:20,785 - INFO - Text 20: Giá sàn = Giá tham chiếu CW – (giá tham chiếu TSCS – giá sàn TSCS) x 1/Tỷ lệ chuyển đổi
+2025-04-13 15:13:20,785 - INFO - Text 21: Tài sản cơ sở là cổ phiếu, ETF
+2025-04-13 15:13:20,786 - INFO - Text 22: Giá trần/sàn CW bán
+2025-04-13 15:13:20,786 - INFO - Text 23: Giá trần = Giá tham chiếu CW + (giá tham chiếu TSCS – giá sàn TSCS) x 1/Tỷ lệ chuyển đổi
+2025-04-13 15:13:20,786 - INFO - Text 24: Giá sàn = Giá tham chiếu CW – (giá trần TSCS – Giá tham chiếu TSCS) x 1/Tỷ lệ chuyển đổi
+2025-04-13 15:13:20,786 - INFO - Text 25: Tài sản cơ sở là chỉ số chứng khoán
+2025-04-13 15:13:20,786 - INFO - Text 26: Giá trần = Giá tham chiếu CW + (Giá đóng cửa chỉ số ngày giao dịch liền trước x Hệ số nhân x Biên độ dao động giá trần) x 1/Tỷ lệ chuyển đổi.
+2025-04-13 15:13:20,786 - INFO - Text 27: Giá trần/sàn CW mua
+2025-04-13 15:13:20,786 - INFO - Text 28: Giá sàn = Giá tham chiếu CW – (Giá đóng cửa chỉ số ngày giao dịch liền trước x Hệ số nhân x Biên độ dao động giá sàn) x 1/Tỷ lệ chuyển đổi.
+2025-04-13 15:13:20,786 - INFO - Text 29: Hạn chế giao dịch và sở hữu CW
+2025-04-13 15:13:20,786 - INFO - Text 30: Không được giao dịch ký quỹ
+2025-04-13 15:13:20,786 - INFO - === End Request ===
+
+2025-04-13 15:13:24,249 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:13:24,254 - INFO - === Translation Response ===
+2025-04-13 15:13:24,254 - INFO - Raw response: www.hsx.vn
+---
+時間
+---
+取引方法
+---
+取引単位、気配値
+---
+決済サイクル
+---
+株式と同様
+---
+最終取引日
+---
+CWの満期日の前日
+---
+最初の取引日のCW参照価格
+---
+発行価格 x (最初の取引日のCWのTSCS参照価格 / CW発行日のTSCS参照価格) x 発行日の転換率 / 最初の取引日の転換率
+---
+発行価格 x (最初の取引日の直前の指数の終値 / CW発行日の直前の指数の終値) x 最初の取引日の乗数 / 発行日の乗数
+---
+最初の取引日のCW売却参照価格
+---
+発行価格 x (CW発行日のTSCS参照価格 / 最初の取引日のTSCS参照価格) x 最初の取引日の転換率 / 発行日の転換率
+---
+発行価格 x (CW発行日の直前の指数の終値 / 最初の取引日の直前の指数の終値) x 発行日の乗数 / 最初の取引日の乗数
+---
+セカンダリー市場（tt）でのCW取引
+---
+30
+---
+www.hsx.vn
+---
+上限価格 = CW参照価格 + (TSCS上限価格 – TSCS参照価格) x 1/転換率
+---
+CW買い上限/下限価格
+---
+下限価格 = CW参照価格 – (TSCS参照価格 – TSCS下限価格) x 1/転換率
+---
+原資産は株式、ETF
+---
+CW売り上限/下限価格
+---
+上限価格 = CW参照価格 + (TSCS参照価格 – TSCS下限価格) x 1/転換率
+---
+下限価格 = CW参照価格 – (TSCS上限価格 – TSCS参照価格) x 1/転換率
+---
+原資産は株価指数
+---
+上限価格 = CW参照価格 + (直前の取引日の指数終値 x 乗数 x 上限価格変動幅) x 1/転換率
+---
+CW買い上限/下限価格
+---
+下限価格 = CW参照価格 – (直前の取引日の指数終値 x 乗数 x 下限価格変動幅) x 1/転換率
+---
+CWの取引と保有の制限
+---
+信用取引は不可
+
+2025-04-13 15:13:24,254 - INFO - === End Response ===
+
+2025-04-13 15:13:24,254 - INFO - === Parsed Translations ===
+2025-04-13 15:13:24,254 - INFO - Text 1:
+2025-04-13 15:13:24,254 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:24,254 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:24,254 - INFO - ---
+2025-04-13 15:13:24,254 - INFO - Text 2:
+2025-04-13 15:13:24,255 - INFO - Original: Thời gian
+2025-04-13 15:13:24,255 - INFO - Translated: 時間
+2025-04-13 15:13:24,255 - INFO - ---
+2025-04-13 15:13:24,255 - INFO - Text 3:
+2025-04-13 15:13:24,255 - INFO - Original: Phương thức giao dịch
+2025-04-13 15:13:24,255 - INFO - Translated: 取引方法
+2025-04-13 15:13:24,255 - INFO - ---
+2025-04-13 15:13:24,255 - INFO - Text 4:
+2025-04-13 15:13:24,255 - INFO - Original: Đơn vị giao dịch, yết giá
+2025-04-13 15:13:24,255 - INFO - Translated: 取引単位、気配値
+2025-04-13 15:13:24,255 - INFO - ---
+2025-04-13 15:13:24,255 - INFO - Text 5:
+2025-04-13 15:13:24,255 - INFO - Original: Chu kỳ thanh toán
+2025-04-13 15:13:24,255 - INFO - Translated: 決済サイクル
+2025-04-13 15:13:24,255 - INFO - ---
+2025-04-13 15:13:24,255 - INFO - Text 6:
+2025-04-13 15:13:24,255 - INFO - Original: Tương tự như cổ phiếu
+2025-04-13 15:13:24,255 - INFO - Translated: 株式と同様
+2025-04-13 15:13:24,255 - INFO - ---
+2025-04-13 15:13:24,255 - INFO - Text 7:
+2025-04-13 15:13:24,255 - INFO - Original: Ngày giao dịch cuối cùng
+2025-04-13 15:13:24,255 - INFO - Translated: 最終取引日
+2025-04-13 15:13:24,256 - INFO - ---
+2025-04-13 15:13:24,256 - INFO - Text 8:
+2025-04-13 15:13:24,256 - INFO - Original: Trước ngày đáo hạn của CW
+2025-04-13 15:13:24,256 - INFO - Translated: CWの満期日の前日
+2025-04-13 15:13:24,256 - INFO - ---
+2025-04-13 15:13:24,256 - INFO - Text 9:
+2025-04-13 15:13:24,256 - INFO - Original: Giá tham chiếu CW mua ngày giao dịch đầu tiên
+2025-04-13 15:13:24,256 - INFO - Translated: 最初の取引日のCW参照価格
+2025-04-13 15:13:24,256 - INFO - ---
+2025-04-13 15:13:24,256 - INFO - Text 10:
+2025-04-13 15:13:24,256 - INFO - Original: Giá phát hành x (giá tham chiếu TSCS ngày giao dịch đầu tiên của CW / Giá tham chiếu TSCS ngày phát hành CW) x Tỷ lệ chuyển đổi ngày phát hành / tỷ lệ chuyển đổi ngày giao dịch đầu tiên
+2025-04-13 15:13:24,256 - INFO - Translated: 発行価格 x (最初の取引日のCWのTSCS参照価格 / CW発行日のTSCS参照価格) x 発行日の転換率 / 最初の取引日の転換率
+2025-04-13 15:13:24,256 - INFO - ---
+2025-04-13 15:13:24,256 - INFO - Text 11:
+2025-04-13 15:13:24,256 - INFO - Original: Giá phát hành x (giá đóng cửa chỉ số liền trước ngày giao dịch đầu tiên của CW / Giá đóng cửa chỉ số liền trước ngày phát hành CW) x Hệ số nhân ngày giao dịch đầu tiên / Hệ số nhân ngày phát hành
+2025-04-13 15:13:24,256 - INFO - Translated: 発行価格 x (最初の取引日の直前の指数の終値 / CW発行日の直前の指数の終値) x 最初の取引日の乗数 / 発行日の乗数
+2025-04-13 15:13:24,256 - INFO - ---
+2025-04-13 15:13:24,256 - INFO - Text 12:
+2025-04-13 15:13:24,256 - INFO - Original: Giá tham chiếu CW bán ngày giao dịch đầu tiên
+2025-04-13 15:13:24,256 - INFO - Translated: 最初の取引日のCW売却参照価格
+2025-04-13 15:13:24,256 - INFO - ---
+2025-04-13 15:13:24,256 - INFO - Text 13:
+2025-04-13 15:13:24,256 - INFO - Original: Giá phát hành x (giá tham chiếu TSCS ngày phát hành CW / Giá tham chiếu TSCS ngày giao dịch đầu tiên của CW) x Tỷ lệ chuyển đổi ngày giao dịch đầu tiên / tỷ lệ chuyển đổi ngày giao phát hành
+2025-04-13 15:13:24,257 - INFO - Translated: 発行価格 x (CW発行日のTSCS参照価格 / 最初の取引日のTSCS参照価格) x 最初の取引日の転換率 / 発行日の転換率
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 14:
+2025-04-13 15:13:24,257 - INFO - Original: Giá phát hành x (giá đóng cửa chỉ số liền trước ngày phát hành CW / Giá đóng cửa chỉ số liền trước ngày ngày giao dịch đầu tiên) x Hệ số nhân ngày phát hành / Hệ số nhân ngày giao dịch đầu tiên
+2025-04-13 15:13:24,257 - INFO - Translated: 発行価格 x (CW発行日の直前の指数の終値 / 最初の取引日の直前の指数の終値) x 発行日の乗数 / 最初の取引日の乗数
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 15:
+2025-04-13 15:13:24,257 - INFO - Original: Giao dịch CW trên thị trường thứ cấp (tt)
+2025-04-13 15:13:24,257 - INFO - Translated: セカンダリー市場（tt）でのCW取引
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 16:
+2025-04-13 15:13:24,257 - INFO - Original: 30
+2025-04-13 15:13:24,257 - INFO - Translated: 30
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 17:
+2025-04-13 15:13:24,257 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:24,257 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 18:
+2025-04-13 15:13:24,257 - INFO - Original: Giá trần = Giá tham chiếu CW + (giá trần TSCS – Giá tham chiếu của TSCS) x 1/Tỷ lệ chuyển đổi
+2025-04-13 15:13:24,257 - INFO - Translated: 上限価格 = CW参照価格 + (TSCS上限価格 – TSCS参照価格) x 1/転換率
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 19:
+2025-04-13 15:13:24,257 - INFO - Original: Giá trần/sàn CW mua
+2025-04-13 15:13:24,257 - INFO - Translated: CW買い上限/下限価格
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 20:
+2025-04-13 15:13:24,257 - INFO - Original: Giá sàn = Giá tham chiếu CW – (giá tham chiếu TSCS – giá sàn TSCS) x 1/Tỷ lệ chuyển đổi
+2025-04-13 15:13:24,257 - INFO - Translated: 下限価格 = CW参照価格 – (TSCS参照価格 – TSCS下限価格) x 1/転換率
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 21:
+2025-04-13 15:13:24,257 - INFO - Original: Tài sản cơ sở là cổ phiếu, ETF
+2025-04-13 15:13:24,257 - INFO - Translated: 原資産は株式、ETF
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 22:
+2025-04-13 15:13:24,257 - INFO - Original: Giá trần/sàn CW bán
+2025-04-13 15:13:24,257 - INFO - Translated: CW売り上限/下限価格
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 23:
+2025-04-13 15:13:24,257 - INFO - Original: Giá trần = Giá tham chiếu CW + (giá tham chiếu TSCS – giá sàn TSCS) x 1/Tỷ lệ chuyển đổi
+2025-04-13 15:13:24,257 - INFO - Translated: 上限価格 = CW参照価格 + (TSCS参照価格 – TSCS下限価格) x 1/転換率
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 24:
+2025-04-13 15:13:24,257 - INFO - Original: Giá sàn = Giá tham chiếu CW – (giá trần TSCS – Giá tham chiếu TSCS) x 1/Tỷ lệ chuyển đổi
+2025-04-13 15:13:24,257 - INFO - Translated: 下限価格 = CW参照価格 – (TSCS上限価格 – TSCS参照価格) x 1/転換率
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 25:
+2025-04-13 15:13:24,257 - INFO - Original: Tài sản cơ sở là chỉ số chứng khoán
+2025-04-13 15:13:24,257 - INFO - Translated: 原資産は株価指数
+2025-04-13 15:13:24,257 - INFO - ---
+2025-04-13 15:13:24,257 - INFO - Text 26:
+2025-04-13 15:13:24,257 - INFO - Original: Giá trần = Giá tham chiếu CW + (Giá đóng cửa chỉ số ngày giao dịch liền trước x Hệ số nhân x Biên độ dao động giá trần) x 1/Tỷ lệ chuyển đổi.
+2025-04-13 15:13:24,258 - INFO - Translated: 上限価格 = CW参照価格 + (直前の取引日の指数終値 x 乗数 x 上限価格変動幅) x 1/転換率
+2025-04-13 15:13:24,258 - INFO - ---
+2025-04-13 15:13:24,258 - INFO - Text 27:
+2025-04-13 15:13:24,258 - INFO - Original: Giá trần/sàn CW mua
+2025-04-13 15:13:24,258 - INFO - Translated: CW買い上限/下限価格
+2025-04-13 15:13:24,258 - INFO - ---
+2025-04-13 15:13:24,258 - INFO - Text 28:
+2025-04-13 15:13:24,258 - INFO - Original: Giá sàn = Giá tham chiếu CW – (Giá đóng cửa chỉ số ngày giao dịch liền trước x Hệ số nhân x Biên độ dao động giá sàn) x 1/Tỷ lệ chuyển đổi.
+2025-04-13 15:13:24,258 - INFO - Translated: 下限価格 = CW参照価格 – (直前の取引日の指数終値 x 乗数 x 下限価格変動幅) x 1/転換率
+2025-04-13 15:13:24,258 - INFO - ---
+2025-04-13 15:13:24,258 - INFO - Text 29:
+2025-04-13 15:13:24,258 - INFO - Original: Hạn chế giao dịch và sở hữu CW
+2025-04-13 15:13:24,258 - INFO - Translated: CWの取引と保有の制限
+2025-04-13 15:13:24,258 - INFO - ---
+2025-04-13 15:13:24,258 - INFO - Text 30:
+2025-04-13 15:13:24,258 - INFO - Original: Không được giao dịch ký quỹ
+2025-04-13 15:13:24,258 - INFO - Translated: 信用取引は不可
+2025-04-13 15:13:24,258 - INFO - ---
+2025-04-13 15:13:24,258 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:13:26,263 - INFO - Translating batch 13/15 (size: 30 texts)
+2025-04-13 15:13:26,264 - INFO - === Translation Request ===
+2025-04-13 15:13:26,264 - INFO - Text 1: TCPH CKCS không được đầu tư, giao dịch CW dựa trên CKCS của tổ chức đó.
+2025-04-13 15:13:26,264 - INFO - Text 2: Nhà đầu tư nước ngoài không bị hạn chế sở hữu.
+2025-04-13 15:13:26,264 - INFO - Text 3: Quỹ đại chúng chỉ đầu tư CW nhằm mục tiêu PNRR.
+2025-04-13 15:13:26,264 - INFO - Text 4: 31
+2025-04-13 15:13:26,264 - INFO - Text 5: www.hsx.vn
+2025-04-13 15:13:26,264 - INFO - Text 6: Điều chỉnh CW khi CKCS có sự kiện doanh nghiệp
+2025-04-13 15:13:26,264 - INFO - Text 7: 32
+2025-04-13 15:13:26,264 - INFO - Text 8: www.hsx.vn
+2025-04-13 15:13:26,264 - INFO - Text 9: Điều chỉnh giá thực hiện, tỷ lệ chuyển đổi:
+2025-04-13 15:13:26,264 - INFO - Text 10: CKCS trả cổ tức
+2025-04-13 15:13:26,264 - INFO - Text 11: CKCS thưởng cổ phiếu,…
+2025-04-13 15:13:26,264 - INFO - Text 12: TCPH mua lại CW lẻ (nếu có)
+2025-04-13 15:13:26,264 - INFO - Text 13: Các trường hợp và cách thức điều chỉnh công bố tại BCB
+2025-04-13 15:13:26,264 - INFO - Text 14: Giá thực hiện mới = Giá thực hiện x (Giá đóng cửa điều chỉnh / Giá đóng cửa)
+2025-04-13 15:13:26,264 - INFO - Text 15: Tỷ lệ chuyển đổi mới = Tỷ lệ chuyển đổi x (Giá đóng cửa / Giá đóng cửa điều chỉnh)
+2025-04-13 15:13:26,265 - INFO - Text 16: Thực hiện CW
+2025-04-13 15:13:26,265 - INFO - Text 17: 33
+2025-04-13 15:13:26,265 - INFO - Text 18: www.hsx.vn
+2025-04-13 15:13:26,265 - INFO - Text 19: Phương thức thực hiện quyền:
+2025-04-13 15:13:26,265 - INFO - Text 20: Chuyển giao CKCS
+2025-04-13 15:13:26,265 - INFO - Text 21: Thanh toán tiền
+2025-04-13 15:13:26,265 - INFO - Text 22: Phương thức thực hiện quyền phải được công bố trên Bản cáo bạch ban đầu.
+2025-04-13 15:13:26,265 - INFO - Text 23: Các trường hợp bắt buộc thanh toán tiền
+2025-04-13 15:13:26,265 - INFO - Text 24: 34
+2025-04-13 15:13:26,265 - INFO - Text 25: www.hsx.vn
+2025-04-13 15:13:26,265 - INFO - Text 26: CKCS là chỉ số chứng khoán
+2025-04-13 15:13:26,265 - INFO - Text 27: Vượt tỷ lệ sở hữu của nhà đầu tư nước ngoài
+2025-04-13 15:13:26,265 - INFO - Text 28: Vượt hạn mức sở hữu của tổ chức kinh doanh chứng khoán
+2025-04-13 15:13:26,265 - INFO - Text 29: Dẫn đến chào mua công khai
+2025-04-13 15:13:26,265 - INFO - Text 30: Nhà đầu tư không đặt lệnh thực hiện đối với CW có lãi (ITM)
+2025-04-13 15:13:26,265 - INFO - === End Request ===
+
+2025-04-13 15:13:29,076 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:13:29,080 - INFO - === Translation Response ===
+2025-04-13 15:13:29,080 - INFO - Raw response: TCPH CKCSは投資されておらず、その組織のCKCSに基づくCWが取引されています。
+---
+外国人投資家の保有制限はありません。
+---
+公募ファンドは、PNRRを目的としてCWにのみ投資します。
+---
+31
+---
+www.hsx.vn
+---
+CKCSに企業イベントが発生した場合のCW調整
+---
+32
+---
+www.hsx.vn
+---
+行使価格、転換比率の調整：
+---
+CKCSが配当金を支払う
+---
+CKCSが株式を付与する、…
+---
+TCPHが端数CWを買い戻す（もしあれば）
+---
+調整のケースと方法は、BCBで発表されます。
+---
+新しい行使価格 = 行使価格 x (調整後の終値 / 終値)
+---
+新しい転換比率 = 転換比率 x (終値 / 調整後の終値)
+---
+CWの行使
+---
+33
+---
+www.hsx.vn
+---
+権利行使の方法：
+---
+CKCSの譲渡
+---
+現金決済
+---
+権利行使の方法は、当初の目論見書で発表されなければなりません。
+---
+現金決済が義務付けられる場合
+---
+34
+---
+www.hsx.vn
+---
+CKCSは株式指数です
+---
+外国人投資家の保有比率を超える
+---
+証券ビジネス組織の保有上限を超える
+---
+公開買付けにつながる
+---
+投資家は、利益のある（ITM）CWに対して行使注文を出さない
+
+2025-04-13 15:13:29,080 - INFO - === End Response ===
+
+2025-04-13 15:13:29,080 - INFO - === Parsed Translations ===
+2025-04-13 15:13:29,080 - INFO - Text 1:
+2025-04-13 15:13:29,080 - INFO - Original: TCPH CKCS không được đầu tư, giao dịch CW dựa trên CKCS của tổ chức đó.
+2025-04-13 15:13:29,080 - INFO - Translated: TCPH CKCSは投資されておらず、その組織のCKCSに基づくCWが取引されています。
+2025-04-13 15:13:29,080 - INFO - ---
+2025-04-13 15:13:29,081 - INFO - Text 2:
+2025-04-13 15:13:29,081 - INFO - Original: Nhà đầu tư nước ngoài không bị hạn chế sở hữu.
+2025-04-13 15:13:29,081 - INFO - Translated: 外国人投資家の保有制限はありません。
+2025-04-13 15:13:29,081 - INFO - ---
+2025-04-13 15:13:29,081 - INFO - Text 3:
+2025-04-13 15:13:29,081 - INFO - Original: Quỹ đại chúng chỉ đầu tư CW nhằm mục tiêu PNRR.
+2025-04-13 15:13:29,081 - INFO - Translated: 公募ファンドは、PNRRを目的としてCWにのみ投資します。
+2025-04-13 15:13:29,081 - INFO - ---
+2025-04-13 15:13:29,081 - INFO - Text 4:
+2025-04-13 15:13:29,081 - INFO - Original: 31
+2025-04-13 15:13:29,081 - INFO - Translated: 31
+2025-04-13 15:13:29,081 - INFO - ---
+2025-04-13 15:13:29,081 - INFO - Text 5:
+2025-04-13 15:13:29,081 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:29,081 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:29,081 - INFO - ---
+2025-04-13 15:13:29,081 - INFO - Text 6:
+2025-04-13 15:13:29,081 - INFO - Original: Điều chỉnh CW khi CKCS có sự kiện doanh nghiệp
+2025-04-13 15:13:29,081 - INFO - Translated: CKCSに企業イベントが発生した場合のCW調整
+2025-04-13 15:13:29,081 - INFO - ---
+2025-04-13 15:13:29,081 - INFO - Text 7:
+2025-04-13 15:13:29,081 - INFO - Original: 32
+2025-04-13 15:13:29,081 - INFO - Translated: 32
+2025-04-13 15:13:29,081 - INFO - ---
+2025-04-13 15:13:29,081 - INFO - Text 8:
+2025-04-13 15:13:29,081 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:29,081 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:29,081 - INFO - ---
+2025-04-13 15:13:29,081 - INFO - Text 9:
+2025-04-13 15:13:29,081 - INFO - Original: Điều chỉnh giá thực hiện, tỷ lệ chuyển đổi:
+2025-04-13 15:13:29,081 - INFO - Translated: 行使価格、転換比率の調整：
+2025-04-13 15:13:29,081 - INFO - ---
+2025-04-13 15:13:29,081 - INFO - Text 10:
+2025-04-13 15:13:29,081 - INFO - Original: CKCS trả cổ tức
+2025-04-13 15:13:29,081 - INFO - Translated: CKCSが配当金を支払う
+2025-04-13 15:13:29,081 - INFO - ---
+2025-04-13 15:13:29,081 - INFO - Text 11:
+2025-04-13 15:13:29,081 - INFO - Original: CKCS thưởng cổ phiếu,…
+2025-04-13 15:13:29,082 - INFO - Translated: CKCSが株式を付与する、…
+2025-04-13 15:13:29,082 - INFO - ---
+2025-04-13 15:13:29,082 - INFO - Text 12:
+2025-04-13 15:13:29,082 - INFO - Original: TCPH mua lại CW lẻ (nếu có)
+2025-04-13 15:13:29,082 - INFO - Translated: TCPHが端数CWを買い戻す（もしあれば）
+2025-04-13 15:13:29,082 - INFO - ---
+2025-04-13 15:13:29,082 - INFO - Text 13:
+2025-04-13 15:13:29,082 - INFO - Original: Các trường hợp và cách thức điều chỉnh công bố tại BCB
+2025-04-13 15:13:29,082 - INFO - Translated: 調整のケースと方法は、BCBで発表されます。
+2025-04-13 15:13:29,082 - INFO - ---
+2025-04-13 15:13:29,082 - INFO - Text 14:
+2025-04-13 15:13:29,082 - INFO - Original: Giá thực hiện mới = Giá thực hiện x (Giá đóng cửa điều chỉnh / Giá đóng cửa)
+2025-04-13 15:13:29,082 - INFO - Translated: 新しい行使価格 = 行使価格 x (調整後の終値 / 終値)
+2025-04-13 15:13:29,082 - INFO - ---
+2025-04-13 15:13:29,082 - INFO - Text 15:
+2025-04-13 15:13:29,082 - INFO - Original: Tỷ lệ chuyển đổi mới = Tỷ lệ chuyển đổi x (Giá đóng cửa / Giá đóng cửa điều chỉnh)
+2025-04-13 15:13:29,082 - INFO - Translated: 新しい転換比率 = 転換比率 x (終値 / 調整後の終値)
+2025-04-13 15:13:29,082 - INFO - ---
+2025-04-13 15:13:29,082 - INFO - Text 16:
+2025-04-13 15:13:29,082 - INFO - Original: Thực hiện CW
+2025-04-13 15:13:29,082 - INFO - Translated: CWの行使
+2025-04-13 15:13:29,082 - INFO - ---
+2025-04-13 15:13:29,082 - INFO - Text 17:
+2025-04-13 15:13:29,082 - INFO - Original: 33
+2025-04-13 15:13:29,082 - INFO - Translated: 33
+2025-04-13 15:13:29,082 - INFO - ---
+2025-04-13 15:13:29,082 - INFO - Text 18:
+2025-04-13 15:13:29,082 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:29,082 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:29,082 - INFO - ---
+2025-04-13 15:13:29,082 - INFO - Text 19:
+2025-04-13 15:13:29,082 - INFO - Original: Phương thức thực hiện quyền:
+2025-04-13 15:13:29,082 - INFO - Translated: 権利行使の方法：
+2025-04-13 15:13:29,082 - INFO - ---
+2025-04-13 15:13:29,082 - INFO - Text 20:
+2025-04-13 15:13:29,082 - INFO - Original: Chuyển giao CKCS
+2025-04-13 15:13:29,082 - INFO - Translated: CKCSの譲渡
+2025-04-13 15:13:29,083 - INFO - ---
+2025-04-13 15:13:29,083 - INFO - Text 21:
+2025-04-13 15:13:29,083 - INFO - Original: Thanh toán tiền
+2025-04-13 15:13:29,083 - INFO - Translated: 現金決済
+2025-04-13 15:13:29,083 - INFO - ---
+2025-04-13 15:13:29,083 - INFO - Text 22:
+2025-04-13 15:13:29,083 - INFO - Original: Phương thức thực hiện quyền phải được công bố trên Bản cáo bạch ban đầu.
+2025-04-13 15:13:29,083 - INFO - Translated: 権利行使の方法は、当初の目論見書で発表されなければなりません。
+2025-04-13 15:13:29,083 - INFO - ---
+2025-04-13 15:13:29,083 - INFO - Text 23:
+2025-04-13 15:13:29,083 - INFO - Original: Các trường hợp bắt buộc thanh toán tiền
+2025-04-13 15:13:29,083 - INFO - Translated: 現金決済が義務付けられる場合
+2025-04-13 15:13:29,083 - INFO - ---
+2025-04-13 15:13:29,083 - INFO - Text 24:
+2025-04-13 15:13:29,083 - INFO - Original: 34
+2025-04-13 15:13:29,083 - INFO - Translated: 34
+2025-04-13 15:13:29,083 - INFO - ---
+2025-04-13 15:13:29,083 - INFO - Text 25:
+2025-04-13 15:13:29,083 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:29,083 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:29,083 - INFO - ---
+2025-04-13 15:13:29,083 - INFO - Text 26:
+2025-04-13 15:13:29,083 - INFO - Original: CKCS là chỉ số chứng khoán
+2025-04-13 15:13:29,083 - INFO - Translated: CKCSは株式指数です
+2025-04-13 15:13:29,083 - INFO - ---
+2025-04-13 15:13:29,083 - INFO - Text 27:
+2025-04-13 15:13:29,083 - INFO - Original: Vượt tỷ lệ sở hữu của nhà đầu tư nước ngoài
+2025-04-13 15:13:29,083 - INFO - Translated: 外国人投資家の保有比率を超える
+2025-04-13 15:13:29,083 - INFO - ---
+2025-04-13 15:13:29,083 - INFO - Text 28:
+2025-04-13 15:13:29,083 - INFO - Original: Vượt hạn mức sở hữu của tổ chức kinh doanh chứng khoán
+2025-04-13 15:13:29,083 - INFO - Translated: 証券ビジネス組織の保有上限を超える
+2025-04-13 15:13:29,083 - INFO - ---
+2025-04-13 15:13:29,083 - INFO - Text 29:
+2025-04-13 15:13:29,083 - INFO - Original: Dẫn đến chào mua công khai
+2025-04-13 15:13:29,083 - INFO - Translated: 公開買付けにつながる
+2025-04-13 15:13:29,083 - INFO - ---
+2025-04-13 15:13:29,083 - INFO - Text 30:
+2025-04-13 15:13:29,084 - INFO - Original: Nhà đầu tư không đặt lệnh thực hiện đối với CW có lãi (ITM)
+2025-04-13 15:13:29,084 - INFO - Translated: 投資家は、利益のある（ITM）CWに対して行使注文を出さない
+2025-04-13 15:13:29,084 - INFO - ---
+2025-04-13 15:13:29,084 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:13:31,093 - INFO - Translating batch 14/15 (size: 30 texts)
+2025-04-13 15:13:31,094 - INFO - === Translation Request ===
+2025-04-13 15:13:31,095 - INFO - Text 1: Theo thỏa thuận giữa TCPH và nhà đầu tư
+2025-04-13 15:13:31,095 - INFO - Text 2: Phát sinh phần cổ phiếu nhỏ hơn 1 đơn vị cổ phiếu
+2025-04-13 15:13:31,095 - INFO - Text 3: Công bố thông tin của nhà đầu tư
+2025-04-13 15:13:31,095 - INFO - Text 4: 35
+2025-04-13 15:13:31,095 - INFO - Text 5: www.hsx.vn
+2025-04-13 15:13:31,095 - INFO - Text 6: Trở thành cổ đông lớn sau khi thực hiện CW
+2025-04-13 15:13:31,095 - INFO - Text 7: Cổ đông lớn CKCS thực hiện CW làm thay đổi tỷ lệ sở hữu cổ phiếu tại TCPH CKCS
+2025-04-13 15:13:31,095 - INFO - Text 8: Người nội bộ và người có liên quan của đối tượng này tham gia giao dịch CW
+2025-04-13 15:13:31,095 - INFO - Text 9: Các hoạt động của tổ chức phát hành CW
+2025-04-13 15:13:31,095 - INFO - Text 10: Tạo lập thị trường
+2025-04-13 15:13:31,095 - INFO - Text 11: Bắt buộc nhằm cung cấp thanh khoản
+2025-04-13 15:13:31,095 - INFO - Text 12: Thực hiện nghĩa vụ tạo lập thị trường
+2025-04-13 15:13:31,095 - INFO - Text 13: Phòng ngừa rủi ro (hedging)
+2025-04-13 15:13:31,095 - INFO - Text 14: Theo phương án đã công bố tại BCB
+2025-04-13 15:13:31,095 - INFO - Text 15: Đảm bảo có đủ tài sản thanh toán cho nhà đầu tư
+2025-04-13 15:13:31,095 - INFO - Text 16: 36
+2025-04-13 15:13:31,095 - INFO - Text 17: www.hsx.vn
+2025-04-13 15:13:31,096 - INFO - Text 18: Nghĩa vụ của tổ chức tạo lập thị trường
+2025-04-13 15:13:31,096 - INFO - Text 19: Yết giá tạo lập thị trường
+2025-04-13 15:13:31,096 - INFO - Text 20: Chỉ có lệnh bênh mua hoặc bên bán
+2025-04-13 15:13:31,096 - INFO - Text 21: Không có lệnh bên mua hoặc bán
+2025-04-13 15:13:31,096 - INFO - Text 22: Chênh lệch giá chào mua cao nhất và chào bán thấp nhất
+2025-04-13 15:13:31,096 - INFO - Text 23: Miễn trừ nghĩa vụ
+2025-04-13 15:13:31,096 - INFO - Text 24: TSCS bị tạm ngừng giao dịch
+2025-04-13 15:13:31,096 - INFO - Text 25: Chưa có CW được lưu hành
+2025-04-13 15:13:31,096 - INFO - Text 26: Dư mua trần/sàn CW
+2025-04-13 15:13:31,096 - INFO - Text 27: Dư mua trần sàn TSCS
+2025-04-13 15:13:31,096 - INFO - Text 28: CW đang ở trạng thái có lãi (ITM) từ 30%
+2025-04-13 15:13:31,096 - INFO - Text 29: …
+2025-04-13 15:13:31,096 - INFO - Text 30: 37
+2025-04-13 15:13:31,096 - INFO - === End Request ===
+
+2025-04-13 15:13:33,720 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:13:33,724 - INFO - === Translation Response ===
+2025-04-13 15:13:33,724 - INFO - Raw response: TCPHと投資家の間の合意に基づき
+---
+1単位未満の株式が発生
+---
+投資家の情報開示
+---
+35
+---
+www.hsx.vn
+---
+CW実行後、主要株主となる
+---
+主要株主CKCSがCWを実行し、TCPH CKCSの株式保有比率が変動
+---
+この対象者の役員および関係者がCW取引に参加
+---
+CW発行体の活動
+---
+市場創設
+---
+流動性提供を目的とする義務
+---
+市場創設義務の履行
+---
+ヘッジ
+---
+BCBで公表された計画に従い
+---
+投資家への支払いに十分な資産を確保する
+---
+36
+---
+www.hsx.vn
+---
+市場創設者の義務
+---
+市場創設価格の提示
+---
+買い注文または売り注文のみが存在する
+---
+買い注文または売り注文が存在しない
+---
+最高買い気配値と最安売り気配値の差
+---
+義務の免除
+---
+TSCSの取引が一時停止
+---
+流通しているCWがない
+---
+CWの買い気配値上限/下限
+---
+TSCSの買い気配値上限/下限
+---
+CWが30％以上のイン・ザ・マネー（ITM）状態である
+---
+…
+---
+37
+
+2025-04-13 15:13:33,724 - INFO - === End Response ===
+
+2025-04-13 15:13:33,724 - INFO - === Parsed Translations ===
+2025-04-13 15:13:33,724 - INFO - Text 1:
+2025-04-13 15:13:33,725 - INFO - Original: Theo thỏa thuận giữa TCPH và nhà đầu tư
+2025-04-13 15:13:33,725 - INFO - Translated: TCPHと投資家の間の合意に基づき
+2025-04-13 15:13:33,725 - INFO - ---
+2025-04-13 15:13:33,725 - INFO - Text 2:
+2025-04-13 15:13:33,725 - INFO - Original: Phát sinh phần cổ phiếu nhỏ hơn 1 đơn vị cổ phiếu
+2025-04-13 15:13:33,725 - INFO - Translated: 1単位未満の株式が発生
+2025-04-13 15:13:33,725 - INFO - ---
+2025-04-13 15:13:33,725 - INFO - Text 3:
+2025-04-13 15:13:33,725 - INFO - Original: Công bố thông tin của nhà đầu tư
+2025-04-13 15:13:33,725 - INFO - Translated: 投資家の情報開示
+2025-04-13 15:13:33,725 - INFO - ---
+2025-04-13 15:13:33,725 - INFO - Text 4:
+2025-04-13 15:13:33,725 - INFO - Original: 35
+2025-04-13 15:13:33,725 - INFO - Translated: 35
+2025-04-13 15:13:33,725 - INFO - ---
+2025-04-13 15:13:33,725 - INFO - Text 5:
+2025-04-13 15:13:33,725 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:33,725 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:33,725 - INFO - ---
+2025-04-13 15:13:33,725 - INFO - Text 6:
+2025-04-13 15:13:33,725 - INFO - Original: Trở thành cổ đông lớn sau khi thực hiện CW
+2025-04-13 15:13:33,725 - INFO - Translated: CW実行後、主要株主となる
+2025-04-13 15:13:33,725 - INFO - ---
+2025-04-13 15:13:33,725 - INFO - Text 7:
+2025-04-13 15:13:33,725 - INFO - Original: Cổ đông lớn CKCS thực hiện CW làm thay đổi tỷ lệ sở hữu cổ phiếu tại TCPH CKCS
+2025-04-13 15:13:33,725 - INFO - Translated: 主要株主CKCSがCWを実行し、TCPH CKCSの株式保有比率が変動
+2025-04-13 15:13:33,725 - INFO - ---
+2025-04-13 15:13:33,725 - INFO - Text 8:
+2025-04-13 15:13:33,725 - INFO - Original: Người nội bộ và người có liên quan của đối tượng này tham gia giao dịch CW
+2025-04-13 15:13:33,725 - INFO - Translated: この対象者の役員および関係者がCW取引に参加
+2025-04-13 15:13:33,725 - INFO - ---
+2025-04-13 15:13:33,725 - INFO - Text 9:
+2025-04-13 15:13:33,725 - INFO - Original: Các hoạt động của tổ chức phát hành CW
+2025-04-13 15:13:33,725 - INFO - Translated: CW発行体の活動
+2025-04-13 15:13:33,725 - INFO - ---
+2025-04-13 15:13:33,725 - INFO - Text 10:
+2025-04-13 15:13:33,726 - INFO - Original: Tạo lập thị trường
+2025-04-13 15:13:33,726 - INFO - Translated: 市場創設
+2025-04-13 15:13:33,726 - INFO - ---
+2025-04-13 15:13:33,726 - INFO - Text 11:
+2025-04-13 15:13:33,726 - INFO - Original: Bắt buộc nhằm cung cấp thanh khoản
+2025-04-13 15:13:33,726 - INFO - Translated: 流動性提供を目的とする義務
+2025-04-13 15:13:33,726 - INFO - ---
+2025-04-13 15:13:33,726 - INFO - Text 12:
+2025-04-13 15:13:33,726 - INFO - Original: Thực hiện nghĩa vụ tạo lập thị trường
+2025-04-13 15:13:33,726 - INFO - Translated: 市場創設義務の履行
+2025-04-13 15:13:33,726 - INFO - ---
+2025-04-13 15:13:33,726 - INFO - Text 13:
+2025-04-13 15:13:33,726 - INFO - Original: Phòng ngừa rủi ro (hedging)
+2025-04-13 15:13:33,726 - INFO - Translated: ヘッジ
+2025-04-13 15:13:33,726 - INFO - ---
+2025-04-13 15:13:33,726 - INFO - Text 14:
+2025-04-13 15:13:33,726 - INFO - Original: Theo phương án đã công bố tại BCB
+2025-04-13 15:13:33,726 - INFO - Translated: BCBで公表された計画に従い
+2025-04-13 15:13:33,726 - INFO - ---
+2025-04-13 15:13:33,726 - INFO - Text 15:
+2025-04-13 15:13:33,726 - INFO - Original: Đảm bảo có đủ tài sản thanh toán cho nhà đầu tư
+2025-04-13 15:13:33,726 - INFO - Translated: 投資家への支払いに十分な資産を確保する
+2025-04-13 15:13:33,726 - INFO - ---
+2025-04-13 15:13:33,726 - INFO - Text 16:
+2025-04-13 15:13:33,726 - INFO - Original: 36
+2025-04-13 15:13:33,726 - INFO - Translated: 36
+2025-04-13 15:13:33,726 - INFO - ---
+2025-04-13 15:13:33,726 - INFO - Text 17:
+2025-04-13 15:13:33,726 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:33,726 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:33,726 - INFO - ---
+2025-04-13 15:13:33,726 - INFO - Text 18:
+2025-04-13 15:13:33,726 - INFO - Original: Nghĩa vụ của tổ chức tạo lập thị trường
+2025-04-13 15:13:33,726 - INFO - Translated: 市場創設者の義務
+2025-04-13 15:13:33,726 - INFO - ---
+2025-04-13 15:13:33,726 - INFO - Text 19:
+2025-04-13 15:13:33,726 - INFO - Original: Yết giá tạo lập thị trường
+2025-04-13 15:13:33,726 - INFO - Translated: 市場創設価格の提示
+2025-04-13 15:13:33,726 - INFO - ---
+2025-04-13 15:13:33,727 - INFO - Text 20:
+2025-04-13 15:13:33,727 - INFO - Original: Chỉ có lệnh bênh mua hoặc bên bán
+2025-04-13 15:13:33,727 - INFO - Translated: 買い注文または売り注文のみが存在する
+2025-04-13 15:13:33,727 - INFO - ---
+2025-04-13 15:13:33,727 - INFO - Text 21:
+2025-04-13 15:13:33,727 - INFO - Original: Không có lệnh bên mua hoặc bán
+2025-04-13 15:13:33,727 - INFO - Translated: 買い注文または売り注文が存在しない
+2025-04-13 15:13:33,727 - INFO - ---
+2025-04-13 15:13:33,727 - INFO - Text 22:
+2025-04-13 15:13:33,727 - INFO - Original: Chênh lệch giá chào mua cao nhất và chào bán thấp nhất
+2025-04-13 15:13:33,727 - INFO - Translated: 最高買い気配値と最安売り気配値の差
+2025-04-13 15:13:33,727 - INFO - ---
+2025-04-13 15:13:33,727 - INFO - Text 23:
+2025-04-13 15:13:33,727 - INFO - Original: Miễn trừ nghĩa vụ
+2025-04-13 15:13:33,727 - INFO - Translated: 義務の免除
+2025-04-13 15:13:33,727 - INFO - ---
+2025-04-13 15:13:33,727 - INFO - Text 24:
+2025-04-13 15:13:33,727 - INFO - Original: TSCS bị tạm ngừng giao dịch
+2025-04-13 15:13:33,727 - INFO - Translated: TSCSの取引が一時停止
+2025-04-13 15:13:33,727 - INFO - ---
+2025-04-13 15:13:33,727 - INFO - Text 25:
+2025-04-13 15:13:33,727 - INFO - Original: Chưa có CW được lưu hành
+2025-04-13 15:13:33,727 - INFO - Translated: 流通しているCWがない
+2025-04-13 15:13:33,727 - INFO - ---
+2025-04-13 15:13:33,727 - INFO - Text 26:
+2025-04-13 15:13:33,727 - INFO - Original: Dư mua trần/sàn CW
+2025-04-13 15:13:33,727 - INFO - Translated: CWの買い気配値上限/下限
+2025-04-13 15:13:33,727 - INFO - ---
+2025-04-13 15:13:33,727 - INFO - Text 27:
+2025-04-13 15:13:33,727 - INFO - Original: Dư mua trần sàn TSCS
+2025-04-13 15:13:33,727 - INFO - Translated: TSCSの買い気配値上限/下限
+2025-04-13 15:13:33,727 - INFO - ---
+2025-04-13 15:13:33,727 - INFO - Text 28:
+2025-04-13 15:13:33,727 - INFO - Original: CW đang ở trạng thái có lãi (ITM) từ 30%
+2025-04-13 15:13:33,727 - INFO - Translated: CWが30％以上のイン・ザ・マネー（ITM）状態である
+2025-04-13 15:13:33,727 - INFO - ---
+2025-04-13 15:13:33,727 - INFO - Text 29:
+2025-04-13 15:13:33,727 - INFO - Original: …
+2025-04-13 15:13:33,727 - INFO - Translated: …
+2025-04-13 15:13:33,728 - INFO - ---
+2025-04-13 15:13:33,728 - INFO - Text 30:
+2025-04-13 15:13:33,728 - INFO - Original: 37
+2025-04-13 15:13:33,728 - INFO - Translated: 37
+2025-04-13 15:13:33,728 - INFO - ---
+2025-04-13 15:13:33,728 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:13:35,733 - INFO - Translating batch 15/15 (size: 4 texts)
+2025-04-13 15:13:35,733 - INFO - === Translation Request ===
+2025-04-13 15:13:35,733 - INFO - Text 1: www.hsx.vn
+2025-04-13 15:13:35,733 - INFO - Text 2: 38
+2025-04-13 15:13:35,733 - INFO - Text 3: www.hsx.vn
+2025-04-13 15:13:35,733 - INFO - Text 4: Q&A
+2025-04-13 15:13:35,733 - INFO - === End Request ===
+
+2025-04-13 15:13:36,297 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/openai/chat/completions "HTTP/1.1 200 OK"
+2025-04-13 15:13:36,304 - INFO - === Translation Response ===
+2025-04-13 15:13:36,304 - INFO - Raw response: www.hsx.vn
+---
+38
+---
+www.hsx.vn
+---
+Q&A
+
+2025-04-13 15:13:36,304 - INFO - === End Response ===
+
+2025-04-13 15:13:36,304 - INFO - === Parsed Translations ===
+2025-04-13 15:13:36,304 - INFO - Text 1:
+2025-04-13 15:13:36,304 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:36,304 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:36,304 - INFO - ---
+2025-04-13 15:13:36,305 - INFO - Text 2:
+2025-04-13 15:13:36,305 - INFO - Original: 38
+2025-04-13 15:13:36,305 - INFO - Translated: 38
+2025-04-13 15:13:36,305 - INFO - ---
+2025-04-13 15:13:36,305 - INFO - Text 3:
+2025-04-13 15:13:36,305 - INFO - Original: www.hsx.vn
+2025-04-13 15:13:36,305 - INFO - Translated: www.hsx.vn
+2025-04-13 15:13:36,305 - INFO - ---
+2025-04-13 15:13:36,305 - INFO - Text 4:
+2025-04-13 15:13:36,305 - INFO - Original: Q&A
+2025-04-13 15:13:36,305 - INFO - Translated: Q&A
+2025-04-13 15:13:36,305 - INFO - ---
+2025-04-13 15:13:36,305 - INFO - === End Parsed Translations ===
+
+2025-04-13 15:13:36,306 - INFO - Translation log saved to logs/test-translation-log-20250413_151336.csv
+2025-04-13 15:13:36,430 - INFO - Successfully saved presentation to output/test_ja.pptx
+2025-04-13 15:13:36,430 - INFO - Completed translation of input/test.pptx

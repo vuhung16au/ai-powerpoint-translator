@@ -11,12 +11,22 @@ import sys
 import re
 from pptx.enum.text import PP_ALIGN
 from pptx.util import Pt
+import csv 
+
+LOG_DIR = "logs"
+
+# Load translation prompt
+TRANSLATION_PROMPT = "Translation-Prompt.md"
+
+# Set the font name for the translation target
+TRANSLATION_TARGET_FONTNAME = "Meiryo UI"
 
 # Set up logging first, before any other imports
 def setup_logging():
     # Create logs directory if it doesn't exist
-    log_dir = 'SlideTranslateLog'
-    os.makedirs(log_dir, exist_ok=True)
+    log_dir = LOG_DIR
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir, exist_ok=True)
     
     # Create a timestamp for the log file
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -39,22 +49,20 @@ logging.info("Logging system initialized")
 # Load environment variables
 load_dotenv()
 
-
 # Initialize OpenAI client
-# Tạo một HTTP client tùy chỉnh, ở đây chúng ta không cấu hình proxy
-# Nếu bạn CẦN dùng proxy, bạn phải cấu hình nó đúng cách tại đây.
-# Ví dụ: proxies = {"http://": os.getenv("HTTP_PROXY"), "https://": os.getenv("HTTPS_PROXY")}
+# Create a custom HTTP client; here we do not configure a proxy.
+# If you NEED to use a proxy, you must configure it correctly here.
+# Example: proxies = {"http://": os.getenv("HTTP_PROXY"), "https://": os.getenv("HTTPS_PROXY")}
 custom_http_client = httpx.Client() # Explicitly disable proxies if not needed
 
 client = OpenAI(
     api_key=os.getenv('GEMINI_API_KEY'),
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/",
-    http_client=custom_http_client # Truyền HTTP client tùy chỉnh vào
+    http_client=custom_http_client 
 )
 
 
-# Load translation prompt
-with open('prompt.txt', 'r', encoding='utf-8') as f:
+with open(TRANSLATION_PROMPT, 'r', encoding='utf-8') as f:
     PROMPT_TEMPLATE = f.read()
 
 def batch_texts(texts, batch_size=30):
@@ -209,6 +217,26 @@ def split_text_by_paragraphs(text):
         
     return result
 
+def log_translations_to_csv(input_file, original_texts, translated_texts):
+    """Log original and translated texts to a CSV file."""
+    # Create logs directory if it doesn't exist
+    os.makedirs(LOG_DIR, exist_ok=True)
+    
+    # Generate CSV file name based on input file name and timestamp
+    base_name = os.path.basename(input_file)
+    name_without_ext = os.path.splitext(base_name)[0]
+    timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+    csv_file = os.path.join(LOG_DIR, f"{name_without_ext}-translation-log-{timestamp}.csv")
+    
+    # Write to CSV with double quotes
+    with open(csv_file, mode='w', encoding='utf-8', newline='') as file:
+        writer = csv.writer(file, quoting=csv.QUOTE_ALL)  # Ensure all fields are quoted
+        writer.writerow(["Original Text", "Translated Text"])  # Write header
+        for original, translated in zip(original_texts, translated_texts):
+            writer.writerow([original, translated])
+    
+    logging.info(f"Translation log saved to {csv_file}")
+
 def process_presentation(input_file):
     """Process a PowerPoint presentation, translating text from Vietnamese to Japanese."""
     logging.info(f"Processing {input_file}")
@@ -243,13 +271,16 @@ def process_presentation(input_file):
                     all_texts.extend(paragraphs)
                 
                 # Handle tables
-                if hasattr(shape, "table"):
-                    table_texts, table_locations = extract_table_texts(shape)
-                    all_texts.extend(table_texts)
-                    
-                    # Convert table locations to our standard format
-                    for (row_idx, cell_idx, para_idx) in table_locations:
-                        text_locations.append(("table", slide_idx, shape_idx, row_idx, cell_idx, para_idx))
+                try:
+                    if hasattr(shape, "table"):
+                        table_texts, table_locations = extract_table_texts(shape)
+                        all_texts.extend(table_texts)
+                        
+                        # Convert table locations to our standard format
+                        for (row_idx, cell_idx, para_idx) in table_locations:
+                            text_locations.append(("table", slide_idx, shape_idx, row_idx, cell_idx, para_idx))
+                except ValueError as e:
+                    logging.warning(f"Skipping shape at slide {slide_idx}, shape {shape_idx}: {str(e)}")
         
         if not all_texts:
             logging.info(f"No text found in {input_file}")
@@ -272,6 +303,9 @@ def process_presentation(input_file):
             if i < len(batches) - 1:
                 time.sleep(2)
         print("\nTranslation completed!")
+        
+        # Log translations to CSV
+        log_translations_to_csv(input_file, all_texts, translated_texts)
         
         # Update presentation with translations
         for location, translated_text in zip(text_locations, translated_texts):
@@ -300,7 +334,7 @@ def process_presentation(input_file):
                     
                     # Set font to Meiryo UI for all runs in the paragraph while keeping original size
                     for idx, run in enumerate(paragraph.runs):
-                        run.font.name = "Meiryo UI"
+                        run.font.name = TRANSLATION_TARGET_FONTNAME
                         # If we have stored a font size and have enough runs, use the original
                         if idx < len(original_font_sizes) and original_font_sizes[idx] is not None:
                             run.font.size = original_font_sizes[idx]
@@ -348,7 +382,7 @@ def process_presentation(input_file):
                         
                         # Set font to Meiryo UI for all runs in the paragraph while keeping original size
                         for idx, run in enumerate(paragraph.runs):
-                            run.font.name = "Meiryo UI"
+                            run.font.name = TRANSLATION_TARGET_FONTNAME
                             # If we have stored a font size and have enough runs, use the original
                             if idx < len(original_font_sizes) and original_font_sizes[idx] is not None:
                                 run.font.size = original_font_sizes[idx]
