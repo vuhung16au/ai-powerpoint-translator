@@ -15,4 +15,5 @@ Here are the texts to translate:
 {texts}
 
 {source_language}: Vietnamese
+
 {target_language}: Japanese 
