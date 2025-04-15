@@ -81,7 +81,7 @@ python slide-tran.py
 .
 ├── input/                  # Directory containing PowerPoint files to be translated
 ├── output/                 # Directory containing translated files
-├── logs/      # Directory containing translation logs
+├── logs/                   # Directory containing translation logs
 ├── .env                    # File containing API key
 ├── Translation-Prompt.md   # File containing translation prompts
 ├── requirements.txt        # Required Python libraries
@@ -105,4 +105,5 @@ python slide-tran.py
 - Create unit tests 
 - Handle more languages (source languages and target languages)
 - Handle more LLM models and consider what languages it supports (DeepSeek, OpenAI)
-- Delete unused libraries (dotenv?)
+- Use RAG to improve translation quality
+- Add style/tone to the prompt/script arguments
