@@ -11,9 +11,4 @@ output text :"ABC_受注発注システム"
 Format your response as exactly translated text only, with no explanations or additional content. Separate each translation with the delimiter "---" on its own line.
 
 Here are the texts to translate:
-
 {texts}
-
-{source_language}: Vietnamese
-
-{target_language}: Japanese 

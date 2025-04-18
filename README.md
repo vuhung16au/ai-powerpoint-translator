@@ -97,13 +97,165 @@ python slide-tran.py
 - If you encounter errors while running the script, check the log file in `logs` directory for error details 
 - (Pro tips) Check `logs/*.csv` for original and translated strings
 
-# TODO 
+# Program Arguments
 
-- Add more arguments to `slide-tran.py`
-- Handle loggings
-- Handle errors, exceptions
-- Create unit tests 
-- Handle more languages (source languages and target languages)
-- Handle more LLM models and consider what languages it supports (DeepSeek, OpenAI)
-- Use RAG to improve translation quality
-- Add style/tone to the prompt/script arguments
+The slide translation tool supports various command-line arguments to customize its behavior:
+
+## Basic Arguments
+
+- `--tone`, `-t`: Specify the desired tone for translation
+  - Options: formal, informal, technical, paper
+  - Default: formal
+  - Example: `python slide-tran.py --tone technical`
+
+- `--version`, `-v`: Show version information and exit
+  - Example: `python slide-tran.py --version`
+
+- `--api_key`, `-k`: Provide the API key for the translation service
+  - Example: `python slide-tran.py --api_key YOUR_API_KEY`
+
+## Language Arguments
+
+- `--source_language`, `--source-language`, `-sl`: Specify the source language
+  - Default: Vietnamese
+  - Example: `python slide-tran.py --source_language English`
+
+- `--target_language`, `--target-language`, `-tl`: Specify the target language
+  - Default: Japanese
+  - Example: `python slide-tran.py --target_language Chinese`
+
+- `--supported-languages`, `-sll`: List all supported languages and exit
+  - Example: `python slide-tran.py --supported-languages`
+
+## Directory Arguments
+
+- `--input_dir`, `-i`: Specify the input directory containing PowerPoint files
+  - Default: input
+  - Example: `python slide-tran.py --input_dir my_slides`
+
+- `--output_dir`, `-o`: Specify the output directory for translated files
+  - Default: output
+  - Example: `python slide-tran.py --output_dir translated_slides`
+
+## Model Arguments
+
+- `--llm_model`, `-m`: Specify the LLM model to use for translation
+  - Default: gemini-2.0-flash-lite
+  - Supported models: gemini-2.0-flash-lite, gpt-3.5-turbo, gpt-4, deepseek-chat
+  - Example: `python slide-tran.py --llm_model gpt-4`
+
+## RAG (Retrieval-Augmented Generation) Arguments
+
+- `--rag`, `-rag`: Enable RAG for improved translation quality with domain-specific knowledge
+  - Example: `python slide-tran.py --rag`
+
+- `--rag-file`, `-rf`: Specify the file containing RAG context or examples
+  - Default: rag_context.txt
+  - Example: `python slide-tran.py --rag --rag-file my_context.txt`
+
+## Examples
+
+Translate PowerPoint from English to Japanese with formal tone using GPT-4:
+```bash
+python slide-tran.py --source_language English --target_language Japanese --tone formal --llm_model gpt-4
+```
+
+Translate PowerPoint from Vietnamese to Chinese using custom directories:
+```bash
+python slide-tran.py --source_language Vietnamese --target_language Chinese --input_dir source_slides --output_dir chinese_slides
+```
+
+Use RAG with custom context file for technical translations:
+```bash
+python slide-tran.py --source_language English --target_language Japanese --tone technical --rag --rag-file technical_terms.txt
+```
+
+# Supported Languages & Fallback Languages
+
+## Officially Supported Languages
+
+The tool officially supports the following 28 languages:
+
+- Arabic
+- Chinese
+- Czech
+- Danish
+- Dutch
+- English
+- Finnish
+- French
+- German
+- Greek
+- Hebrew
+- Hindi
+- Hungarian
+- Indonesian
+- Italian
+- Japanese
+- Korean
+- Norwegian
+- Polish
+- Portuguese
+- Romanian
+- Russian
+- Spanish
+- Swedish
+- Thai
+- Turkish
+- Ukrainian
+- Vietnamese
+
+## Language Codes
+
+The tool uses ISO 639-1 language codes (two-letter codes) for file naming and internal processing. These codes are loaded from the `lang-code.json` file, which contains mappings for over 180 languages.
+
+For example:
+- English: en
+- Japanese: ja
+- Chinese: zh
+- Vietnamese: vi
+
+## Fallback Mechanism
+
+If the `lang-code.json` file cannot be loaded, the tool falls back to a limited set of hardcoded language codes:
+
+```
+Chinese: zh
+English: en
+Vietnamese: vi
+Japanese: ja
+```
+
+## Adding Support for Additional Languages
+
+While the tool officially supports 28 languages, you can attempt to use other languages listed in the `lang-code.json` file. The translation quality may vary based on the LLM model's capabilities with those languages.
+
+To optimize translation for a specific language:
+
+1. Ensure the language is included in the `lang-code.json` file
+2. Create a custom prompt in your `Translation-Prompt.md` file that specifically addresses translation nuances for that language pair
+3. Consider using RAG with domain-specific terminology when translating technical content
+
+## Output File Naming
+
+Translated files are saved with the language code appended to the filename:
+
+```
+original_filename_[language-code].pptx
+```
+
+For example, if you translate "presentation.pptx" to Japanese, the output file will be "presentation_ja.pptx".
+
+# Known Issues
+
+See [issues]
+
+# TODOs
+
+- Translate tables
+- Translate images (?)
+- Translate charts
+- Translate shapes
+- Translate notes
+- Translate comments
+- Translate SmartArt
