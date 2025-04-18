@@ -24,14 +24,22 @@ LOG_DIR = "logs"
 TRANSLATION_PROMPT = "Translation-Prompt.md"
 
 # Set the font name for the translation target
-TRANSLATION_TARGET_FONTNAME = "Meiryo UI"
+# TODO for Japanese only
+TRANSLATION_TARGET_FONTNAME = {
+    "Japanese": "Meiryo UI"
+    # Add more language-specific fonts as needed
+}
 
-# Supported languages
+# Supported languages from Gemini's documentation
+# https://gemini.google.com/faq?hl=en-AU
+# Last verified: April 2025
 SUPPORTED_LANGUAGES = [
-    "Arabic", "Chinese", "Czech", "Danish", "Dutch", "English", "Finnish", "French", 
-    "German", "Greek", "Hebrew", "Hindi", "Hungarian", "Indonesian", "Italian", "Japanese", 
-    "Korean", "Norwegian", "Polish", "Portuguese", "Romanian", "Russian", "Spanish", 
-    "Swedish", "Thai", "Turkish", "Ukrainian", "Vietnamese"
+    "Arabic", "Bengali", "Bulgarian", "Chinese", "Croatian", "Czech", "Danish", "Dutch", 
+    "English", "Estonian", "Finnish", "French", "German", "Greek", "Hebrew", "Hindi", 
+    "Hungarian", "Indonesian", "Italian", "Japanese", "Korean", "Latvian", "Lithuanian", 
+    "Malay", "Norwegian", "Persian", "Polish", "Portuguese", "Romanian", "Russian", 
+    "Serbian", "Slovak", "Slovenian", "Spanish", "Swahili", "Swedish", "Thai", "Turkish", 
+    "Ukrainian", "Urdu", "Vietnamese"
 ]
 
 # Load language codes from JSON file
@@ -552,12 +560,15 @@ def process_presentation(input_file, args, client, rag_context=""):
                     
                     paragraph.text = translated_text
                     
-                    # Set font to Meiryo UI for all runs in the paragraph while keeping original size
-                    for idx, run in enumerate(paragraph.runs):
-                        run.font.name = TRANSLATION_TARGET_FONTNAME
-                        # If we have stored a font size and have enough runs, use the original
-                        if idx < len(original_font_sizes) and original_font_sizes[idx] is not None:
-                            run.font.size = original_font_sizes[idx]
+                    # Only set font if target language has a specific font defined
+                    target_font = TRANSLATION_TARGET_FONTNAME.get(args.target_language)
+                    if target_font:
+                        # Set font for all runs in the paragraph while keeping original size
+                        for idx, run in enumerate(paragraph.runs):
+                            run.font.name = target_font
+                            # If we have stored a font size and have enough runs, use the original
+                            if idx < len(original_font_sizes) and original_font_sizes[idx] is not None:
+                                run.font.size = original_font_sizes[idx]
                     
                     # Restore original formatting
                     paragraph.alignment = original_alignment
@@ -600,12 +611,15 @@ def process_presentation(input_file, args, client, rag_context=""):
                         
                         paragraph.text = translated_text
                         
-                        # Set font to Meiryo UI for all runs in the paragraph while keeping original size
-                        for idx, run in enumerate(paragraph.runs):
-                            run.font.name = TRANSLATION_TARGET_FONTNAME
-                            # If we have stored a font size and have enough runs, use the original
-                            if idx < len(original_font_sizes) and original_font_sizes[idx] is not None:
-                                run.font.size = original_font_sizes[idx]
+                        # Only set font if target language has a specific font defined
+                        target_font = TRANSLATION_TARGET_FONTNAME.get(args.target_language)
+                        if target_font:
+                            # Set font for all runs in the paragraph while keeping original size
+                            for idx, run in enumerate(paragraph.runs):
+                                run.font.name = target_font
+                                # If we have stored a font size and have enough runs, use the original
+                                if idx < len(original_font_sizes) and original_font_sizes[idx] is not None:
+                                    run.font.size = original_font_sizes[idx]
                         
                         # Restore original formatting
                         paragraph.alignment = original_alignment
