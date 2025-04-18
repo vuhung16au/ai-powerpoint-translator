@@ -1,6 +1,7 @@
-# Slide Translation Tool
+# PowerPoint Translation Tool
 
-A tool for automatically translating PowerPoint content using Gemini API. By default, it translates from Vietnamese to Japanese, but you can customize the source and target languages.
+A tool for automatically translating PowerPoint content using Gemini API. See `Supported Languages` section for the list of supported languages.
+This tool is designed to facilitate the translation of PowerPoint presentations, making it easier to share content across different languages and cultures.
 
 ## System Requirements
 
@@ -39,7 +40,11 @@ Note: Though being named Gemini API key, the code should be able to handle other
    - For English to Japanese: "You are a professional translator from English to Japanese..."
    - For any other language pair: "You are a professional translator from [Source Language] to [Target Language]..."
 
-TODO: Support multiple languages.
+- You can also customize the tone of the translation by modifying the prompt content. For example:
+  - For formal tone: "Please translate the following text in a formal tone..."
+  - For informal tone: "Please translate the following text in an informal tone..."
+  - For technical tone: "Please translate the following text in a technical tone..."
+  - For paper tone: "Please translate the following text in a paper tone..."
 
 5. Prepare input directory and PowerPoint files:
 
@@ -83,7 +88,9 @@ python slide-tran.py
 ├── output/                 # Directory containing translated files
 ├── logs/                   # Directory containing translation logs
 ├── .env                    # File containing API key
+├── lang-code.json          # File containing language code mappings
 ├── Translation-Prompt.md   # File containing translation prompts
+├── rag_context.txt         # File containing RAG context or examples (optional)
 ├── requirements.txt        # Required Python libraries
 └── slide-tran.py           # Main script
 ```
@@ -139,13 +146,14 @@ The slide translation tool supports various command-line arguments to customize 
 
 ## Model Arguments
 
+TODO: 
 - `--llm_model`, `-m`: Specify the LLM model to use for translation
   - Default: gemini-2.0-flash-lite
   - Supported models: gemini-2.0-flash-lite, gpt-3.5-turbo, gpt-4, deepseek-chat
   - Example: `python slide-tran.py --llm_model gpt-4`
 
 ## RAG (Retrieval-Augmented Generation) Arguments
-
+TODO: 
 - `--rag`, `-rag`: Enable RAG for improved translation quality with domain-specific knowledge
   - Example: `python slide-tran.py --rag`
 
@@ -165,6 +173,7 @@ Translate PowerPoint from Vietnamese to Chinese using custom directories:
 python slide-tran.py --source_language Vietnamese --target_language Chinese --input_dir source_slides --output_dir chinese_slides
 ```
 
+TODO: 
 Use RAG with custom context file for technical translations:
 ```bash
 python slide-tran.py --source_language English --target_language Japanese --tone technical --rag --rag-file technical_terms.txt
@@ -174,36 +183,7 @@ python slide-tran.py --source_language English --target_language Japanese --tone
 
 ## Officially Supported Languages
 
-The tool officially supports the following 28 languages:
-
-- Arabic
-- Chinese
-- Czech
-- Danish
-- Dutch
-- English
-- Finnish
-- French
-- German
-- Greek
-- Hebrew
-- Hindi
-- Hungarian
-- Indonesian
-- Italian
-- Japanese
-- Korean
-- Norwegian
-- Polish
-- Portuguese
-- Romanian
-- Russian
-- Spanish
-- Swedish
-- Thai
-- Turkish
-- Ukrainian
-- Vietnamese
+For Gemini, the tool officially supports the [these languages](https://gemini.google.com/faq?hl=en-AU)
 
 ## Language Codes
 
@@ -228,7 +208,7 @@ Japanese: ja
 
 ## Adding Support for Additional Languages
 
-While the tool officially supports 28 languages, you can attempt to use other languages listed in the `lang-code.json` file. The translation quality may vary based on the LLM model's capabilities with those languages.
+While the tool officially supports the languages mentioned above, you can attempt to use other languages listed in the `lang-code.json` file. The translation quality may vary based on the LLM model's capabilities with those languages.
 
 To optimize translation for a specific language:
 
@@ -248,14 +228,16 @@ For example, if you translate "presentation.pptx" to Japanese, the output file w
 
 # Known Issues
 
-See [issues]
+See [issues](https://github.com/vuhung/ai-powerpoint-translator/issues)
 
 # TODOs
 
 - Translate tables
-- Translate images (?)
+- ~~Translate images (?)~~
 - Translate charts
 - Translate shapes
 - Translate notes
 - Translate comments
 - Translate SmartArt
+- Develop a web interface
+- Develop a mobile app
